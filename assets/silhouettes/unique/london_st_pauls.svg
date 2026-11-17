@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 270" width="260" height="270" fill="#000000">
+  <path fill-rule="evenodd" d="M20 170h220v100h-220ZM30 196h10v52h-10ZM52 196h10v52h-10ZM74 196h10v52h-10ZM96 196h10v52h-10ZM118 196h10v52h-10ZM140 196h10v52h-10ZM162 196h10v52h-10ZM184 196h10v52h-10ZM206 196h10v52h-10ZM228 196h10v52h-10Z"/>
+  <path d="M80 170L130 146L180 170Z"/>
+  <path fill-rule="evenodd" d="M76 112h108v40h-108ZM82 118h6v30h-6ZM94 118h6v30h-6ZM106 118h6v30h-6ZM118 118h6v30h-6ZM130 118h6v30h-6ZM142 118h6v30h-6ZM154 118h6v30h-6ZM166 118h6v30h-6ZM178 118h6v30h-6Z"/>
+  <path d="M70 106h120v8h-120Z"/><path d="M84 150h92v22h-92Z"/>
+  <path d="M78 108A52 56 0 0 1 182 108Z"/>
+  <path fill-rule="evenodd" d="M122 30h16v24h-16ZM126 50V38A4 4 0 0 1 134 38V50Z"/>
+  <path d="M121 32A9 10 0 0 1 139 32Z"/>
+  <path d="M129 4h2v20h-2Z"/><path d="M124 10h12v2h-12Z"/>
+  <path d="M22 120h34v52h-34Z"/><path d="M204 120h34v52h-34Z"/>
+  <path d="M25 120A14 22 0 0 1 53 120Z"/><path d="M207 120A14 22 0 0 1 235 120Z"/>
+</svg>

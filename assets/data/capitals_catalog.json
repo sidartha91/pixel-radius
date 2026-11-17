@@ -1,0 +1,2426 @@
+{
+  "version": 1,
+  "reference_rule": "La capitale de référence est la ville culturelle/économique emblématique ; la capitale administrative figure dans alternative_cities (350 pts).",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "es",
+    "zh",
+    "ru"
+  ],
+  "capitals": [
+    {
+      "id": "colombo",
+      "country_code": "LK",
+      "tier": "free",
+      "lat": 6.9271,
+      "lng": 79.8612,
+      "name": {
+        "fr": "Colombo",
+        "en": "Colombo",
+        "de": "Colombo",
+        "es": "Colombo",
+        "zh": "科伦坡",
+        "ru": "Коломбо"
+      },
+      "country": {
+        "fr": "Sri Lanka",
+        "en": "Sri Lanka",
+        "de": "Sri Lanka",
+        "es": "Sri Lanka",
+        "zh": "斯里兰卡",
+        "ru": "Шри-Ланка"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Kandy",
+          "en": "Kandy",
+          "de": "Kandy",
+          "es": "Kandy",
+          "zh": "康提",
+          "ru": "Канди"
+        },
+        {
+          "fr": "Galle",
+          "en": "Galle",
+          "de": "Galle",
+          "es": "Galle",
+          "zh": "加勒",
+          "ru": "Галле"
+        },
+        {
+          "fr": "Sri Jayawardenepura Kotte",
+          "en": "Sri Jayawardenepura Kotte",
+          "de": "Sri Jayawardenepura Kotte",
+          "es": "Sri Jayawardenepura Kotte",
+          "zh": "斯里贾亚瓦德纳普拉科特",
+          "ru": "Шри-Джаяварденепура-Котте"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "lotus_tower",
+          "label": "Lotus Tower",
+          "shape": "tv_tower"
+        },
+        {
+          "id": "gangaramaya_stupa",
+          "label": "Gangaramaya Stupa",
+          "shape": "stupa"
+        },
+        {
+          "id": "jami_ul_alfar",
+          "label": "Jami Ul-Alfar Mosque",
+          "shape": "mosque"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "kottu_stall",
+          "label": "Kottu roti stall",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "kandyan_dancer",
+          "label": "Kandyan dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "stilt_fisherman",
+          "label": "Stilt fisherman",
+          "category": "lifestyle",
+          "shape": "canoe"
+        },
+        {
+          "id": "tuk_tuk",
+          "label": "Tuk-tuk",
+          "category": "transport",
+          "shape": "tuk_tuk",
+          "asset": "common/tuk_tuk"
+        },
+        {
+          "id": "palm",
+          "label": "Coconut palm",
+          "category": "lifestyle",
+          "shape": "palm",
+          "asset": "common/palm_tree"
+        }
+      ]
+    },
+    {
+      "id": "paris",
+      "country_code": "FR",
+      "tier": "free",
+      "lat": 48.8566,
+      "lng": 2.3522,
+      "name": {
+        "fr": "Paris",
+        "en": "Paris",
+        "de": "Paris",
+        "es": "París",
+        "zh": "巴黎",
+        "ru": "Париж"
+      },
+      "country": {
+        "fr": "France",
+        "en": "France",
+        "de": "Frankreich",
+        "es": "Francia",
+        "zh": "法国",
+        "ru": "Франция"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Lyon",
+          "en": "Lyon",
+          "de": "Lyon",
+          "es": "Lyon",
+          "zh": "里昂",
+          "ru": "Лион"
+        },
+        {
+          "fr": "Marseille",
+          "en": "Marseille",
+          "de": "Marseille",
+          "es": "Marsella",
+          "zh": "马赛",
+          "ru": "Марсель"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "eiffel_tower",
+          "label": "Eiffel Tower",
+          "shape": "lattice_tower"
+        },
+        {
+          "id": "arc_de_triomphe",
+          "label": "Arc de Triomphe",
+          "shape": "arch"
+        },
+        {
+          "id": "notre_dame",
+          "label": "Notre-Dame",
+          "shape": "cathedral"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "cafe_terrace",
+          "label": "Café terrace",
+          "category": "lifestyle",
+          "shape": "cafe_table",
+          "asset": "common/cafe_terrace"
+        },
+        {
+          "id": "baguette_cyclist",
+          "label": "Baguette cyclist",
+          "category": "food",
+          "shape": "cyclist"
+        },
+        {
+          "id": "accordionist",
+          "label": "Accordion player",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "bateau_mouche",
+          "label": "Bateau-mouche",
+          "category": "transport",
+          "shape": "boat"
+        }
+      ]
+    },
+    {
+      "id": "fes",
+      "country_code": "MA",
+      "tier": "free",
+      "lat": 34.0331,
+      "lng": -5.0003,
+      "name": {
+        "fr": "Fès",
+        "en": "Fez",
+        "de": "Fès",
+        "es": "Fez",
+        "zh": "非斯",
+        "ru": "Фес"
+      },
+      "country": {
+        "fr": "Maroc",
+        "en": "Morocco",
+        "de": "Marokko",
+        "es": "Marruecos",
+        "zh": "摩洛哥",
+        "ru": "Марокко"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Rabat",
+          "en": "Rabat",
+          "de": "Rabat",
+          "es": "Rabat",
+          "zh": "拉巴特",
+          "ru": "Рабат"
+        },
+        {
+          "fr": "Marrakech",
+          "en": "Marrakesh",
+          "de": "Marrakesch",
+          "es": "Marrakech",
+          "zh": "马拉喀什",
+          "ru": "Марракеш"
+        },
+        {
+          "fr": "Casablanca",
+          "en": "Casablanca",
+          "de": "Casablanca",
+          "es": "Casablanca",
+          "zh": "卡萨布兰卡",
+          "ru": "Касабланка"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "bab_boujloud",
+          "label": "Bab Boujloud",
+          "shape": "gate"
+        },
+        {
+          "id": "qarawiyyin_minaret",
+          "label": "Al-Qarawiyyin minaret",
+          "shape": "minaret"
+        },
+        {
+          "id": "merinid_tombs",
+          "label": "Merinid Tombs",
+          "shape": "castle"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "tajine_stall",
+          "label": "Tajine stall",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "djellaba_walker",
+          "label": "Djellaba",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "donkey_cart",
+          "label": "Donkey cart",
+          "category": "transport",
+          "shape": "animal_cart"
+        },
+        {
+          "id": "mint_tea_seller",
+          "label": "Mint tea seller",
+          "category": "food",
+          "shape": "person_hat"
+        },
+        {
+          "id": "palm",
+          "label": "Date palm",
+          "category": "lifestyle",
+          "shape": "palm",
+          "asset": "common/palm_tree"
+        }
+      ]
+    },
+    {
+      "id": "tokyo",
+      "country_code": "JP",
+      "tier": "free",
+      "lat": 35.6762,
+      "lng": 139.6503,
+      "name": {
+        "fr": "Tokyo",
+        "en": "Tokyo",
+        "de": "Tokio",
+        "es": "Tokio",
+        "zh": "东京",
+        "ru": "Токио"
+      },
+      "country": {
+        "fr": "Japon",
+        "en": "Japan",
+        "de": "Japan",
+        "es": "Japón",
+        "zh": "日本",
+        "ru": "Япония"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Kyoto",
+          "en": "Kyoto",
+          "de": "Kyōto",
+          "es": "Kioto",
+          "zh": "京都",
+          "ru": "Киото"
+        },
+        {
+          "fr": "Osaka",
+          "en": "Osaka",
+          "de": "Osaka",
+          "es": "Osaka",
+          "zh": "大阪",
+          "ru": "Осака"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "tokyo_tower",
+          "label": "Tokyo Tower",
+          "shape": "lattice_tower"
+        },
+        {
+          "id": "skytree",
+          "label": "Tokyo Skytree",
+          "shape": "tv_tower"
+        },
+        {
+          "id": "sensoji_pagoda",
+          "label": "Sensō-ji pagoda",
+          "shape": "pagoda"
+        },
+        {
+          "id": "meiji_torii",
+          "label": "Meiji Jingū torii",
+          "shape": "torii"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "ramen_stall",
+          "label": "Ramen yatai",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "kimono_walker",
+          "label": "Kimono",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "shinkansen",
+          "label": "Shinkansen",
+          "category": "transport",
+          "shape": "train"
+        },
+        {
+          "id": "cherry_tree",
+          "label": "Sakura",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "london",
+      "country_code": "GB",
+      "tier": "free",
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "name": {
+        "fr": "Londres",
+        "en": "London",
+        "de": "London",
+        "es": "Londres",
+        "zh": "伦敦",
+        "ru": "Лондон"
+      },
+      "country": {
+        "fr": "Royaume-Uni",
+        "en": "United Kingdom",
+        "de": "Vereinigtes Königreich",
+        "es": "Reino Unido",
+        "zh": "英国",
+        "ru": "Великобритания"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Édimbourg",
+          "en": "Edinburgh",
+          "de": "Edinburgh",
+          "es": "Edimburgo",
+          "zh": "爱丁堡",
+          "ru": "Эдинбург"
+        },
+        {
+          "fr": "Manchester",
+          "en": "Manchester",
+          "de": "Manchester",
+          "es": "Manchester",
+          "zh": "曼彻斯特",
+          "ru": "Манчестер"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "big_ben",
+          "label": "Big Ben",
+          "shape": "clock_tower"
+        },
+        {
+          "id": "tower_bridge",
+          "label": "Tower Bridge",
+          "shape": "bridge"
+        },
+        {
+          "id": "london_eye",
+          "label": "London Eye",
+          "shape": "ferris_wheel"
+        },
+        {
+          "id": "st_pauls",
+          "label": "St Paul's Cathedral",
+          "shape": "dome"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "double_decker",
+          "label": "Double-decker bus",
+          "category": "transport",
+          "shape": "bus"
+        },
+        {
+          "id": "royal_guard",
+          "label": "Royal guard",
+          "category": "attire",
+          "shape": "person_hat"
+        },
+        {
+          "id": "black_cab",
+          "label": "Black cab",
+          "category": "transport",
+          "shape": "car"
+        },
+        {
+          "id": "umbrella_gentleman",
+          "label": "Gentleman with umbrella",
+          "category": "attire",
+          "shape": "person_hat"
+        }
+      ]
+    },
+    {
+      "id": "rome",
+      "country_code": "IT",
+      "tier": "free",
+      "lat": 41.9028,
+      "lng": 12.4964,
+      "name": {
+        "fr": "Rome",
+        "en": "Rome",
+        "de": "Rom",
+        "es": "Roma",
+        "zh": "罗马",
+        "ru": "Рим"
+      },
+      "country": {
+        "fr": "Italie",
+        "en": "Italy",
+        "de": "Italien",
+        "es": "Italia",
+        "zh": "意大利",
+        "ru": "Италия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Milan",
+          "en": "Milan",
+          "de": "Mailand",
+          "es": "Milán",
+          "zh": "米兰",
+          "ru": "Милан"
+        },
+        {
+          "fr": "Florence",
+          "en": "Florence",
+          "de": "Florenz",
+          "es": "Florencia",
+          "zh": "佛罗伦萨",
+          "ru": "Флоренция"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "colosseum",
+          "label": "Colosseum",
+          "shape": "colonial"
+        },
+        {
+          "id": "st_peters",
+          "label": "St Peter's Basilica",
+          "shape": "dome"
+        },
+        {
+          "id": "pantheon",
+          "label": "Pantheon",
+          "shape": "temple"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "vespa",
+          "label": "Vespa",
+          "category": "transport",
+          "shape": "cyclist"
+        },
+        {
+          "id": "pizzaiolo",
+          "label": "Pizzaiolo",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "gelato",
+          "label": "Gelato cart",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "pine",
+          "label": "Umbrella pine",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "new_york",
+      "country_code": "US",
+      "tier": "free",
+      "lat": 40.7128,
+      "lng": -74.006,
+      "name": {
+        "fr": "New York",
+        "en": "New York",
+        "de": "New York",
+        "es": "Nueva York",
+        "zh": "纽约",
+        "ru": "Нью-Йорк"
+      },
+      "country": {
+        "fr": "États-Unis",
+        "en": "United States",
+        "de": "Vereinigte Staaten",
+        "es": "Estados Unidos",
+        "zh": "美国",
+        "ru": "США"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Washington",
+          "en": "Washington, D.C.",
+          "de": "Washington, D.C.",
+          "es": "Washington D. C.",
+          "zh": "华盛顿",
+          "ru": "Вашингтон"
+        },
+        {
+          "fr": "Los Angeles",
+          "en": "Los Angeles",
+          "de": "Los Angeles",
+          "es": "Los Ángeles",
+          "zh": "洛杉矶",
+          "ru": "Лос-Анджелес"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "statue_of_liberty",
+          "label": "Statue of Liberty",
+          "shape": "statue"
+        },
+        {
+          "id": "empire_state",
+          "label": "Empire State Building",
+          "shape": "skyscraper"
+        },
+        {
+          "id": "chrysler",
+          "label": "Chrysler Building",
+          "shape": "skyscraper_spire"
+        },
+        {
+          "id": "brooklyn_bridge",
+          "label": "Brooklyn Bridge",
+          "shape": "bridge"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "yellow_cab",
+          "label": "Yellow cab",
+          "category": "transport",
+          "shape": "car"
+        },
+        {
+          "id": "hot_dog_cart",
+          "label": "Hot-dog cart",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "jazz_saxophonist",
+          "label": "Jazz musician",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "subway",
+          "label": "Subway",
+          "category": "transport",
+          "shape": "tram"
+        }
+      ]
+    },
+    {
+      "id": "cairo",
+      "country_code": "EG",
+      "tier": "free",
+      "lat": 30.0444,
+      "lng": 31.2357,
+      "name": {
+        "fr": "Le Caire",
+        "en": "Cairo",
+        "de": "Kairo",
+        "es": "El Cairo",
+        "zh": "开罗",
+        "ru": "Каир"
+      },
+      "country": {
+        "fr": "Égypte",
+        "en": "Egypt",
+        "de": "Ägypten",
+        "es": "Egipto",
+        "zh": "埃及",
+        "ru": "Египет"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Alexandrie",
+          "en": "Alexandria",
+          "de": "Alexandria",
+          "es": "Alejandría",
+          "zh": "亚历山大",
+          "ru": "Александрия"
+        },
+        {
+          "fr": "Louxor",
+          "en": "Luxor",
+          "de": "Luxor",
+          "es": "Luxor",
+          "zh": "卢克索",
+          "ru": "Луксор"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "pyramids",
+          "label": "Pyramids of Giza",
+          "shape": "pyramid"
+        },
+        {
+          "id": "muhammad_ali_mosque",
+          "label": "Muhammad Ali Mosque",
+          "shape": "mosque"
+        },
+        {
+          "id": "cairo_tower",
+          "label": "Cairo Tower",
+          "shape": "tv_tower"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "felucca",
+          "label": "Felucca",
+          "category": "transport",
+          "shape": "boat"
+        },
+        {
+          "id": "camel",
+          "label": "Camel",
+          "category": "transport",
+          "shape": "camel"
+        },
+        {
+          "id": "galabeya",
+          "label": "Galabeya",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "koshary",
+          "label": "Koshary stall",
+          "category": "food",
+          "shape": "food_stall"
+        }
+      ]
+    },
+    {
+      "id": "bangkok",
+      "country_code": "TH",
+      "tier": "free",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "name": {
+        "fr": "Bangkok",
+        "en": "Bangkok",
+        "de": "Bangkok",
+        "es": "Bangkok",
+        "zh": "曼谷",
+        "ru": "Бангкок"
+      },
+      "country": {
+        "fr": "Thaïlande",
+        "en": "Thailand",
+        "de": "Thailand",
+        "es": "Tailandia",
+        "zh": "泰国",
+        "ru": "Таиланд"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Chiang Mai",
+          "en": "Chiang Mai",
+          "de": "Chiang Mai",
+          "es": "Chiang Mai",
+          "zh": "清迈",
+          "ru": "Чиангмай"
+        },
+        {
+          "fr": "Phuket",
+          "en": "Phuket",
+          "de": "Phuket",
+          "es": "Phuket",
+          "zh": "普吉",
+          "ru": "Пхукет"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "wat_arun",
+          "label": "Wat Arun",
+          "shape": "pagoda"
+        },
+        {
+          "id": "grand_palace",
+          "label": "Grand Palace",
+          "shape": "temple"
+        },
+        {
+          "id": "golden_chedi",
+          "label": "Golden Mount chedi",
+          "shape": "stupa"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "long_tail_boat",
+          "label": "Long-tail boat",
+          "category": "transport",
+          "shape": "canoe"
+        },
+        {
+          "id": "pad_thai",
+          "label": "Pad thai cart",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "thai_dancer",
+          "label": "Thai classical dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "tuk_tuk",
+          "label": "Tuk-tuk",
+          "category": "transport",
+          "shape": "tuk_tuk",
+          "asset": "common/tuk_tuk"
+        }
+      ]
+    },
+    {
+      "id": "mexico_city",
+      "country_code": "MX",
+      "tier": "free",
+      "lat": 19.4326,
+      "lng": -99.1332,
+      "name": {
+        "fr": "Mexico",
+        "en": "Mexico City",
+        "de": "Mexiko-Stadt",
+        "es": "Ciudad de México",
+        "zh": "墨西哥城",
+        "ru": "Мехико"
+      },
+      "country": {
+        "fr": "Mexique",
+        "en": "Mexico",
+        "de": "Mexiko",
+        "es": "México",
+        "zh": "墨西哥",
+        "ru": "Мексика"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Guadalajara",
+          "en": "Guadalajara",
+          "de": "Guadalajara",
+          "es": "Guadalajara",
+          "zh": "瓜达拉哈拉",
+          "ru": "Гвадалахара"
+        },
+        {
+          "fr": "Oaxaca",
+          "en": "Oaxaca",
+          "de": "Oaxaca",
+          "es": "Oaxaca",
+          "zh": "瓦哈卡",
+          "ru": "Оахака"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "angel_independencia",
+          "label": "Angel of Independence",
+          "shape": "statue"
+        },
+        {
+          "id": "metropolitan_cathedral",
+          "label": "Metropolitan Cathedral",
+          "shape": "cathedral"
+        },
+        {
+          "id": "teotihuacan",
+          "label": "Pyramid of the Sun",
+          "shape": "pyramid"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "mariachi",
+          "label": "Mariachi",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "taco_stand",
+          "label": "Taco stand",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "sombrero",
+          "label": "Charro hat",
+          "category": "attire",
+          "shape": "person_hat"
+        },
+        {
+          "id": "trajinera",
+          "label": "Trajinera",
+          "category": "transport",
+          "shape": "canoe"
+        }
+      ]
+    },
+    {
+      "id": "seoul",
+      "country_code": "KR",
+      "tier": "free",
+      "lat": 37.5665,
+      "lng": 126.978,
+      "name": {
+        "fr": "Séoul",
+        "en": "Seoul",
+        "de": "Seoul",
+        "es": "Seúl",
+        "zh": "首尔",
+        "ru": "Сеул"
+      },
+      "country": {
+        "fr": "Corée du Sud",
+        "en": "South Korea",
+        "de": "Südkorea",
+        "es": "Corea del Sur",
+        "zh": "韩国",
+        "ru": "Южная Корея"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Busan",
+          "en": "Busan",
+          "de": "Busan",
+          "es": "Busan",
+          "zh": "釜山",
+          "ru": "Пусан"
+        },
+        {
+          "fr": "Incheon",
+          "en": "Incheon",
+          "de": "Incheon",
+          "es": "Incheon",
+          "zh": "仁川",
+          "ru": "Инчхон"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "n_seoul_tower",
+          "label": "N Seoul Tower",
+          "shape": "tv_tower"
+        },
+        {
+          "id": "gyeongbokgung",
+          "label": "Gyeongbokgung",
+          "shape": "temple"
+        },
+        {
+          "id": "lotte_tower",
+          "label": "Lotte World Tower",
+          "shape": "skyscraper_spire"
+        },
+        {
+          "id": "namdaemun",
+          "label": "Namdaemun gate",
+          "shape": "gate"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "hanbok",
+          "label": "Hanbok",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "tteokbokki",
+          "label": "Tteokbokki stall",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "kpop_dancer",
+          "label": "K-pop dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "ginkgo",
+          "label": "Ginkgo",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "istanbul",
+      "country_code": "TR",
+      "tier": "free",
+      "lat": 41.0082,
+      "lng": 28.9784,
+      "name": {
+        "fr": "Istanbul",
+        "en": "Istanbul",
+        "de": "Istanbul",
+        "es": "Estambul",
+        "zh": "伊斯坦布尔",
+        "ru": "Стамбул"
+      },
+      "country": {
+        "fr": "Turquie",
+        "en": "Türkiye",
+        "de": "Türkei",
+        "es": "Turquía",
+        "zh": "土耳其",
+        "ru": "Турция"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Ankara",
+          "en": "Ankara",
+          "de": "Ankara",
+          "es": "Ankara",
+          "zh": "安卡拉",
+          "ru": "Анкара"
+        },
+        {
+          "fr": "Izmir",
+          "en": "İzmir",
+          "de": "İzmir",
+          "es": "Esmirna",
+          "zh": "伊兹密尔",
+          "ru": "Измир"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "blue_mosque",
+          "label": "Blue Mosque",
+          "shape": "mosque"
+        },
+        {
+          "id": "hagia_sophia",
+          "label": "Hagia Sophia",
+          "shape": "dome"
+        },
+        {
+          "id": "galata_tower",
+          "label": "Galata Tower",
+          "shape": "lighthouse"
+        },
+        {
+          "id": "bosphorus_bridge",
+          "label": "Bosphorus Bridge",
+          "shape": "bridge"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "simit_seller",
+          "label": "Simit seller",
+          "category": "food",
+          "shape": "person_hat"
+        },
+        {
+          "id": "ferry",
+          "label": "Bosphorus ferry",
+          "category": "transport",
+          "shape": "boat"
+        },
+        {
+          "id": "whirling_dervish",
+          "label": "Whirling dervish",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "red_tram",
+          "label": "Nostalgic tram",
+          "category": "transport",
+          "shape": "tram"
+        }
+      ]
+    },
+    {
+      "id": "buenos_aires",
+      "country_code": "AR",
+      "tier": "premium",
+      "lat": -34.6037,
+      "lng": -58.3816,
+      "name": {
+        "fr": "Buenos Aires",
+        "en": "Buenos Aires",
+        "de": "Buenos Aires",
+        "es": "Buenos Aires",
+        "zh": "布宜诺斯艾利斯",
+        "ru": "Буэнос-Айрес"
+      },
+      "country": {
+        "fr": "Argentine",
+        "en": "Argentina",
+        "de": "Argentinien",
+        "es": "Argentina",
+        "zh": "阿根廷",
+        "ru": "Аргентина"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Córdoba",
+          "en": "Córdoba",
+          "de": "Córdoba",
+          "es": "Córdoba",
+          "zh": "科尔多瓦",
+          "ru": "Кордова"
+        },
+        {
+          "fr": "Mendoza",
+          "en": "Mendoza",
+          "de": "Mendoza",
+          "es": "Mendoza",
+          "zh": "门多萨",
+          "ru": "Мендоса"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "obelisco",
+          "label": "Obelisco",
+          "shape": "obelisk"
+        },
+        {
+          "id": "casa_rosada",
+          "label": "Casa Rosada",
+          "shape": "colonial"
+        },
+        {
+          "id": "congress",
+          "label": "Palace of Congress",
+          "shape": "dome"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "tango_dancers",
+          "label": "Tango dancers",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "bandoneon",
+          "label": "Bandoneón player",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "asado",
+          "label": "Asado grill",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "colectivo",
+          "label": "Colectivo bus",
+          "category": "transport",
+          "shape": "bus"
+        }
+      ]
+    },
+    {
+      "id": "nairobi",
+      "country_code": "KE",
+      "tier": "premium",
+      "lat": -1.2921,
+      "lng": 36.8219,
+      "name": {
+        "fr": "Nairobi",
+        "en": "Nairobi",
+        "de": "Nairobi",
+        "es": "Nairobi",
+        "zh": "内罗毕",
+        "ru": "Найроби"
+      },
+      "country": {
+        "fr": "Kenya",
+        "en": "Kenya",
+        "de": "Kenia",
+        "es": "Kenia",
+        "zh": "肯尼亚",
+        "ru": "Кения"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Mombasa",
+          "en": "Mombasa",
+          "de": "Mombasa",
+          "es": "Mombasa",
+          "zh": "蒙巴萨",
+          "ru": "Момбаса"
+        },
+        {
+          "fr": "Kisumu",
+          "en": "Kisumu",
+          "de": "Kisumu",
+          "es": "Kisumu",
+          "zh": "基苏木",
+          "ru": "Кисуму"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "kicc",
+          "label": "KICC tower",
+          "shape": "skyscraper"
+        },
+        {
+          "id": "kilimanjaro_view",
+          "label": "Mount Kenya",
+          "shape": "mountain"
+        },
+        {
+          "id": "parliament",
+          "label": "Parliament clock tower",
+          "shape": "clock_tower"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "maasai",
+          "label": "Maasai shuka",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "matatu",
+          "label": "Matatu",
+          "category": "transport",
+          "shape": "bus"
+        },
+        {
+          "id": "elephant",
+          "label": "Elephant",
+          "category": "lifestyle",
+          "shape": "elephant"
+        },
+        {
+          "id": "acacia",
+          "label": "Acacia",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "abidjan",
+      "country_code": "CI",
+      "tier": "premium",
+      "lat": 5.36,
+      "lng": -4.0083,
+      "name": {
+        "fr": "Abidjan",
+        "en": "Abidjan",
+        "de": "Abidjan",
+        "es": "Abidjan",
+        "zh": "阿比让",
+        "ru": "Абиджан"
+      },
+      "country": {
+        "fr": "Côte d'Ivoire",
+        "en": "Côte d'Ivoire",
+        "de": "Elfenbeinküste",
+        "es": "Costa de Marfil",
+        "zh": "科特迪瓦",
+        "ru": "Кот-д’Ивуар"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Yamoussoukro",
+          "en": "Yamoussoukro",
+          "de": "Yamoussoukro",
+          "es": "Yamoussoukro",
+          "zh": "亚穆苏克罗",
+          "ru": "Ямусукро"
+        },
+        {
+          "fr": "Bouaké",
+          "en": "Bouaké",
+          "de": "Bouaké",
+          "es": "Bouaké",
+          "zh": "布瓦凯",
+          "ru": "Буаке"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "st_paul_cathedral",
+          "label": "St Paul's Cathedral (Abidjan)",
+          "shape": "cathedral"
+        },
+        {
+          "id": "plateau_towers",
+          "label": "Plateau skyline",
+          "shape": "skyscraper"
+        },
+        {
+          "id": "basilica",
+          "label": "Basilica of Our Lady of Peace",
+          "shape": "dome"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "garbadrome",
+          "label": "Garba stall",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "pagne",
+          "label": "Pagne attire",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "woro_woro",
+          "label": "Woro-woro taxi",
+          "category": "transport",
+          "shape": "car"
+        },
+        {
+          "id": "pirogue",
+          "label": "Lagoon pirogue",
+          "category": "transport",
+          "shape": "canoe"
+        }
+      ]
+    },
+    {
+      "id": "dar_es_salaam",
+      "country_code": "TZ",
+      "tier": "premium",
+      "lat": -6.7924,
+      "lng": 39.2083,
+      "name": {
+        "fr": "Dar es Salam",
+        "en": "Dar es Salaam",
+        "de": "Daressalam",
+        "es": "Dar es-Salam",
+        "zh": "达累斯萨拉姆",
+        "ru": "Дар-эс-Салам"
+      },
+      "country": {
+        "fr": "Tanzanie",
+        "en": "Tanzania",
+        "de": "Tansania",
+        "es": "Tanzania",
+        "zh": "坦桑尼亚",
+        "ru": "Танзания"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Dodoma",
+          "en": "Dodoma",
+          "de": "Dodoma",
+          "es": "Dodoma",
+          "zh": "多多马",
+          "ru": "Додома"
+        },
+        {
+          "fr": "Arusha",
+          "en": "Arusha",
+          "de": "Arusha",
+          "es": "Arusha",
+          "zh": "阿鲁沙",
+          "ru": "Аруша"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "askari_monument",
+          "label": "Askari Monument",
+          "shape": "statue"
+        },
+        {
+          "id": "st_joseph",
+          "label": "St Joseph's Cathedral",
+          "shape": "cathedral"
+        },
+        {
+          "id": "kilimanjaro",
+          "label": "Kilimanjaro",
+          "shape": "mountain"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "dhow",
+          "label": "Dhow",
+          "category": "transport",
+          "shape": "boat"
+        },
+        {
+          "id": "kanga",
+          "label": "Kanga attire",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "bajaji",
+          "label": "Bajaji",
+          "category": "transport",
+          "shape": "tuk_tuk",
+          "asset": "common/tuk_tuk"
+        },
+        {
+          "id": "baobab",
+          "label": "Baobab",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "yangon",
+      "country_code": "MM",
+      "tier": "premium",
+      "lat": 16.8409,
+      "lng": 96.1735,
+      "name": {
+        "fr": "Rangoun",
+        "en": "Yangon",
+        "de": "Rangun",
+        "es": "Rangún",
+        "zh": "仰光",
+        "ru": "Янгон"
+      },
+      "country": {
+        "fr": "Birmanie",
+        "en": "Myanmar",
+        "de": "Myanmar",
+        "es": "Birmania",
+        "zh": "缅甸",
+        "ru": "Мьянма"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Naypyidaw",
+          "en": "Naypyidaw",
+          "de": "Naypyidaw",
+          "es": "Naipyidó",
+          "zh": "内比都",
+          "ru": "Нейпьидо"
+        },
+        {
+          "fr": "Mandalay",
+          "en": "Mandalay",
+          "de": "Mandalay",
+          "es": "Mandalay",
+          "zh": "曼德勒",
+          "ru": "Мандалай"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "shwedagon",
+          "label": "Shwedagon Pagoda",
+          "shape": "stupa"
+        },
+        {
+          "id": "sule_pagoda",
+          "label": "Sule Pagoda",
+          "shape": "stupa"
+        },
+        {
+          "id": "city_hall",
+          "label": "Yangon City Hall",
+          "shape": "colonial"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "longyi",
+          "label": "Longyi",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "mohinga",
+          "label": "Mohinga stall",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "trishaw",
+          "label": "Trishaw",
+          "category": "transport",
+          "shape": "cyclist"
+        },
+        {
+          "id": "monk",
+          "label": "Monk with umbrella",
+          "category": "lifestyle",
+          "shape": "robed_person"
+        }
+      ]
+    },
+    {
+      "id": "lagos",
+      "country_code": "NG",
+      "tier": "premium",
+      "lat": 6.5244,
+      "lng": 3.3792,
+      "name": {
+        "fr": "Lagos",
+        "en": "Lagos",
+        "de": "Lagos",
+        "es": "Lagos",
+        "zh": "拉各斯",
+        "ru": "Лагос"
+      },
+      "country": {
+        "fr": "Nigeria",
+        "en": "Nigeria",
+        "de": "Nigeria",
+        "es": "Nigeria",
+        "zh": "尼日利亚",
+        "ru": "Нигерия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Abuja",
+          "en": "Abuja",
+          "de": "Abuja",
+          "es": "Abuja",
+          "zh": "阿布贾",
+          "ru": "Абуджа"
+        },
+        {
+          "fr": "Kano",
+          "en": "Kano",
+          "de": "Kano",
+          "es": "Kano",
+          "zh": "卡诺",
+          "ru": "Кано"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "national_theatre",
+          "label": "National Theatre",
+          "shape": "opera_sails"
+        },
+        {
+          "id": "civic_centre",
+          "label": "Civic Centre tower",
+          "shape": "skyscraper"
+        },
+        {
+          "id": "lekki_bridge",
+          "label": "Lekki-Ikoyi bridge",
+          "shape": "bridge"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "danfo",
+          "label": "Danfo bus",
+          "category": "transport",
+          "shape": "bus"
+        },
+        {
+          "id": "agbada",
+          "label": "Agbada & gele",
+          "category": "attire",
+          "shape": "person_hat"
+        },
+        {
+          "id": "suya",
+          "label": "Suya grill",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "afrobeat",
+          "label": "Afrobeat drummer",
+          "category": "lifestyle",
+          "shape": "musician"
+        }
+      ]
+    },
+    {
+      "id": "la_paz",
+      "country_code": "BO",
+      "tier": "premium",
+      "lat": -16.4897,
+      "lng": -68.1193,
+      "name": {
+        "fr": "La Paz",
+        "en": "La Paz",
+        "de": "La Paz",
+        "es": "La Paz",
+        "zh": "拉巴斯",
+        "ru": "Ла-Пас"
+      },
+      "country": {
+        "fr": "Bolivie",
+        "en": "Bolivia",
+        "de": "Bolivien",
+        "es": "Bolivia",
+        "zh": "玻利维亚",
+        "ru": "Боливия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Sucre",
+          "en": "Sucre",
+          "de": "Sucre",
+          "es": "Sucre",
+          "zh": "苏克雷",
+          "ru": "Сукре"
+        },
+        {
+          "fr": "Santa Cruz",
+          "en": "Santa Cruz",
+          "de": "Santa Cruz",
+          "es": "Santa Cruz",
+          "zh": "圣克鲁斯",
+          "ru": "Санта-Крус"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "illimani",
+          "label": "Illimani",
+          "shape": "mountain"
+        },
+        {
+          "id": "san_francisco",
+          "label": "Basilica of San Francisco",
+          "shape": "cathedral"
+        },
+        {
+          "id": "cable_car",
+          "label": "Mi Teleférico",
+          "shape": "ferris_wheel"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "cholita",
+          "label": "Cholita with bowler hat",
+          "category": "attire",
+          "shape": "person_hat"
+        },
+        {
+          "id": "llama",
+          "label": "Llama",
+          "category": "lifestyle",
+          "shape": "camel"
+        },
+        {
+          "id": "saltena",
+          "label": "Salteña stall",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "morenada",
+          "label": "Morenada dancer",
+          "category": "dance",
+          "shape": "dancer"
+        }
+      ]
+    },
+    {
+      "id": "cape_town",
+      "country_code": "ZA",
+      "tier": "premium",
+      "lat": -33.9249,
+      "lng": 18.4241,
+      "name": {
+        "fr": "Le Cap",
+        "en": "Cape Town",
+        "de": "Kapstadt",
+        "es": "Ciudad del Cabo",
+        "zh": "开普敦",
+        "ru": "Кейптаун"
+      },
+      "country": {
+        "fr": "Afrique du Sud",
+        "en": "South Africa",
+        "de": "Südafrika",
+        "es": "Sudáfrica",
+        "zh": "南非",
+        "ru": "ЮАР"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Pretoria",
+          "en": "Pretoria",
+          "de": "Pretoria",
+          "es": "Pretoria",
+          "zh": "比勒陀利亚",
+          "ru": "Претория"
+        },
+        {
+          "fr": "Johannesburg",
+          "en": "Johannesburg",
+          "de": "Johannesburg",
+          "es": "Johannesburgo",
+          "zh": "约翰内斯堡",
+          "ru": "Йоханнесбург"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "table_mountain",
+          "label": "Table Mountain",
+          "shape": "mountain"
+        },
+        {
+          "id": "lighthouse",
+          "label": "Green Point lighthouse",
+          "shape": "lighthouse"
+        },
+        {
+          "id": "city_hall",
+          "label": "Cape Town City Hall",
+          "shape": "colonial"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "minstrel",
+          "label": "Kaapse Klopse minstrel",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "braai",
+          "label": "Braai",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "penguin_walker",
+          "label": "Beach walker",
+          "category": "lifestyle",
+          "shape": "person"
+        },
+        {
+          "id": "fishing_boat",
+          "label": "Fishing boat",
+          "category": "transport",
+          "shape": "boat"
+        }
+      ]
+    },
+    {
+      "id": "cotonou",
+      "country_code": "BJ",
+      "tier": "premium",
+      "lat": 6.3703,
+      "lng": 2.3912,
+      "name": {
+        "fr": "Cotonou",
+        "en": "Cotonou",
+        "de": "Cotonou",
+        "es": "Cotonou",
+        "zh": "科托努",
+        "ru": "Котону"
+      },
+      "country": {
+        "fr": "Bénin",
+        "en": "Benin",
+        "de": "Benin",
+        "es": "Benín",
+        "zh": "贝宁",
+        "ru": "Бенин"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Porto-Novo",
+          "en": "Porto-Novo",
+          "de": "Porto-Novo",
+          "es": "Porto Novo",
+          "zh": "波多诺伏",
+          "ru": "Порто-Ново"
+        },
+        {
+          "fr": "Ouidah",
+          "en": "Ouidah",
+          "de": "Ouidah",
+          "es": "Ouidah",
+          "zh": "维达",
+          "ru": "Уида"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "amazon_statue",
+          "label": "Amazon statue",
+          "shape": "statue"
+        },
+        {
+          "id": "door_of_no_return",
+          "label": "Door of No Return",
+          "shape": "arch"
+        },
+        {
+          "id": "cathedral",
+          "label": "Cotonou Cathedral",
+          "shape": "cathedral"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "zemidjan",
+          "label": "Zémidjan moto-taxi",
+          "category": "transport",
+          "shape": "cyclist"
+        },
+        {
+          "id": "ganvie_pirogue",
+          "label": "Ganvié pirogue",
+          "category": "transport",
+          "shape": "canoe"
+        },
+        {
+          "id": "market_woman",
+          "label": "Dantokpa market vendor",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "vodun_dancer",
+          "label": "Vodun dancer",
+          "category": "dance",
+          "shape": "dancer"
+        }
+      ]
+    },
+    {
+      "id": "amsterdam",
+      "country_code": "NL",
+      "tier": "premium",
+      "lat": 52.3676,
+      "lng": 4.9041,
+      "name": {
+        "fr": "Amsterdam",
+        "en": "Amsterdam",
+        "de": "Amsterdam",
+        "es": "Ámsterdam",
+        "zh": "阿姆斯特丹",
+        "ru": "Амстердам"
+      },
+      "country": {
+        "fr": "Pays-Bas",
+        "en": "Netherlands",
+        "de": "Niederlande",
+        "es": "Países Bajos",
+        "zh": "荷兰",
+        "ru": "Нидерланды"
+      },
+      "alternative_cities": [
+        {
+          "fr": "La Haye",
+          "en": "The Hague",
+          "de": "Den Haag",
+          "es": "La Haya",
+          "zh": "海牙",
+          "ru": "Гаага"
+        },
+        {
+          "fr": "Rotterdam",
+          "en": "Rotterdam",
+          "de": "Rotterdam",
+          "es": "Róterdam",
+          "zh": "鹿特丹",
+          "ru": "Роттердам"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "windmill",
+          "label": "Windmill",
+          "shape": "windmill"
+        },
+        {
+          "id": "rijksmuseum",
+          "label": "Rijksmuseum",
+          "shape": "cathedral"
+        },
+        {
+          "id": "westerkerk",
+          "label": "Westerkerk tower",
+          "shape": "clock_tower"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "bicycle",
+          "label": "Bicycle",
+          "category": "transport",
+          "shape": "cyclist"
+        },
+        {
+          "id": "canal_boat",
+          "label": "Canal boat",
+          "category": "transport",
+          "shape": "boat"
+        },
+        {
+          "id": "herring_stall",
+          "label": "Herring stall",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "tulip_tree",
+          "label": "Elm tree",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "brasilia",
+      "country_code": "BR",
+      "tier": "premium",
+      "lat": -15.7975,
+      "lng": -47.8919,
+      "name": {
+        "fr": "Brasília",
+        "en": "Brasília",
+        "de": "Brasília",
+        "es": "Brasilia",
+        "zh": "巴西利亚",
+        "ru": "Бразилиа"
+      },
+      "country": {
+        "fr": "Brésil",
+        "en": "Brazil",
+        "de": "Brasilien",
+        "es": "Brasil",
+        "zh": "巴西",
+        "ru": "Бразилия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Rio de Janeiro",
+          "en": "Rio de Janeiro",
+          "de": "Rio de Janeiro",
+          "es": "Río de Janeiro",
+          "zh": "里约热内卢",
+          "ru": "Рио-де-Жанейро"
+        },
+        {
+          "fr": "São Paulo",
+          "en": "São Paulo",
+          "de": "São Paulo",
+          "es": "São Paulo",
+          "zh": "圣保罗",
+          "ru": "Сан-Паулу"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "cathedral",
+          "label": "Cathedral of Brasília",
+          "shape": "opera_sails"
+        },
+        {
+          "id": "congress",
+          "label": "National Congress",
+          "shape": "skyscraper"
+        },
+        {
+          "id": "tv_tower",
+          "label": "Brasília TV Tower",
+          "shape": "tv_tower"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "samba",
+          "label": "Samba dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "capoeira",
+          "label": "Capoeira",
+          "category": "dance",
+          "shape": "person"
+        },
+        {
+          "id": "acai",
+          "label": "Açaí stand",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "palm",
+          "label": "Palm",
+          "category": "lifestyle",
+          "shape": "palm",
+          "asset": "common/palm_tree"
+        }
+      ]
+    },
+    {
+      "id": "sydney",
+      "country_code": "AU",
+      "tier": "premium",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "name": {
+        "fr": "Sydney",
+        "en": "Sydney",
+        "de": "Sydney",
+        "es": "Sídney",
+        "zh": "悉尼",
+        "ru": "Сидней"
+      },
+      "country": {
+        "fr": "Australie",
+        "en": "Australia",
+        "de": "Australien",
+        "es": "Australia",
+        "zh": "澳大利亚",
+        "ru": "Австралия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Canberra",
+          "en": "Canberra",
+          "de": "Canberra",
+          "es": "Canberra",
+          "zh": "堪培拉",
+          "ru": "Канберра"
+        },
+        {
+          "fr": "Melbourne",
+          "en": "Melbourne",
+          "de": "Melbourne",
+          "es": "Melbourne",
+          "zh": "墨尔本",
+          "ru": "Мельбурн"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "opera_house",
+          "label": "Sydney Opera House",
+          "shape": "opera_sails"
+        },
+        {
+          "id": "harbour_bridge",
+          "label": "Harbour Bridge",
+          "shape": "bridge"
+        },
+        {
+          "id": "sydney_tower",
+          "label": "Sydney Tower",
+          "shape": "tv_tower"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "surfer",
+          "label": "Surfer",
+          "category": "lifestyle",
+          "shape": "person"
+        },
+        {
+          "id": "ferry",
+          "label": "Harbour ferry",
+          "category": "transport",
+          "shape": "boat"
+        },
+        {
+          "id": "bbq",
+          "label": "Barbie",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "eucalyptus",
+          "label": "Eucalyptus",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "beijing",
+      "country_code": "CN",
+      "tier": "premium",
+      "lat": 39.9042,
+      "lng": 116.4074,
+      "name": {
+        "fr": "Pékin",
+        "en": "Beijing",
+        "de": "Peking",
+        "es": "Pekín",
+        "zh": "北京",
+        "ru": "Пекин"
+      },
+      "country": {
+        "fr": "Chine",
+        "en": "China",
+        "de": "China",
+        "es": "China",
+        "zh": "中国",
+        "ru": "Китай"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Shanghai",
+          "en": "Shanghai",
+          "de": "Shanghai",
+          "es": "Shanghái",
+          "zh": "上海",
+          "ru": "Шанхай"
+        },
+        {
+          "fr": "Xi'an",
+          "en": "Xi'an",
+          "de": "Xi’an",
+          "es": "Xi'an",
+          "zh": "西安",
+          "ru": "Сиань"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "temple_of_heaven",
+          "label": "Temple of Heaven",
+          "shape": "pagoda"
+        },
+        {
+          "id": "forbidden_city",
+          "label": "Forbidden City gate",
+          "shape": "gate"
+        },
+        {
+          "id": "cctv_tower",
+          "label": "CCTV / CBD towers",
+          "shape": "skyscraper"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "qipao",
+          "label": "Qipao",
+          "category": "attire",
+          "shape": "robed_person"
+        },
+        {
+          "id": "jianbing",
+          "label": "Jianbing cart",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "lion_dance",
+          "label": "Lion dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "rickshaw",
+          "label": "Rickshaw",
+          "category": "transport",
+          "shape": "cyclist"
+        }
+      ]
+    },
+    {
+      "id": "moscow",
+      "country_code": "RU",
+      "tier": "premium",
+      "lat": 55.7558,
+      "lng": 37.6173,
+      "name": {
+        "fr": "Moscou",
+        "en": "Moscow",
+        "de": "Moskau",
+        "es": "Moscú",
+        "zh": "莫斯科",
+        "ru": "Москва"
+      },
+      "country": {
+        "fr": "Russie",
+        "en": "Russia",
+        "de": "Russland",
+        "es": "Rusia",
+        "zh": "俄罗斯",
+        "ru": "Россия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Saint-Pétersbourg",
+          "en": "Saint Petersburg",
+          "de": "Sankt Petersburg",
+          "es": "San Petersburgo",
+          "zh": "圣彼得堡",
+          "ru": "Санкт-Петербург"
+        },
+        {
+          "fr": "Kazan",
+          "en": "Kazan",
+          "de": "Kasan",
+          "es": "Kazán",
+          "zh": "喀山",
+          "ru": "Казань"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "st_basil",
+          "label": "St Basil's Cathedral",
+          "shape": "onion_domes"
+        },
+        {
+          "id": "spasskaya_tower",
+          "label": "Spasskaya Tower",
+          "shape": "clock_tower"
+        },
+        {
+          "id": "stalinist_tower",
+          "label": "Seven Sisters tower",
+          "shape": "skyscraper_spire"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "ushanka",
+          "label": "Ushanka",
+          "category": "attire",
+          "shape": "person_hat"
+        },
+        {
+          "id": "balalaika",
+          "label": "Balalaika player",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "troika",
+          "label": "Troika",
+          "category": "transport",
+          "shape": "animal_cart"
+        },
+        {
+          "id": "birch",
+          "label": "Birch",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    },
+    {
+      "id": "berlin",
+      "country_code": "DE",
+      "tier": "premium",
+      "lat": 52.52,
+      "lng": 13.405,
+      "name": {
+        "fr": "Berlin",
+        "en": "Berlin",
+        "de": "Berlin",
+        "es": "Berlín",
+        "zh": "柏林",
+        "ru": "Берлин"
+      },
+      "country": {
+        "fr": "Allemagne",
+        "en": "Germany",
+        "de": "Deutschland",
+        "es": "Alemania",
+        "zh": "德国",
+        "ru": "Германия"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Munich",
+          "en": "Munich",
+          "de": "München",
+          "es": "Múnich",
+          "zh": "慕尼黑",
+          "ru": "Мюнхен"
+        },
+        {
+          "fr": "Hambourg",
+          "en": "Hamburg",
+          "de": "Hamburg",
+          "es": "Hamburgo",
+          "zh": "汉堡",
+          "ru": "Гамбург"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "brandenburg_gate",
+          "label": "Brandenburg Gate",
+          "shape": "temple"
+        },
+        {
+          "id": "fernsehturm",
+          "label": "Fernsehturm",
+          "shape": "tv_tower"
+        },
+        {
+          "id": "reichstag",
+          "label": "Reichstag",
+          "shape": "dome"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "currywurst",
+          "label": "Currywurst stand",
+          "category": "food",
+          "shape": "food_stall"
+        },
+        {
+          "id": "cyclist",
+          "label": "Cyclist",
+          "category": "transport",
+          "shape": "cyclist"
+        },
+        {
+          "id": "yellow_tram",
+          "label": "Tram",
+          "category": "transport",
+          "shape": "tram"
+        },
+        {
+          "id": "street_musician",
+          "label": "Street musician",
+          "category": "lifestyle",
+          "shape": "musician"
+        }
+      ]
+    },
+    {
+      "id": "madrid",
+      "country_code": "ES",
+      "tier": "premium",
+      "lat": 40.4168,
+      "lng": -3.7038,
+      "name": {
+        "fr": "Madrid",
+        "en": "Madrid",
+        "de": "Madrid",
+        "es": "Madrid",
+        "zh": "马德里",
+        "ru": "Мадрид"
+      },
+      "country": {
+        "fr": "Espagne",
+        "en": "Spain",
+        "de": "Spanien",
+        "es": "España",
+        "zh": "西班牙",
+        "ru": "Испания"
+      },
+      "alternative_cities": [
+        {
+          "fr": "Barcelone",
+          "en": "Barcelona",
+          "de": "Barcelona",
+          "es": "Barcelona",
+          "zh": "巴塞罗那",
+          "ru": "Барселона"
+        },
+        {
+          "fr": "Séville",
+          "en": "Seville",
+          "de": "Sevilla",
+          "es": "Sevilla",
+          "zh": "塞维利亚",
+          "ru": "Севилья"
+        }
+      ],
+      "monuments": [
+        {
+          "id": "puerta_alcala",
+          "label": "Puerta de Alcalá",
+          "shape": "arch"
+        },
+        {
+          "id": "royal_palace",
+          "label": "Royal Palace",
+          "shape": "colonial"
+        },
+        {
+          "id": "metropolis",
+          "label": "Metrópolis building",
+          "shape": "dome"
+        }
+      ],
+      "culture_life": [
+        {
+          "id": "flamenco",
+          "label": "Flamenco dancer",
+          "category": "dance",
+          "shape": "dancer"
+        },
+        {
+          "id": "churros",
+          "label": "Churros stall",
+          "category": "food",
+          "shape": "umbrella_stall"
+        },
+        {
+          "id": "guitarist",
+          "label": "Spanish guitarist",
+          "category": "lifestyle",
+          "shape": "musician"
+        },
+        {
+          "id": "olive_tree",
+          "label": "Olive tree",
+          "category": "lifestyle",
+          "shape": "tree"
+        }
+      ]
+    }
+  ]
+}

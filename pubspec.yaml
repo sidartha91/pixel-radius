@@ -1,0 +1,45 @@
+name: pixel_radius
+description: "Pixel Radius — jeu de géographie culturelle Neo-Soul / Cyber-Soul par AAI Studio."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Mode Classique
+  flutter_map: ^8.1.1
+  latlong2: ^0.9.1
+
+  # Fresques d'ombres chinoises
+  flutter_svg: ^2.1.0
+
+  # Musique Neo-Soul en boucle + effets sonores
+  audioplayers: ^6.4.0
+
+  # Monétisation
+  in_app_purchase: ^3.2.1
+
+  # Persistance (scores, thème, langue, timer, mute, premium)
+  shared_preferences: ^2.5.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/data/capitals_catalog.json
+    - assets/silhouettes/common/
+    - assets/silhouettes/unique/
+    - assets/audio/theme_loop.m4a
+    - assets/audio/sfx/

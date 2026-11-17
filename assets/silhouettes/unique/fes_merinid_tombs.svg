@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 170" width="280" height="170" fill="#000000">
+  <path d="M0 170Q60 120 140 130Q220 120 280 170Z"/>
+  <path fill-rule="evenodd" d="M40 134V70L56 62V80L70 74V134ZM48 134V103A7 7 0 0 1 62 103V134Z"/>
+  <path fill-rule="evenodd" d="M110 132V48H170V60L180 66V132ZM124 132V94A20 20 0 0 1 164 94V132Z"/>
+  <path d="M110 48L140 26L170 48Z"/><path d="M132 34L140 28L148 34L140 40Z"/>
+  <path d="M206 140V96L218 90L226 100V140Z"/>
+  <path d="M236 120h14v22h-14Z"/>
+</svg>
