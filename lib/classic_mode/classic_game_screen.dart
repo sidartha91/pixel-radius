@@ -226,6 +226,20 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
     return KeyEventResult.ignored;
   }
 
+  static const double _minZoom = 1.5;
+  static const double _maxZoom = 8;
+
+  void _zoomBy(double delta) {
+    if (!_isGuessing) return;
+    final camera = _mapController.camera;
+    _mapController.move(camera.center, (camera.zoom + delta).clamp(_minZoom, _maxZoom));
+  }
+
+  void _recenter() {
+    if (!_isGuessing) return;
+    _mapController.move(_worldCenter, 1.8);
+  }
+
   bool _sameSpot(LatLng a, LatLng b) =>
       (a.latitude - b.latitude).abs() < 1e-6 && (a.longitude - b.longitude).abs() < 1e-6;
 
@@ -277,8 +291,8 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                   options: MapOptions(
                     initialCenter: _worldCenter,
                     initialZoom: 1.8,
-                    minZoom: 1.5,
-                    maxZoom: 8,
+                    minZoom: _minZoom,
+                    maxZoom: _maxZoom,
                     backgroundColor: dark ? const Color(0xFF060505) : PixelColors.lightBackground,
                     interactionOptions: InteractionOptions(
                       flags: _isGuessing ? InteractiveFlag.all : InteractiveFlag.none,
@@ -318,6 +332,23 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
           if (_mapHasFocus && _isGuessing && FocusManager.instance.highlightMode == FocusHighlightMode.traditional)
             IgnorePointer(
               child: Center(child: Icon(Icons.add_rounded, size: 36, color: _neonPink.withValues(alpha: 0.9))),
+            ),
+          if (_isGuessing && !_finished)
+            Positioned(
+              right: 12,
+              top: 0,
+              bottom: 0,
+              child: SafeArea(
+                child: Center(
+                  child: _ZoomControls(
+                    surface: p.surface,
+                    color: p.accent,
+                    onZoomIn: () => _zoomBy(1),
+                    onZoomOut: () => _zoomBy(-1),
+                    onRecenter: _recenter,
+                  ),
+                ),
+              ),
             ),
           SafeArea(child: _buildTopPanel(l, p, lang)),
           Align(
@@ -554,6 +585,59 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Boutons de zoom visibles (web, mobile, TV / D-Pad).
+class _ZoomControls extends StatelessWidget {
+  const _ZoomControls({
+    required this.surface,
+    required this.color,
+    required this.onZoomIn,
+    required this.onZoomOut,
+    required this.onRecenter,
+  });
+
+  final Color surface;
+  final Color color;
+  final VoidCallback onZoomIn;
+  final VoidCallback onZoomOut;
+  final VoidCallback onRecenter;
+
+  Widget _button(IconData icon, String label, VoidCallback onTap) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 5),
+      child: Tooltip(
+        message: label,
+        child: FocusableTap(
+          onTap: onTap,
+          semanticLabel: label,
+          borderRadius: BorderRadius.circular(24),
+          child: Container(
+            width: 48,
+            height: 48,
+            decoration: BoxDecoration(
+              color: surface.withValues(alpha: 0.94),
+              shape: BoxShape.circle,
+              boxShadow: <BoxShadow>[BoxShadow(color: Colors.black.withValues(alpha: 0.25), blurRadius: 10)],
+            ),
+            child: Icon(icon, color: color, size: 26),
+          ),
+        ),
+      ),
+    );
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        _button(Icons.add_rounded, 'Zoom +', onZoomIn),
+        _button(Icons.remove_rounded, 'Zoom −', onZoomOut),
+        _button(Icons.public_rounded, 'Monde', onRecenter),
+      ],
     );
   }
 }
