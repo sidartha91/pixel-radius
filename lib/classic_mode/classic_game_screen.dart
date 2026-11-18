@@ -235,6 +235,19 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
     _mapController.move(camera.center, (camera.zoom + delta).clamp(_minZoom, _maxZoom));
   }
 
+  /// Pincement du pavé tactile (Mac / web) : le navigateur l'envoie comme un
+  /// évènement « scale ». On zoome la carte en gardant le point sous les doigts.
+  void _onPointerSignal(PointerSignalEvent event) {
+    if (!_isGuessing || event is! PointerScaleEvent) return;
+    if (event.scale <= 0) return;
+    final camera = _mapController.camera;
+    final delta = math.log(event.scale) / math.ln2;
+    final zoom = (camera.zoom + delta).clamp(_minZoom, _maxZoom);
+    if (zoom == camera.zoom) return;
+    final center = camera.focusedZoomCenter(event.localPosition, zoom);
+    _mapController.move(center, zoom);
+  }
+
   void _recenter() {
     if (!_isGuessing) return;
     _mapController.move(_worldCenter, 1.8);
@@ -286,7 +299,9 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
               child: AbsorbPointer(
                 // Double sécurité : en plus d'InteractiveFlag.none, aucun geste n'atteint la carte.
                 absorbing: !_isGuessing,
-                child: FlutterMap(
+                child: Listener(
+                  onPointerSignal: _onPointerSignal,
+                  child: FlutterMap(
                   mapController: _mapController,
                   options: MapOptions(
                     initialCenter: _worldCenter,
@@ -325,6 +340,7 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                       ),
                     MarkerLayer(markers: markers),
                   ],
+                ),
                 ),
               ),
             ),
