@@ -121,7 +121,7 @@ pixel_radius/
 
 | Couche | Rôle |
 |---|---|
-| `lib/core/` | Thèmes (Cyber-Soul / Vinyle Vintage), i18n 6 langues, audio (boucle + SFX + mute persistant), IAP, modèles, catalogue, réglages persistés, widget de focus TV |
+| `lib/core/` | Thèmes (Cyber-Soul / Vinyle Vintage), i18n 7 langues (dont le cinghalais), audio (boucle + SFX + mute persistant), IAP, modèles, catalogue, réglages persistés, widget de focus TV |
 | `lib/screens/` | Écran d'accueil |
 | `lib/classic_mode/` | Carte `flutter_map` vectorielle intégrée (Natural Earth, sans labels ni clé API), carte figée après validation, ligne Rose Néon, score distance + temps |
 | `lib/shadow_quiz/` | **Module autonome** (n'importe rien de `lib/core`) : `ShadowQuizGame(isDarkMode, durationSeconds, languageCode)` |
@@ -143,7 +143,7 @@ pixel_radius/
 
 ### Catalogue
 
-28 villes (12 gratuites, 16 avec Premium). La **règle des capitales de référence** est appliquée : la ville emblématique sert de référence et la capitale administrative figure dans `alternative_cities`. Exemples : Colombo / Sri Jayawardenepura Kotte, Abidjan / Yamoussoukro, Lagos / Abuja, Le Cap / Pretoria, Amsterdam / La Haye.
+196 capitales (tous les pays membres de l’ONU + Vatican, Palestine, Kosovo) : 20 gratuites, toutes avec Premium. La **règle des capitales de référence** est appliquée : la ville emblématique sert de référence et la capitale administrative figure dans `alternative_cities`. Exemples : Colombo / Sri Jayawardenepura Kotte, Abidjan / Yamoussoukro, Lagos / Abuja, Le Cap / Pretoria, Amsterdam / La Haye.
 
 ### Audio
 

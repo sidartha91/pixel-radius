@@ -421,38 +421,57 @@ class _ModeCard extends StatelessWidget {
         height: 150,
         padding: const EdgeInsets.all(14),
         decoration: BoxDecoration(
-          color: selected ? Color.lerp(p.surface, p.accent, 0.14) : p.surface,
+          // Carte choisie : fond plein couleur d'accent, texte inversé.
+          color: selected ? p.accent : p.surface,
           borderRadius: BorderRadius.circular(20),
           border: Border.all(
-            color: selected ? p.accent : p.onSurface.withValues(alpha: 0.06),
-            width: selected ? 1.6 : 1,
+            color: selected ? p.accent : p.onSurface.withValues(alpha: 0.08),
+            width: 1.2,
           ),
+          boxShadow: selected
+              ? <BoxShadow>[BoxShadow(color: p.accent.withValues(alpha: 0.35), blurRadius: 18)]
+              : const <BoxShadow>[],
         ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+        child: Stack(
           children: <Widget>[
-            Icon(icon, size: 36, color: selected ? p.accent : p.onSurface),
-            const SizedBox(height: 10),
-            FittedBox(
-              fit: BoxFit.scaleDown,
-              child: Text(
-                title,
-                style: TextStyle(
-                  color: selected ? p.accent : p.onSurface,
-                  fontWeight: FontWeight.w900,
-                  letterSpacing: 1.5,
-                  fontSize: 15,
-                ),
+            Positioned.fill(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Icon(icon, size: 36, color: selected ? p.background : p.muted),
+                  const SizedBox(height: 10),
+                  FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      title,
+                      style: TextStyle(
+                        color: selected ? p.background : p.onSurface,
+                        fontWeight: FontWeight.w900,
+                        letterSpacing: 1.5,
+                        fontSize: 15,
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                  Text(
+                    subtitle,
+                    textAlign: TextAlign.center,
+                    maxLines: 2,
+                    overflow: TextOverflow.ellipsis,
+                    style: TextStyle(
+                      color: selected ? p.background.withValues(alpha: 0.8) : p.muted,
+                      fontSize: 12,
+                    ),
+                  ),
+                ],
               ),
             ),
-            const SizedBox(height: 4),
-            Text(
-              subtitle,
-              textAlign: TextAlign.center,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: TextStyle(color: p.muted, fontSize: 12),
-            ),
+            if (selected)
+              Positioned(
+                top: 0,
+                right: 0,
+                child: Icon(Icons.check_circle_rounded, size: 22, color: p.background),
+              ),
           ],
         ),
       ),

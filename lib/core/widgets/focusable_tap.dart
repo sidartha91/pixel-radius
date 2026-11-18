@@ -33,6 +33,15 @@ class _FocusableTapState extends State<FocusableTap> {
   bool _focused = false;
   bool _hovered = false;
   bool _pressed = false;
+  FocusNode? _ownNode;
+
+  FocusNode get _node => widget.focusNode ?? (_ownNode ??= FocusNode(debugLabel: 'FocusableTap'));
+
+  @override
+  void dispose() {
+    _ownNode?.dispose();
+    super.dispose();
+  }
 
   static final Map<ShortcutActivator, Intent> _shortcuts = <ShortcutActivator, Intent>{
     const SingleActivator(LogicalKeyboardKey.select): const ActivateIntent(),
@@ -45,6 +54,14 @@ class _FocusableTapState extends State<FocusableTap> {
   void _activate() {
     if (widget.onTap == null) return;
     widget.onTap!();
+  }
+
+  /// Au toucher/clic, le focus suit l'élément touché : le cadre de focus ne
+  /// reste jamais « collé » sur un autre bouton.
+  void _tap() {
+    if (widget.onTap == null) return;
+    _node.requestFocus();
+    _activate();
   }
 
   @override
@@ -60,7 +77,7 @@ class _FocusableTapState extends State<FocusableTap> {
       child: FocusableActionDetector(
         enabled: enabled,
         autofocus: widget.autofocus,
-        focusNode: widget.focusNode,
+        focusNode: _node,
         mouseCursor: enabled ? SystemMouseCursors.click : SystemMouseCursors.basic,
         shortcuts: _shortcuts,
         actions: <Type, Action<Intent>>{
@@ -76,7 +93,7 @@ class _FocusableTapState extends State<FocusableTap> {
           onTapDown: enabled ? (_) => setState(() => _pressed = true) : null,
           onTapCancel: enabled ? () => setState(() => _pressed = false) : null,
           onTapUp: enabled ? (_) => setState(() => _pressed = false) : null,
-          onTap: enabled ? _activate : null,
+          onTap: enabled ? _tap : null,
           child: AnimatedScale(
             scale: _pressed ? 0.98 : (highlight ? PixelColors.focusScale : 1.0),
             duration: const Duration(milliseconds: 140),
