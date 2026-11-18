@@ -27,10 +27,9 @@ class AppScope extends InheritedWidget {
     return scope!;
   }
 
+  /// Les services sont des ChangeNotifier : quand l'un d'eux change (mode de jeu,
+  /// chrono, mute, premium…), l'AppScope est reconstruit avec les mêmes objets.
+  /// On notifie donc toujours pour que tous les écrans se redessinent.
   @override
-  bool updateShouldNotify(AppScope oldWidget) =>
-      settings != oldWidget.settings ||
-      audio != oldWidget.audio ||
-      purchases != oldWidget.purchases ||
-      catalog != oldWidget.catalog;
+  bool updateShouldNotify(AppScope oldWidget) => true;
 }
