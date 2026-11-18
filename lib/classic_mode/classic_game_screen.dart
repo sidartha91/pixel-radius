@@ -13,6 +13,7 @@ import '../core/models/capital_model.dart';
 import '../core/settings/app_settings.dart';
 import '../core/theme/app_theme.dart';
 import '../core/widgets/focusable_tap.dart';
+import 'night_lights_layer.dart';
 import 'world_map_layer.dart';
 
 /// Barème du mode Classique : distance (km) + temps restant.
@@ -278,20 +279,25 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                     initialZoom: 1.8,
                     minZoom: 1.5,
                     maxZoom: 8,
-                    backgroundColor: dark ? const Color(0xFF0D0D0F) : PixelColors.lightBackground,
+                    backgroundColor: dark ? const Color(0xFF060505) : PixelColors.lightBackground,
                     interactionOptions: InteractionOptions(
                       flags: _isGuessing ? InteractiveFlag.all : InteractiveFlag.none,
                     ),
                     onTap: _onMapTap,
                   ),
                   children: <Widget>[
-                    PolylineLayer(
-                      polylines: WorldMapLayer.graticule(p.accent.withValues(alpha: dark ? 0.10 : 0.12)),
-                    ),
+                    // Mode sombre : « la Terre la nuit » (étoiles, terres brunes, lumières des villes).
+                    // Mode clair : carte « vinyle » épurée avec méridiens.
+                    if (dark) const NightLightsLayer(kind: NightLayerKind.stars),
+                    if (!dark)
+                      PolylineLayer(
+                        polylines: WorldMapLayer.graticule(p.accent.withValues(alpha: 0.12)),
+                      ),
                     WorldMapLayer(
-                      landColor: dark ? const Color(0xFF262626) : const Color(0xFFE2DACA),
-                      borderColor: p.accent.withValues(alpha: dark ? 0.35 : 0.45),
+                      landColor: dark ? const Color(0xFF26120A) : const Color(0xFFE2DACA),
+                      borderColor: dark ? const Color(0xFF3A1E0E) : p.accent.withValues(alpha: 0.45),
                     ),
+                    if (dark) const NightLightsLayer(kind: NightLayerKind.lights),
                     if (!_isGuessing && _guess != null)
                       PolylineLayer(
                         polylines: <Polyline>[
