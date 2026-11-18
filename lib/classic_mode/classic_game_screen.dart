@@ -323,7 +323,8 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                     maxZoom: _maxZoom,
                     backgroundColor: dark ? const Color(0xFF060505) : PixelColors.lightBackground,
                     interactionOptions: InteractionOptions(
-                      flags: _isGuessing ? InteractiveFlag.all : InteractiveFlag.none,
+                      // Pas de zoom au double-tap : l'épingle est posée immédiatement au toucher.
+                      flags: _isGuessing ? InteractiveFlag.all & ~InteractiveFlag.doubleTapZoom : InteractiveFlag.none,
                     ),
                     onTap: _onMapTap,
                   ),
