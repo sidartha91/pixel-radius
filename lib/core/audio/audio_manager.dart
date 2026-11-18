@@ -93,6 +93,14 @@ class AudioManager extends ChangeNotifier with WidgetsBindingObserver {
     }
   }
 
+  /// Relance la boucle si elle ne joue pas (navigateurs / iOS bloquent la
+  /// lecture automatique tant que le joueur n'a pas touché l'écran).
+  Future<void> ensurePlaying() async {
+    if (!_musicReady || _isMuted) return;
+    if (_music.state == PlayerState.playing) return;
+    await startMusic();
+  }
+
   Future<void> toggleMute() => setMuted(!_isMuted);
 
   Future<void> setMuted(bool muted) async {

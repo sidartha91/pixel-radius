@@ -147,7 +147,7 @@ pixel_radius/
 
 ### Audio
 
-`theme_loop.m4a` est une boucle lo-fi Neo-Soul de démonstration (Dm9 – G13 – Cmaj9 – Am9, 76 BPM, 12,6 s, sans couture), accompagnée de 4 SFX. Remplacez-les par vos masters en gardant les mêmes noms.
+`theme_loop.m4a` est la bande son officielle « Pixel Radius soundtrack V2 » (59 s, AAC 160 kb/s), jouée en boucle pendant tout le jeu ; elle démarre au premier contact sur web/iOS.
 
 ### Accessibilité TV / manette
 

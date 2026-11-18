@@ -92,12 +92,17 @@ class PixelRadiusApp extends StatelessWidget {
           // AppScope au-dessus du Navigator : accessible depuis toutes les routes.
           builder: (context, child) => catalog == null
               ? child!
-              : AppScope(
-                  settings: settings,
-                  audio: audio,
-                  purchases: purchases,
-                  catalog: catalog!,
-                  child: child!,
+              : Listener(
+                  // Premier contact : démarre la bande son si elle a été bloquée.
+                  behavior: HitTestBehavior.translucent,
+                  onPointerDown: (_) => audio.ensurePlaying(),
+                  child: AppScope(
+                    settings: settings,
+                    audio: audio,
+                    purchases: purchases,
+                    catalog: catalog!,
+                    child: child!,
+                  ),
                 ),
           home: home,
         );
