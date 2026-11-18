@@ -324,7 +324,7 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                     backgroundColor: dark ? const Color(0xFF060505) : PixelColors.lightBackground,
                     interactionOptions: InteractionOptions(
                       // Pas de zoom au double-tap : l'épingle est posée immédiatement au toucher.
-                      flags: _isGuessing ? InteractiveFlag.all & ~InteractiveFlag.doubleTapZoom : InteractiveFlag.none,
+                      flags: _isGuessing ? InteractiveFlag.all & ~InteractiveFlag.doubleTapZoom & ~InteractiveFlag.doubleTapDragZoom : InteractiveFlag.none,
                     ),
                     onTap: _onMapTap,
                   ),
