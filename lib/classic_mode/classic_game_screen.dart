@@ -506,7 +506,10 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
             enabled: _guess != null,
             color: p.accent,
             onColor: p.background,
-            onTap: _reveal,
+            // Toujours réactif : on vérifie la présence de l'épingle au moment du clic.
+            onTap: () {
+              if (_guess != null) _reveal();
+            },
           ),
         ],
       );
@@ -810,7 +813,7 @@ class _PrimaryButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return FocusableTap(
-      onTap: enabled ? onTap : null,
+      onTap: onTap,
       autofocus: autofocus,
       semanticLabel: label,
       borderRadius: BorderRadius.circular(24),
