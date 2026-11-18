@@ -63,7 +63,7 @@ jobs:
         with:
           tag_name: build-${{ github.run_number }}
           name: Pixel Radius — build ${{ github.run_number }}
-          body: "Fichier à installer sur Android : **pixel-radius.apk**"
+          body: "Android : **pixel-radius.apk** · iOS : **pixel-radius-ios-non-signee.ipa** (à signer avant installation)"
           files: pixel-radius.apk
 
       - uses: actions/upload-artifact@v4
@@ -78,6 +78,43 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build/web
+
+  ios:
+    needs: build
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Générer le projet iOS (bundle com.aaistudio.pixelRadius)
+        run: |
+          flutter create . --org com.aaistudio --project-name pixel_radius --platforms=ios
+          rm -f test/widget_test.dart
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName Pixel Radius" ios/Runner/Info.plist || \
+            /usr/libexec/PlistBuddy -c "Add :CFBundleDisplayName string Pixel Radius" ios/Runner/Info.plist
+          /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" ios/Runner/Info.plist || true
+
+      - run: flutter pub get
+
+      - name: Compiler l'app iOS (non signée)
+        run: flutter build ios --release --no-codesign
+
+      - name: Empaqueter l'IPA non signée
+        run: |
+          mkdir -p Payload
+          cp -R build/ios/iphoneos/Runner.app Payload/
+          zip -qry pixel-radius-ios-non-signee.ipa Payload
+          ls -lh pixel-radius-ios-non-signee.ipa
+
+      - name: Ajouter l'IPA à la page Releases
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: build-${{ github.run_number }}
+          files: pixel-radius-ios-non-signee.ipa
 
   deploy-web:
     needs: build
