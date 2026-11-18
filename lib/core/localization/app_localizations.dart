@@ -119,8 +119,8 @@ class AppLocalizations {
       'fr': 'Normal', 'en': 'Normal', 'de': 'Normal', 'es': 'Normal', 'zh': '普通', 'ru': 'Обычный', 'si': 'සාමාන්‍ය',
     },
     'shadowRapid': {
-      'fr': 'Rapid Fire ⚡', 'en': 'Rapid Fire ⚡', 'de': 'Rapid Fire ⚡', 'es': 'Rapid Fire ⚡',
-      'zh': '极速模式 ⚡', 'ru': 'Rapid Fire ⚡', 'si': 'Rapid Fire ⚡',
+      'fr': 'Rapid Fire', 'en': 'Rapid Fire', 'de': 'Rapid Fire', 'es': 'Rapid Fire',
+      'zh': '极速模式', 'ru': 'Rapid Fire', 'si': 'Rapid Fire',
     },
     'shadowNormalDesc': {
       'fr': 'La fresque complète dès le départ.',

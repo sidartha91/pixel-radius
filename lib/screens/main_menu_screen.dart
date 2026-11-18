@@ -526,12 +526,21 @@ class _ShadowVariantSelector extends StatelessWidget {
                 color: selected ? p.secondary : Colors.transparent,
                 borderRadius: BorderRadius.circular(12),
               ),
-              child: Text(
-                label,
-                style: TextStyle(
-                  color: selected ? Colors.white : p.onSurface,
-                  fontWeight: FontWeight.w800,
-                ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: <Widget>[
+                  if (mode == GameMode.shadowRapid) ...<Widget>[
+                    Icon(Icons.bolt_rounded, size: 18, color: selected ? Colors.white : p.secondary),
+                    const SizedBox(width: 4),
+                  ],
+                  Text(
+                    label,
+                    style: TextStyle(
+                      color: selected ? Colors.white : p.onSurface,
+                      fontWeight: FontWeight.w800,
+                    ),
+                  ),
+                ],
               ),
             ),
           ),

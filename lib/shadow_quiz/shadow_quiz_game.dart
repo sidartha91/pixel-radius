@@ -348,7 +348,8 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
           const Spacer(),
           if (widget.rapidFire && !_finished) ...<Widget>[
             _Chip(
-              text: '⚡ ${_s.hints(_revealed ? (_composition?.elementCount ?? 0) : _shown, _composition?.elementCount ?? 0)}',
+              icon: Icons.bolt_rounded,
+              text: '${_s.hints(_revealed ? (_composition?.elementCount ?? 0) : _shown, _composition?.elementCount ?? 0)}',
               color: widget.isDarkMode ? p.silhouette : p.secondary,
               background: p.surface.withValues(alpha: 0.85),
               bold: true,
@@ -585,21 +586,28 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
 // ───────────────────────── Petits widgets internes ─────────────────────────
 
 class _Chip extends StatelessWidget {
-  const _Chip({required this.text, required this.color, required this.background, this.bold = false});
+  const _Chip({required this.text, required this.color, required this.background, this.bold = false, this.icon});
 
   final String text;
   final Color color;
   final Color background;
   final bool bold;
+  final IconData? icon;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 7),
       decoration: BoxDecoration(color: background, borderRadius: BorderRadius.circular(20)),
-      child: Text(
-        text,
-        style: TextStyle(color: color, fontWeight: bold ? FontWeight.w800 : FontWeight.w600, fontSize: 13),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: <Widget>[
+          if (icon != null) ...<Widget>[Icon(icon, size: 15, color: color), const SizedBox(width: 3)],
+          Text(
+            text,
+            style: TextStyle(color: color, fontWeight: bold ? FontWeight.w800 : FontWeight.w600, fontSize: 13),
+          ),
+        ],
       ),
     );
   }
