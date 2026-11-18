@@ -101,7 +101,20 @@ class SkylineComposition {
   final GroundStyle groundStyle;
   final int groundSeed;
   final String signature;
+
+  /// Nombre d'éléments dévoilables (Rapid Fire).
+  int get elementCount => sky.length + foreground.length + monuments.length;
+
+  /// Ordre de dévoilement en Rapid Fire : du moins au plus révélateur
+  /// (ciel → scènes culturelles → monuments).
+  int revealIndex(SkylineLayer layer, int i) => switch (layer) {
+        SkylineLayer.sky => i,
+        SkylineLayer.foreground => sky.length + i,
+        SkylineLayer.monuments => sky.length + foreground.length + i,
+      };
 }
+
+enum SkylineLayer { sky, foreground, monuments }
 
 /// Assemble une fresque procédurale unique pour une ville cible.
 class SkylineComposer {
@@ -256,6 +269,7 @@ class ProceduralSkylineWidget extends StatelessWidget {
     required this.silhouetteColor,
     required this.backgroundColor,
     this.glowColor,
+    this.visibleCount,
   });
 
   final SkylineComposition composition;
@@ -264,6 +278,9 @@ class ProceduralSkylineWidget extends StatelessWidget {
   final Color silhouetteColor;
   final Color backgroundColor;
   final Color? glowColor;
+
+  /// Rapid Fire : nombre d'éléments visibles (null = tout est visible).
+  final int? visibleCount;
 
   @override
   Widget build(BuildContext context) {
@@ -291,25 +308,44 @@ class ProceduralSkylineWidget extends StatelessWidget {
 
       final children = <Widget>[];
 
+      // Apparition en fondu + léger grossissement (Rapid Fire).
+      Widget reveal(SkylineLayer layer, int i, double opacity, Widget child) {
+        final visible = visibleCount == null || composition.revealIndex(layer, i) < visibleCount!;
+        return AnimatedOpacity(
+          opacity: visible ? opacity : 0,
+          duration: const Duration(milliseconds: 450),
+          curve: Curves.easeOut,
+          child: AnimatedScale(
+            scale: visible ? 1 : 0.82,
+            alignment: Alignment.bottomCenter,
+            duration: const Duration(milliseconds: 450),
+            curve: Curves.easeOutBack,
+            child: child,
+          ),
+        );
+      }
+
       // Calque 1 — Ciel
-      for (final p in composition.sky) {
+      for (var i = 0; i < composition.sky.length; i++) {
+        final p = composition.sky[i];
         final boxH = h * 0.13 * p.scale;
         final boxW = boxH * p.aspect;
         children.add(Positioned(
           left: p.x * w - boxW / 2,
           top: p.y * h,
-          child: Opacity(opacity: 0.7, child: silhouette(p, boxH)),
+          child: reveal(SkylineLayer.sky, i, 0.7, silhouette(p, boxH)),
         ));
       }
 
       // Calque 2 — Monuments (plan moyen, légèrement translucide pour la profondeur)
-      for (final p in composition.monuments) {
+      for (var i = 0; i < composition.monuments.length; i++) {
+        final p = composition.monuments[i];
         final boxH = h * 0.66 * p.scale;
         final boxW = boxH * p.aspect;
         children.add(Positioned(
           left: p.x * w - boxW / 2,
           bottom: h - groundTop - 1,
-          child: Opacity(opacity: 0.85, child: silhouette(p, boxH)),
+          child: reveal(SkylineLayer.monuments, i, 0.85, silhouette(p, boxH)),
         ));
       }
 
@@ -325,13 +361,14 @@ class ProceduralSkylineWidget extends StatelessWidget {
       ));
 
       // Calque 3 — Premier plan
-      for (final p in composition.foreground) {
+      for (var i = 0; i < composition.foreground.length; i++) {
+        final p = composition.foreground[i];
         final boxH = h * 0.27 * p.scale;
         final boxW = boxH * p.aspect;
         children.add(Positioned(
           left: p.x * w - boxW / 2,
           bottom: h - groundTop - h * 0.02,
-          child: silhouette(p, boxH),
+          child: reveal(SkylineLayer.foreground, i, 1, silhouette(p, boxH)),
         ));
       }
 

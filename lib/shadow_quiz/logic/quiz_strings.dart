@@ -96,6 +96,12 @@ class QuizStrings {
         'si': 'ප්‍රශ්නාවලිය පූරණය කළ නොහැක.',
       });
 
+  String hints(int n, int total) => _t({
+        'fr': 'Indices $n/$total', 'en': 'Clues $n/$total', 'de': 'Hinweise $n/$total',
+        'es': 'Pistas $n/$total', 'zh': '线索 $n/$total', 'ru': 'Подсказки $n/$total',
+        'si': 'ඉඟි $n/$total',
+      });
+
   String round(int n, int total) => _t({
         'fr': 'Manche $n/$total', 'en': 'Round $n/$total', 'de': 'Runde $n/$total',
         'es': 'Ronda $n/$total', 'zh': '第 $n/$total 轮', 'ru': 'Раунд $n/$total',

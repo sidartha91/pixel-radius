@@ -61,7 +61,9 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
       screen = ClassicGameScreen(durationSeconds: settings.timerSeconds);
     } else {
       final timer = settings.timerSeconds;
+      final mode = settings.gameMode;
       screen = ShadowQuizGame(
+        rapidFire: mode == GameMode.shadowRapid,
         isDarkMode: settings.isDarkMode,
         durationSeconds: timer,
         languageCode: settings.languageCode,
@@ -73,7 +75,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
           AnswerOutcome.sameCountry => Sfx.partial,
           _ => Sfx.wrong,
         }),
-        onFinished: (score) => settings.submitScore(GameMode.shadow, timer, score),
+        onFinished: (score) => settings.submitScore(mode, timer, score),
       );
     }
     await Navigator.of(context).push(PageRouteBuilder<void>(
@@ -194,13 +196,28 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                                     icon: Icons.visibility_rounded,
                                     title: l.modeShadow,
                                     subtitle: l.modeShadowDesc,
-                                    selected: settings.gameMode == GameMode.shadow,
-                                    onTap: () => settings.setGameMode(GameMode.shadow),
+                                    selected: settings.gameMode.isShadow,
+                                    onTap: () {
+                                      if (!settings.gameMode.isShadow) settings.setGameMode(GameMode.shadow);
+                                    },
                                   ),
                                 ),
                               ],
                             ),
-                            const SizedBox(height: 26),
+                            AnimatedSize(
+                              duration: const Duration(milliseconds: 250),
+                              curve: Curves.easeOut,
+                              child: settings.gameMode.isShadow
+                                  ? Padding(
+                                      padding: const EdgeInsets.only(top: 14),
+                                      child: _ShadowVariantSelector(
+                                        value: settings.gameMode,
+                                        onChanged: settings.setGameMode,
+                                      ),
+                                    )
+                                  : const SizedBox(width: double.infinity),
+                            ),
+                            const SizedBox(height: 22),
                             _TimerSelector(
                               label: l.timer,
                               value: settings.timerSeconds,
@@ -475,6 +492,76 @@ class _ModeCard extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+}
+
+// ─────────────────────── Variante Ombre Chinoise ───────────────────────
+
+class _ShadowVariantSelector extends StatelessWidget {
+  const _ShadowVariantSelector({required this.value, required this.onChanged});
+
+  final GameMode value;
+  final ValueChanged<GameMode> onChanged;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = PixelPalette.of(context);
+    final l = AppLocalizations.of(context);
+    Widget option(GameMode mode, String label) {
+      final selected = value == mode;
+      return Expanded(
+        child: Padding(
+          padding: const EdgeInsets.all(2),
+          child: FocusableTap(
+            onTap: () => onChanged(mode),
+            selected: selected,
+            semanticLabel: label,
+            borderRadius: BorderRadius.circular(12),
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 200),
+              height: 40,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: selected ? p.secondary : Colors.transparent,
+                borderRadius: BorderRadius.circular(12),
+              ),
+              child: Text(
+                label,
+                style: TextStyle(
+                  color: selected ? Colors.white : p.onSurface,
+                  fontWeight: FontWeight.w800,
+                ),
+              ),
+            ),
+          ),
+        ),
+      );
+    }
+
+    return Column(
+      children: <Widget>[
+        Container(
+          padding: const EdgeInsets.all(4),
+          decoration: BoxDecoration(color: p.surface, borderRadius: BorderRadius.circular(16)),
+          child: Row(
+            children: <Widget>[
+              option(GameMode.shadow, l.t('shadowNormal')),
+              option(GameMode.shadowRapid, l.t('shadowRapid')),
+            ],
+          ),
+        ),
+        const SizedBox(height: 6),
+        AnimatedSwitcher(
+          duration: const Duration(milliseconds: 200),
+          child: Text(
+            l.t(value == GameMode.shadowRapid ? 'shadowRapidDesc' : 'shadowNormalDesc'),
+            key: ValueKey<GameMode>(value),
+            textAlign: TextAlign.center,
+            style: TextStyle(color: p.muted, fontSize: 12),
+          ),
+        ),
+      ],
     );
   }
 }

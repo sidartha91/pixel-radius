@@ -115,6 +115,31 @@ class AppLocalizations {
       'zh': '文化剪影问答', 'ru': 'Квиз культурных панорам',
       'si': 'සංස්කෘතික සෙවණැලි ප්‍රශ්න',
     },
+    'shadowNormal': {
+      'fr': 'Normal', 'en': 'Normal', 'de': 'Normal', 'es': 'Normal', 'zh': '普通', 'ru': 'Обычный', 'si': 'සාමාන්‍ය',
+    },
+    'shadowRapid': {
+      'fr': 'Rapid Fire ⚡', 'en': 'Rapid Fire ⚡', 'de': 'Rapid Fire ⚡', 'es': 'Rapid Fire ⚡',
+      'zh': '极速模式 ⚡', 'ru': 'Rapid Fire ⚡', 'si': 'Rapid Fire ⚡',
+    },
+    'shadowNormalDesc': {
+      'fr': 'La fresque complète dès le départ.',
+      'en': 'The full skyline from the start.',
+      'de': 'Das ganze Panorama von Anfang an.',
+      'es': 'El fresco completo desde el inicio.',
+      'zh': '一开始就显示完整剪影。',
+      'ru': 'Вся панорама сразу.',
+      'si': 'මුල සිටම සම්පූර්ණ සෙවණැලි චිත්‍රය.',
+    },
+    'shadowRapidDesc': {
+      'fr': 'Les ombres apparaissent une à une : trouvez au plus vite, bonus ×2 !',
+      'en': 'Shadows appear one by one: guess as fast as you can, bonus ×2!',
+      'de': 'Die Schatten erscheinen nach und nach: schnell raten, Bonus ×2!',
+      'es': 'Las sombras aparecen una a una: ¡adivina rápido, bonus ×2!',
+      'zh': '剪影逐一出现：越快猜中，奖励×2！',
+      'ru': 'Тени появляются по одной: угадайте быстрее, бонус ×2!',
+      'si': 'සෙවණැලි එකින් එක දිස් වේ: ඉක්මනින් සොයන්න, ප්‍රසාද ×2!',
+    },
     'timer': {
       'fr': 'Chrono', 'en': 'Timer', 'de': 'Zeit',
       'es': 'Tiempo', 'zh': '计时', 'ru': 'Таймер',

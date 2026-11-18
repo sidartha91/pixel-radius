@@ -3,7 +3,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../localization/app_localizations.dart';
 
-enum GameMode { classic, shadow }
+enum GameMode {
+  classic,
+  shadow,
+
+  /// Ombre Chinoise « Rapid Fire » : la fresque se dévoile élément par élément.
+  shadowRapid;
+
+  bool get isShadow => this == GameMode.shadow || this == GameMode.shadowRapid;
+}
 
 /// Préférences persistées : thème, langue, timer, mode, meilleurs scores.
 class AppSettings extends ChangeNotifier {
@@ -31,7 +39,8 @@ class AppSettings extends ChangeNotifier {
     settings._languageCode = prefs.getString(_kLang) ?? _deviceLanguage();
     final storedTimer = prefs.getInt(_kTimer) ?? 20;
     settings._timerSeconds = timerOptions.contains(storedTimer) ? storedTimer : 20;
-    settings._gameMode = (prefs.getString(_kMode) ?? 'classic') == 'shadow' ? GameMode.shadow : GameMode.classic;
+    final storedMode = prefs.getString(_kMode) ?? 'classic';
+    settings._gameMode = GameMode.values.firstWhere((m) => m.name == storedMode, orElse: () => GameMode.classic);
     return settings;
   }
 
@@ -71,7 +80,7 @@ class AppSettings extends ChangeNotifier {
     if (mode == _gameMode) return;
     _gameMode = mode;
     notifyListeners();
-    await _prefs.setString(_kMode, mode == GameMode.shadow ? 'shadow' : 'classic');
+    await _prefs.setString(_kMode, mode.name);
   }
 
   String _bestKey(GameMode mode, int timer) => '$_kBestPrefix${mode.name}.$timer';

@@ -24,6 +24,7 @@ class ShadowQuizGame extends StatefulWidget {
     required this.durationSeconds,
     required this.languageCode,
     this.rounds = 10,
+    this.rapidFire = false,
     this.catalogAssetPath = 'assets/data/capitals_catalog.json',
     this.allowedCityIds,
     this.onAnswer,
@@ -35,6 +36,10 @@ class ShadowQuizGame extends StatefulWidget {
   final int durationSeconds;
   final String languageCode;
   final int rounds;
+
+  /// Variante « Rapid Fire » : les silhouettes apparaissent une à une pendant
+  /// le chrono ; le bonus vitesse est doublé.
+  final bool rapidFire;
   final String catalogAssetPath;
 
   /// Villes cibles autorisées (ex. offre gratuite). `null` = toutes.
@@ -107,6 +112,9 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
   String? _selectedKey;
   ScoreResult? _result;
 
+  /// Rapid Fire : nombre d'éléments de la fresque déjà dévoilés.
+  int _shown = 0;
+
   int _total = 0;
   int _exactCount = 0;
   int _partialCount = 0;
@@ -172,13 +180,27 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
       _selectedKey = null;
       _result = null;
       _remainingMs = widget.durationSeconds * 1000;
+      _shown = 1;
     });
     _ticker?.cancel();
     _ticker = Timer.periodic(const Duration(milliseconds: 100), (_) {
       if (!mounted || _revealed) return;
-      setState(() => _remainingMs -= 100);
+      setState(() {
+        _remainingMs -= 100;
+        if (widget.rapidFire) _shown = _revealTarget();
+      });
       if (_remainingMs <= 0) _answer(null);
     });
+  }
+
+  /// Tout est dévoilé aux deux tiers du chrono, à intervalles réguliers.
+  int _revealTarget() {
+    final total = _composition?.elementCount ?? 0;
+    if (total == 0) return 0;
+    final durationMs = widget.durationSeconds * 1000;
+    final elapsed = durationMs - _remainingMs;
+    final interval = durationMs * (2 / 3) / total;
+    return math.min(total, 1 + (elapsed / interval).floor());
   }
 
   void _answer(QuizOption? option) {
@@ -191,6 +213,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
       targetCityId: target.id,
       targetCountryCode: target.countryCode,
       secondsRemaining: (math.max(0, _remainingMs) / 1000).ceil(),
+      rapidFire: widget.rapidFire,
     );
     setState(() {
       _revealed = true;
@@ -295,6 +318,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
                   silhouetteColor: p.silhouette,
                   backgroundColor: p.background,
                   glowColor: p.secondary,
+                  visibleCount: widget.rapidFire && !_revealed ? _shown : null,
                 ),
               ),
               SafeArea(bottom: false, child: _buildTopBar()),
@@ -322,6 +346,15 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
         children: <Widget>[
           _IconAction(icon: Icons.arrow_back_rounded, color: p.text, background: p.surface, onPressed: _exit),
           const Spacer(),
+          if (widget.rapidFire && !_finished) ...<Widget>[
+            _Chip(
+              text: '⚡ ${_s.hints(_revealed ? (_composition?.elementCount ?? 0) : _shown, _composition?.elementCount ?? 0)}',
+              color: widget.isDarkMode ? p.silhouette : p.secondary,
+              background: p.surface.withValues(alpha: 0.85),
+              bold: true,
+            ),
+            const SizedBox(width: 8),
+          ],
           _Chip(
             text: _s.round(math.min(_roundIndex + 1, _targets.length), _targets.length),
             color: p.text,

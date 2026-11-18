@@ -25,6 +25,14 @@ void main() {
       expect(r.total, 1000 + 12 * 20);
     });
 
+    test('Rapid Fire : capitale exacte = 1000 + temps_restant * 40', () {
+      final r = ScoreCalculator.evaluate(
+        selectedCityId: 'colombo', selectedCountryCode: 'LK',
+        targetCityId: 'colombo', targetCountryCode: 'LK', secondsRemaining: 12, rapidFire: true,
+      );
+      expect(r.total, 1000 + 12 * 40);
+    });
+
     test('bon pays, ville secondaire = 350 fixes', () {
       final r = ScoreCalculator.evaluate(
         selectedCityId: 'colombo#alt0', selectedCountryCode: 'LK',

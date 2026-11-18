@@ -32,7 +32,7 @@ class ScoreResult {
 
 /// Double scoring du mode Ombre Chinoise.
 ///
-/// - Capitale exacte : 1000 pts + bonus rapidité (`temps_restant * 20`).
+/// - Capitale exacte : 1000 pts + bonus rapidité (`temps_restant * 20`, ×40 en Rapid Fire).
 /// - Bon pays, autre ville : 350 pts fixes, sans bonus temps.
 /// - Mauvais pays / temps écoulé : 0 pt.
 class ScoreCalculator {
@@ -40,6 +40,9 @@ class ScoreCalculator {
 
   static const int exactPoints = 1000;
   static const int speedBonusPerSecond = 20;
+
+  /// Rapid Fire : bonus vitesse doublé (répondre avant que tout soit dévoilé).
+  static const int rapidFireBonusPerSecond = 40;
   static const int sameCountryPoints = 350;
 
   static ScoreResult evaluate({
@@ -48,6 +51,7 @@ class ScoreCalculator {
     required String targetCityId,
     required String targetCountryCode,
     required int secondsRemaining,
+    bool rapidFire = false,
   }) {
     if (selectedCityId == null || selectedCountryCode == null) {
       return const ScoreResult(outcome: AnswerOutcome.timeout, basePoints: 0, speedBonus: 0);
@@ -57,7 +61,7 @@ class ScoreCalculator {
       return ScoreResult(
         outcome: AnswerOutcome.exact,
         basePoints: exactPoints,
-        speedBonus: remaining * speedBonusPerSecond,
+        speedBonus: remaining * (rapidFire ? rapidFireBonusPerSecond : speedBonusPerSecond),
       );
     }
     if (selectedCountryCode == targetCountryCode) {
