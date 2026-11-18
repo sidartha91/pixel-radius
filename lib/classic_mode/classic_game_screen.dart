@@ -14,6 +14,7 @@ import '../core/models/capital_model.dart';
 import '../core/settings/app_settings.dart';
 import '../core/theme/app_theme.dart';
 import '../core/widgets/focusable_tap.dart';
+import '../core/services/anecdote_service.dart';
 import 'night_lights_layer.dart';
 import 'world_map_layer.dart';
 
@@ -61,6 +62,9 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
   LatLng? _guess;
   double? _distanceKm;
   int _roundPoints = 0;
+
+  /// Anecdote « Le saviez-vous ? » affichée après validation.
+  String? _anecdote;
   int _total = 0;
   bool _finished = false;
   bool _newRecord = false;
@@ -100,6 +104,7 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
       _guess = null;
       _distanceKm = null;
       _roundPoints = 0;
+      _anecdote = null;
       _remainingMs = widget.durationSeconds * 1000;
     });
     _mapController.move(_worldCenter, 1.8);
@@ -141,11 +146,18 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
 
     audio.playSfx(points >= 700 ? Sfx.correct : (points >= 250 ? Sfx.partial : Sfx.wrong));
 
+    // Anecdote inédite sur la capitale / le pays.
+    final targetId = _target.id;
+    final lang = AppScope.of(context).settings.languageCode;
+    AnecdoteService.instance().then((svc) => svc.next(targetId, lang)).then((text) {
+      if (mounted && !_isGuessing && _target.id == targetId) setState(() => _anecdote = text);
+    }).catchError((Object e) => debugPrint('[Anecdote] $e'));
+
     // Cadre la carte sur le clic du joueur et la vraie capitale.
     if (_guess != null) {
       _mapController.fitCamera(CameraFit.coordinates(
         coordinates: <LatLng>[_guess!, target],
-        padding: const EdgeInsets.fromLTRB(60, 200, 60, 230),
+        padding: const EdgeInsets.fromLTRB(60, 200, 60, 360),
         maxZoom: 7,
       ));
     } else {
@@ -546,7 +558,13 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
           borderRadius: BorderRadius.circular(20),
           boxShadow: <BoxShadow>[BoxShadow(color: Colors.black.withValues(alpha: 0.25), blurRadius: 16)],
         ),
-        child: content,
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: <Widget>[
+            if (!_isGuessing && _anecdote != null) _AnecdoteBanner(text: _anecdote!, title: l.t('didYouKnow')),
+            content,
+          ],
+        ),
       ),
     );
   }
@@ -600,6 +618,61 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
               ),
             ),
           ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Bandeau « Le saviez-vous ? » sous la carte, après validation.
+class _AnecdoteBanner extends StatelessWidget {
+  const _AnecdoteBanner({required this.text, required this.title});
+
+  final String text;
+  final String title;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = PixelPalette.of(context);
+    return TweenAnimationBuilder<double>(
+      tween: Tween<double>(begin: 0, end: 1),
+      duration: const Duration(milliseconds: 420),
+      curve: Curves.easeOutCubic,
+      builder: (context, t, child) => Opacity(
+        opacity: t,
+        child: Transform.translate(offset: Offset(0, (1 - t) * 12), child: child),
+      ),
+      child: Container(
+        width: double.infinity,
+        margin: const EdgeInsets.only(bottom: 10),
+        padding: const EdgeInsets.fromLTRB(12, 10, 12, 10),
+        decoration: BoxDecoration(
+          color: p.accent.withValues(alpha: 0.10),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: p.accent.withValues(alpha: 0.35)),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Icon(Icons.lightbulb_rounded, color: p.accent, size: 22),
+            const SizedBox(width: 10),
+            Expanded(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxHeight: 120),
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Text(title.toUpperCase(),
+                          style: TextStyle(color: p.accent, fontWeight: FontWeight.w800, fontSize: 11, letterSpacing: 1.4)),
+                      const SizedBox(height: 3),
+                      Text(text, style: TextStyle(color: p.onSurface, fontSize: 13.5, height: 1.35)),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ],
         ),
       ),
     );

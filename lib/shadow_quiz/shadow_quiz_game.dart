@@ -30,6 +30,7 @@ class ShadowQuizGame extends StatefulWidget {
     this.onAnswer,
     this.onFinished,
     this.onExit,
+    this.anecdoteProvider,
   });
 
   final bool isDarkMode;
@@ -53,6 +54,9 @@ class ShadowQuizGame extends StatefulWidget {
 
   /// Sortie du jeu ; par défaut `Navigator.maybePop`.
   final VoidCallback? onExit;
+
+  /// Fournit une anecdote « Le saviez-vous ? » pour la ville cible (optionnel).
+  final Future<String?> Function(String cityId)? anecdoteProvider;
 
   @override
   State<ShadowQuizGame> createState() => _ShadowQuizGameState();
@@ -109,6 +113,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
   Timer? _ticker;
   int _remainingMs = 0;
   bool _revealed = false;
+  String? _anecdote;
   String? _selectedKey;
   ScoreResult? _result;
 
@@ -177,6 +182,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
       _round = round;
       _composition = _composer!.compose(target, _random);
       _revealed = false;
+      _anecdote = null;
       _selectedKey = null;
       _result = null;
       _remainingMs = widget.durationSeconds * 1000;
@@ -224,6 +230,16 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
       if (result.isPartial) _partialCount++;
     });
     widget.onAnswer?.call(result);
+
+    final provider = widget.anecdoteProvider;
+    if (provider != null) {
+      final cityId = target.id;
+      provider(cityId).then((text) {
+        if (mounted && _revealed && _round?.target.id == cityId) setState(() => _anecdote = text);
+      }).catchError((Object e) {
+        debugPrint('[ShadowQuiz] anecdote : $e');
+      });
+    }
   }
 
   Future<void> _next() async {
@@ -377,6 +393,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
     return Column(
       children: <Widget>[
         _revealed ? _buildResultRow() : _buildTimerRow(),
+        if (_revealed && _anecdote != null) _buildAnecdote(_anecdote!),
         const SizedBox(height: 10),
         Expanded(child: _buildGrid()),
       ],
@@ -480,6 +497,50 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
             autofocus: true,
           ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildAnecdote(String text) {
+    final p = _p;
+    final accent = widget.isDarkMode ? p.silhouette : p.secondary;
+    return TweenAnimationBuilder<double>(
+      tween: Tween<double>(begin: 0, end: 1),
+      duration: const Duration(milliseconds: 420),
+      curve: Curves.easeOutCubic,
+      builder: (context, t, child) => Opacity(opacity: t, child: child),
+      child: Container(
+        width: double.infinity,
+        margin: const EdgeInsets.only(top: 8),
+        padding: const EdgeInsets.fromLTRB(12, 9, 12, 9),
+        decoration: BoxDecoration(
+          color: accent.withValues(alpha: 0.10),
+          borderRadius: BorderRadius.circular(14),
+          border: Border.all(color: accent.withValues(alpha: 0.35)),
+        ),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Icon(Icons.lightbulb_rounded, color: accent, size: 20),
+            const SizedBox(width: 8),
+            Expanded(
+              child: ConstrainedBox(
+                constraints: const BoxConstraints(maxHeight: 96),
+                child: SingleChildScrollView(
+                  child: Text.rich(
+                    TextSpan(children: <InlineSpan>[
+                      TextSpan(
+                        text: '${_s.didYouKnow}  ',
+                        style: TextStyle(color: accent, fontWeight: FontWeight.w800, fontSize: 12.5),
+                      ),
+                      TextSpan(text: text, style: TextStyle(color: p.text, fontSize: 13, height: 1.35)),
+                    ]),
+                  ),
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

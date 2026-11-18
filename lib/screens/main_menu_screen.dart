@@ -7,6 +7,7 @@ import '../core/app_scope.dart';
 import '../core/audio/audio_manager.dart';
 import '../core/localization/app_localizations.dart';
 import '../core/monetization/purchase_manager.dart';
+import '../core/services/anecdote_service.dart';
 import '../core/settings/app_settings.dart';
 import '../core/theme/app_theme.dart';
 import '../core/widgets/focusable_tap.dart';
@@ -76,6 +77,8 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
           _ => Sfx.wrong,
         }),
         onFinished: (score) => settings.submitScore(mode, timer, score),
+        anecdoteProvider: (cityId) =>
+            AnecdoteService.instance().then((svc) => svc.next(cityId, settings.languageCode)),
       );
     }
     await Navigator.of(context).push(PageRouteBuilder<void>(

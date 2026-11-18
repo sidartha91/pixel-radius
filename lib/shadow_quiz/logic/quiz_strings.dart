@@ -96,6 +96,11 @@ class QuizStrings {
         'si': 'ප්‍රශ්නාවලිය පූරණය කළ නොහැක.',
       });
 
+  String get didYouKnow => _t(const {
+        'fr': 'Le saviez-vous ?', 'en': 'Did you know?', 'de': 'Schon gewusst?', 'es': '¿Sabías que…?',
+        'zh': '你知道吗？', 'ru': 'А вы знали?', 'si': 'ඔබ දැන සිටියාද?',
+      });
+
   String hints(int n, int total) => _t({
         'fr': 'Indices $n/$total', 'en': 'Clues $n/$total', 'de': 'Hinweise $n/$total',
         'es': 'Pistas $n/$total', 'zh': '线索 $n/$total', 'ru': 'Подсказки $n/$total',

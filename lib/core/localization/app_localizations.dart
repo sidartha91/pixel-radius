@@ -140,6 +140,10 @@ class AppLocalizations {
       'ru': 'Тени появляются по одной: угадайте быстрее, бонус ×2!',
       'si': 'සෙවණැලි එකින් එක දිස් වේ: ඉක්මනින් සොයන්න, ප්‍රසාද ×2!',
     },
+    'didYouKnow': {
+      'fr': 'Le saviez-vous ?', 'en': 'Did you know?', 'de': 'Schon gewusst?', 'es': '¿Sabías que…?',
+      'zh': '你知道吗？', 'ru': 'А вы знали?', 'si': 'ඔබ දැන සිටියාද?',
+    },
     'timer': {
       'fr': 'Chrono', 'en': 'Timer', 'de': 'Zeit',
       'es': 'Tiempo', 'zh': '计时', 'ru': 'Таймер',

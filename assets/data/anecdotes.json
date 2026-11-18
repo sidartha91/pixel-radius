@@ -1,0 +1,2910 @@
+{
+ "version": 1,
+ "note": "Anecdotes Pixel Radius (fr/en ; autres langues : repli anglais)",
+ "anecdotes": {
+  "colombo": [
+   {
+    "fr": "Le nom de Colombo viendrait du cinghalais « Kolon thota », le port sur la rivière Kelani ; les Portugais l'ont rapproché du nom de Christophe Colomb.",
+    "en": "Colombo's name is thought to come from the Sinhala 'Kolon thota', the port on the Kelani River; the Portuguese linked it to Christopher Columbus."
+   },
+   {
+    "fr": "La Lotus Tower de Colombo, haute de 350 m, est la plus haute structure autoportante d'Asie du Sud.",
+    "en": "Colombo's Lotus Tower, 350 m tall, is the tallest self-supported structure in South Asia."
+   },
+   {
+    "fr": "Le Sri Lanka a élu en 1960 la première femme Première ministre au monde : Sirimavo Bandaranaike.",
+    "en": "In 1960 Sri Lanka elected the world's first female prime minister, Sirimavo Bandaranaike."
+   },
+   {
+    "fr": "Le Sri Lanka est l'un des plus grands exportateurs de thé au monde ; le « thé de Ceylan » porte l'ancien nom de l'île.",
+    "en": "Sri Lanka is one of the world's largest tea exporters; 'Ceylon tea' carries the island's former name."
+   },
+   {
+    "fr": "Les pêcheurs sur échasses de la côte sud du Sri Lanka pêchent perchés sur un simple poteau planté dans la mer.",
+    "en": "The stilt fishermen of Sri Lanka's south coast fish while perched on a single pole driven into the sea."
+   }
+  ],
+  "paris": [
+   {
+    "fr": "La tour Eiffel devait être démontée après 20 ans ; elle a été sauvée grâce à son utilité pour la radio et la télégraphie.",
+    "en": "The Eiffel Tower was meant to be dismantled after 20 years; it was saved because it was useful for radio and telegraphy."
+   },
+   {
+    "fr": "En été, la tour Eiffel peut grandir d'une quinzaine de centimètres sous l'effet de la dilatation du métal.",
+    "en": "In summer the Eiffel Tower can grow by around 15 cm as its iron expands in the heat."
+   },
+   {
+    "fr": "Le Louvre est le musée le plus visité au monde, avec près de 9 millions de visiteurs par an.",
+    "en": "The Louvre is the most visited museum in the world, with close to 9 million visitors a year."
+   },
+   {
+    "fr": "Paris compte 37 ponts qui enjambent la Seine ; le plus ancien encore debout est, paradoxalement, le Pont Neuf.",
+    "en": "Paris has 37 bridges across the Seine; the oldest one still standing is, paradoxically, the Pont Neuf ('New Bridge')."
+   },
+   {
+    "fr": "La France est le pays le plus visité au monde, avec près de 100 millions de touristes étrangers par an.",
+    "en": "France is the most visited country in the world, with nearly 100 million foreign tourists a year."
+   }
+  ],
+  "fes": [
+   {
+    "fr": "L'université Al Quaraouiyine de Fès, fondée en 859 par Fatima al-Fihri, est considérée comme la plus ancienne université encore en activité.",
+    "en": "Fez's University of al-Qarawiyyin, founded in 859 by Fatima al-Fihri, is considered the oldest university still operating."
+   },
+   {
+    "fr": "La médina de Fès el-Bali est l'une des plus grandes zones urbaines sans voitures au monde : on y circule à pied ou à dos d'âne.",
+    "en": "The Fes el-Bali medina is one of the largest car-free urban areas in the world: people get around on foot or by donkey."
+   },
+   {
+    "fr": "Le fez, ce chapeau rouge en feutre, tire son nom de la ville de Fès.",
+    "en": "The fez, the red felt hat, takes its name from the city of Fez."
+   },
+   {
+    "fr": "Les tanneries Chouara de Fès travaillent le cuir avec des méthodes quasi inchangées depuis le Moyen Âge.",
+    "en": "Fez's Chouara tanneries process leather with methods that have barely changed since the Middle Ages."
+   },
+   {
+    "fr": "La capitale administrative du Maroc est Rabat, mais Fès est souvent appelée la capitale spirituelle du pays.",
+    "en": "Morocco's administrative capital is Rabat, but Fez is often called the country's spiritual capital."
+   }
+  ],
+  "tokyo": [
+   {
+    "fr": "Avec plus de 37 millions d'habitants, l'agglomération de Tokyo est la plus peuplée du monde.",
+    "en": "With more than 37 million people, Greater Tokyo is the most populous metropolitan area in the world."
+   },
+   {
+    "fr": "La gare de Shinjuku voit passer environ 3 millions de voyageurs par jour, un record mondial.",
+    "en": "Shinjuku Station handles about 3 million passengers a day, a world record."
+   },
+   {
+    "fr": "Tokyo s'appelait Edo jusqu'en 1868 ; son nom signifie « capitale de l'Est ».",
+    "en": "Tokyo was called Edo until 1868; its name means 'Eastern Capital'."
+   },
+   {
+    "fr": "Le Japon compte plus de 6 800 îles, mais quatre principales concentrent l'essentiel de la population.",
+    "en": "Japan is made up of more than 6,800 islands, but four main ones hold most of the population."
+   },
+   {
+    "fr": "Les Shinkansen japonais affichent un retard moyen de moins d'une minute par train.",
+    "en": "Japan's Shinkansen bullet trains average delays of under one minute per train."
+   }
+  ],
+  "london": [
+   {
+    "fr": "Big Ben n'est pas le nom de la tour mais celui de la grande cloche ; la tour s'appelle Elizabeth Tower depuis 2012.",
+    "en": "Big Ben is the name of the great bell, not the tower; the tower has been called the Elizabeth Tower since 2012."
+   },
+   {
+    "fr": "Le métro de Londres, ouvert en 1863, est le plus ancien du monde.",
+    "en": "The London Underground, opened in 1863, is the oldest metro system in the world."
+   },
+   {
+    "fr": "Plus de 300 langues sont parlées à Londres, l'une des villes les plus diverses au monde.",
+    "en": "More than 300 languages are spoken in London, one of the most diverse cities in the world."
+   },
+   {
+    "fr": "Les chauffeurs de black cab doivent réussir « The Knowledge », un examen sur environ 25 000 rues de Londres.",
+    "en": "Black cab drivers must pass 'The Knowledge', an exam covering some 25,000 London streets."
+   },
+   {
+    "fr": "Au Royaume-Uni, on roule à gauche : une tradition souvent rattachée à l'époque où les cavaliers gardaient l'épée à droite.",
+    "en": "In the UK people drive on the left, a custom often traced back to riders keeping their sword hand on the right."
+   }
+  ],
+  "rome": [
+   {
+    "fr": "Le Vatican, plus petit État du monde, est entièrement enclavé dans Rome.",
+    "en": "Vatican City, the smallest country in the world, lies entirely within Rome."
+   },
+   {
+    "fr": "Environ un million d'euros de pièces sont jetés chaque année dans la fontaine de Trevi ; ils sont reversés à une œuvre caritative.",
+    "en": "Around one million euros in coins is thrown into the Trevi Fountain each year; the money goes to charity."
+   },
+   {
+    "fr": "La coupole du Panthéon, construite il y a près de 1 900 ans, reste la plus grande coupole en béton non armé du monde.",
+    "en": "The Pantheon's dome, built nearly 1,900 years ago, is still the world's largest unreinforced concrete dome."
+   },
+   {
+    "fr": "Le Colisée pouvait accueillir environ 50 000 spectateurs.",
+    "en": "The Colosseum could hold around 50,000 spectators."
+   },
+   {
+    "fr": "L'Italie compte plus de sites inscrits au patrimoine mondial de l'UNESCO que presque tout autre pays.",
+    "en": "Italy has more UNESCO World Heritage Sites than almost any other country."
+   }
+  ],
+  "new_york": [
+   {
+    "fr": "La capitale fédérale des États-Unis est Washington, mais New York a été la première capitale du pays, de 1789 à 1790.",
+    "en": "The US capital is Washington, but New York was the nation's first capital, from 1789 to 1790."
+   },
+   {
+    "fr": "La statue de la Liberté a été offerte par la France en 1886 ; sa structure interne a été conçue par Gustave Eiffel.",
+    "en": "The Statue of Liberty was a gift from France in 1886; its internal structure was designed by Gustave Eiffel."
+   },
+   {
+    "fr": "Plus de 800 langues seraient parlées à New York, ce qui en fait la ville la plus diverse linguistiquement du monde.",
+    "en": "More than 800 languages are said to be spoken in New York, making it the most linguistically diverse city in the world."
+   },
+   {
+    "fr": "Central Park est plus grand que la principauté de Monaco.",
+    "en": "Central Park is larger than the Principality of Monaco."
+   },
+   {
+    "fr": "Le surnom « Big Apple » a été popularisé dans les années 1920 par un journaliste spécialiste des courses hippiques.",
+    "en": "The nickname 'Big Apple' was popularised in the 1920s by a horse-racing journalist."
+   }
+  ],
+  "cairo": [
+   {
+    "fr": "La Grande Pyramide de Gizeh est la seule des sept merveilles du monde antique encore debout.",
+    "en": "The Great Pyramid of Giza is the only one of the Seven Wonders of the Ancient World still standing."
+   },
+   {
+    "fr": "Le Caire est surnommé « la ville aux mille minarets ».",
+    "en": "Cairo is nicknamed 'the city of a thousand minarets'."
+   },
+   {
+    "fr": "Le Nil, qui traverse Le Caire, est l'un des deux plus longs fleuves du monde avec l'Amazone.",
+    "en": "The Nile, which flows through Cairo, is one of the two longest rivers in the world, alongside the Amazon."
+   },
+   {
+    "fr": "Plus de 95 % des Égyptiens vivent sur moins de 5 % du territoire, le long du Nil et de son delta.",
+    "en": "More than 95% of Egyptians live on less than 5% of the land, along the Nile and its delta."
+   },
+   {
+    "fr": "L'université Al-Azhar du Caire, fondée en 970, est l'une des plus anciennes du monde.",
+    "en": "Cairo's Al-Azhar University, founded in 970, is one of the oldest universities in the world."
+   }
+  ],
+  "bangkok": [
+   {
+    "fr": "Le nom cérémoniel complet de Bangkok compte 168 lettres : c'est le plus long nom de ville au monde.",
+    "en": "Bangkok's full ceremonial name has 168 letters, the longest city name in the world."
+   },
+   {
+    "fr": "Les Thaïlandais appellent leur capitale « Krung Thep », la « cité des anges ».",
+    "en": "Thais call their capital 'Krung Thep', the 'City of Angels'."
+   },
+   {
+    "fr": "La Thaïlande est le seul pays d'Asie du Sud-Est à n'avoir jamais été colonisé par une puissance européenne.",
+    "en": "Thailand is the only Southeast Asian country never colonised by a European power."
+   },
+   {
+    "fr": "Le Wat Arun, le « temple de l'Aube », est décoré de milliers de fragments de porcelaine colorée.",
+    "en": "Wat Arun, the 'Temple of Dawn', is decorated with thousands of fragments of coloured porcelain."
+   },
+   {
+    "fr": "L'éléphant est l'animal national de la Thaïlande.",
+    "en": "The elephant is Thailand's national animal."
+   }
+  ],
+  "mexico_city": [
+   {
+    "fr": "Mexico est bâtie sur l'ancien lac Texcoco, là où se dressait Tenochtitlan, la capitale aztèque.",
+    "en": "Mexico City is built on former Lake Texcoco, where the Aztec capital Tenochtitlan once stood."
+   },
+   {
+    "fr": "Construite sur un sol lacustre, Mexico s'enfonce de plusieurs centimètres par an dans certains quartiers.",
+    "en": "Built on lake-bed soil, Mexico City is sinking by several centimetres a year in some districts."
+   },
+   {
+    "fr": "Mexico compte parmi les villes qui ont le plus de musées au monde.",
+    "en": "Mexico City has one of the highest numbers of museums of any city in the world."
+   },
+   {
+    "fr": "Le chocolat, les tomates, la vanille et le maïs sont originaires du Mexique.",
+    "en": "Chocolate, tomatoes, vanilla and corn all originated in Mexico."
+   },
+   {
+    "fr": "Le Mexique est le pays qui compte le plus d'hispanophones au monde.",
+    "en": "Mexico is the country with the largest number of Spanish speakers in the world."
+   }
+  ],
+  "seoul": [
+   {
+    "fr": "Environ la moitié des Sud-Coréens vit dans l'agglomération de Séoul.",
+    "en": "About half of all South Koreans live in the Seoul metropolitan area."
+   },
+   {
+    "fr": "Séoul est la capitale de la péninsule coréenne depuis plus de 600 ans, depuis la dynastie Joseon.",
+    "en": "Seoul has been a Korean capital for more than 600 years, since the Joseon dynasty."
+   },
+   {
+    "fr": "L'alphabet coréen, le hangeul, a été créé au XVe siècle sous le roi Sejong le Grand.",
+    "en": "The Korean alphabet, Hangul, was created in the 15th century under King Sejong the Great."
+   },
+   {
+    "fr": "La Lotte World Tower de Séoul, haute de 555 m, est l'un des plus hauts gratte-ciel du monde.",
+    "en": "Seoul's Lotte World Tower, 555 m tall, is one of the tallest skyscrapers in the world."
+   },
+   {
+    "fr": "La Corée du Sud possède l'un des réseaux Internet les plus rapides de la planète.",
+    "en": "South Korea has one of the fastest internet networks on the planet."
+   }
+  ],
+  "istanbul": [
+   {
+    "fr": "Istanbul est la seule grande métropole à cheval sur deux continents, l'Europe et l'Asie, de part et d'autre du Bosphore.",
+    "en": "Istanbul is the only major city that straddles two continents, Europe and Asia, on either side of the Bosphorus."
+   },
+   {
+    "fr": "La capitale de la Turquie est Ankara, mais Istanbul en reste la plus grande ville.",
+    "en": "Turkey's capital is Ankara, but Istanbul remains its largest city."
+   },
+   {
+    "fr": "Le Grand Bazar d'Istanbul, avec plus de 4 000 boutiques, est l'un des plus anciens marchés couverts du monde.",
+    "en": "Istanbul's Grand Bazaar, with more than 4,000 shops, is one of the oldest covered markets in the world."
+   },
+   {
+    "fr": "Istanbul a porté les noms de Byzance puis de Constantinople.",
+    "en": "Istanbul was previously known as Byzantium and then Constantinople."
+   },
+   {
+    "fr": "Sainte-Sophie a été successivement basilique, mosquée, musée, puis de nouveau mosquée.",
+    "en": "Hagia Sophia has been a basilica, a mosque, a museum and a mosque again."
+   }
+  ],
+  "buenos_aires": [
+   {
+    "fr": "Le tango est né à la fin du XIXe siècle dans les quartiers populaires de Buenos Aires et de Montevideo.",
+    "en": "Tango was born in the late 19th century in the working-class districts of Buenos Aires and Montevideo."
+   },
+   {
+    "fr": "L'avenue du 9-Juillet de Buenos Aires est l'une des plus larges du monde.",
+    "en": "Buenos Aires' 9 de Julio Avenue is one of the widest avenues in the world."
+   },
+   {
+    "fr": "Les habitants de Buenos Aires sont appelés les « porteños », les gens du port.",
+    "en": "Buenos Aires residents are called 'porteños', the people of the port."
+   },
+   {
+    "fr": "Buenos Aires compte un très grand nombre de librairies par habitant.",
+    "en": "Buenos Aires has one of the highest numbers of bookshops per inhabitant in the world."
+   },
+   {
+    "fr": "Le maté, infusion partagée dans une calebasse, est la boisson nationale argentine.",
+    "en": "Mate, an infusion shared from a gourd, is Argentina's national drink."
+   }
+  ],
+  "nairobi": [
+   {
+    "fr": "Nairobi abrite un parc national avec lions et girafes à seulement quelques kilomètres de ses gratte-ciel.",
+    "en": "Nairobi has a national park with lions and giraffes just a few kilometres from its skyscrapers."
+   },
+   {
+    "fr": "Le nom Nairobi vient de l'expression masaï « Enkare Nyrobi », « l'eau fraîche ».",
+    "en": "The name Nairobi comes from the Maasai phrase 'Enkare Nyrobi', meaning 'cool water'."
+   },
+   {
+    "fr": "Le Kenya est célèbre pour ses coureurs de fond, qui dominent le marathon depuis des décennies.",
+    "en": "Kenya is famous for its distance runners, who have dominated the marathon for decades."
+   }
+  ],
+  "abidjan": [
+   {
+    "fr": "La capitale officielle de la Côte d'Ivoire est Yamoussoukro, mais Abidjan reste son cœur économique.",
+    "en": "Côte d'Ivoire's official capital is Yamoussoukro, but Abidjan remains its economic heart."
+   },
+   {
+    "fr": "La Côte d'Ivoire est le premier producteur mondial de cacao.",
+    "en": "Côte d'Ivoire is the world's largest cocoa producer."
+   },
+   {
+    "fr": "La basilique Notre-Dame-de-la-Paix de Yamoussoukro est l'une des plus grandes églises du monde.",
+    "en": "The Basilica of Our Lady of Peace in Yamoussoukro is one of the largest churches in the world."
+   }
+  ],
+  "dar_es_salaam": [
+   {
+    "fr": "Dar es Salam signifie « havre de paix » en arabe.",
+    "en": "Dar es Salaam means 'haven of peace' in Arabic."
+   },
+   {
+    "fr": "La capitale officielle de la Tanzanie est Dodoma, mais Dar es Salam reste sa plus grande ville.",
+    "en": "Tanzania's official capital is Dodoma, but Dar es Salaam remains its largest city."
+   },
+   {
+    "fr": "Le Kilimandjaro, en Tanzanie, est le plus haut sommet d'Afrique (5 895 m).",
+    "en": "Mount Kilimanjaro, in Tanzania, is Africa's highest peak (5,895 m)."
+   }
+  ],
+  "yangon": [
+   {
+    "fr": "La pagode Shwedagon de Rangoun est recouverte de plaques d'or et son sommet est serti de milliers de diamants.",
+    "en": "Yangon's Shwedagon Pagoda is covered in gold plates and its spire is set with thousands of diamonds."
+   },
+   {
+    "fr": "La capitale de la Birmanie a été déplacée en 2005 à Naypyidaw, une ville construite de toutes pièces.",
+    "en": "Myanmar's capital was moved in 2005 to Naypyidaw, a purpose-built city."
+   },
+   {
+    "fr": "En Birmanie, beaucoup se maquillent le visage avec le thanaka, une pâte d'écorce qui protège du soleil.",
+    "en": "In Myanmar many people wear thanaka, a bark paste that protects the face from the sun."
+   }
+  ],
+  "lagos": [
+   {
+    "fr": "Lagos est l'une des plus grandes villes d'Afrique, avec plus de 15 millions d'habitants.",
+    "en": "Lagos is one of Africa's largest cities, with more than 15 million inhabitants."
+   },
+   {
+    "fr": "Nollywood, l'industrie du cinéma nigériane basée en grande partie à Lagos, produit des milliers de films par an.",
+    "en": "Nollywood, Nigeria's film industry largely based in Lagos, produces thousands of films a year."
+   },
+   {
+    "fr": "La capitale du Nigeria est passée de Lagos à Abuja en 1991.",
+    "en": "Nigeria's capital moved from Lagos to Abuja in 1991."
+   }
+  ],
+  "la_paz": [
+   {
+    "fr": "La Paz, à environ 3 600 m, est le siège de gouvernement le plus haut du monde.",
+    "en": "La Paz, at about 3,600 m, is the highest seat of government in the world."
+   },
+   {
+    "fr": "Le téléphérique « Mi Teleférico » de La Paz forme le plus grand réseau urbain de téléphériques du monde.",
+    "en": "La Paz's 'Mi Teleférico' is the largest urban cable-car network in the world."
+   },
+   {
+    "fr": "La Bolivie a deux capitales : Sucre, capitale constitutionnelle, et La Paz, siège du gouvernement.",
+    "en": "Bolivia has two capitals: Sucre, the constitutional capital, and La Paz, the seat of government."
+   }
+  ],
+  "cape_town": [
+   {
+    "fr": "L'Afrique du Sud a trois capitales : Pretoria (exécutif), Le Cap (législatif) et Bloemfontein (judiciaire).",
+    "en": "South Africa has three capitals: Pretoria (executive), Cape Town (legislative) and Bloemfontein (judicial)."
+   },
+   {
+    "fr": "La montagne de la Table domine Le Cap ; un « nappe » de nuages la recouvre souvent.",
+    "en": "Table Mountain towers over Cape Town and is often covered by a 'tablecloth' of clouds."
+   },
+   {
+    "fr": "La plage de Boulders, près du Cap, abrite une colonie de manchots africains.",
+    "en": "Boulders Beach, near Cape Town, is home to a colony of African penguins."
+   },
+   {
+    "fr": "Nelson Mandela a été emprisonné 18 ans sur Robben Island, au large du Cap.",
+    "en": "Nelson Mandela was imprisoned for 18 years on Robben Island, off Cape Town."
+   },
+   {
+    "fr": "L'Afrique du Sud compte 12 langues officielles, dont la langue des signes depuis 2023.",
+    "en": "South Africa has 12 official languages, including sign language since 2023."
+   }
+  ],
+  "cotonou": [
+   {
+    "fr": "La capitale officielle du Bénin est Porto-Novo, mais le gouvernement siège à Cotonou.",
+    "en": "Benin's official capital is Porto-Novo, but the government sits in Cotonou."
+   },
+   {
+    "fr": "Ganvié, près de Cotonou, est un grand village lacustre bâti sur pilotis, surnommé la « Venise de l'Afrique ».",
+    "en": "Ganvié, near Cotonou, is a large stilt village on a lake, nicknamed the 'Venice of Africa'."
+   },
+   {
+    "fr": "Le Bénin est considéré comme le berceau du vaudou, reconnu comme religion officielle et fêté chaque 10 janvier.",
+    "en": "Benin is considered the birthplace of Vodun, an official religion celebrated every 10 January."
+   }
+  ],
+  "amsterdam": [
+   {
+    "fr": "Amsterdam compte plus de vélos que d'habitants.",
+    "en": "Amsterdam has more bicycles than residents."
+   },
+   {
+    "fr": "Amsterdam est la capitale des Pays-Bas, mais le gouvernement et le Parlement siègent à La Haye.",
+    "en": "Amsterdam is the capital of the Netherlands, but the government and parliament sit in The Hague."
+   },
+   {
+    "fr": "Amsterdam est construite sur des millions de pieux en bois enfoncés dans le sol marécageux.",
+    "en": "Amsterdam is built on millions of wooden piles driven into the marshy ground."
+   },
+   {
+    "fr": "Environ un quart des Pays-Bas se trouve sous le niveau de la mer.",
+    "en": "About a quarter of the Netherlands lies below sea level."
+   },
+   {
+    "fr": "Les canaux d'Amsterdam, creusés au XVIIe siècle, sont inscrits au patrimoine mondial de l'UNESCO.",
+    "en": "Amsterdam's canals, dug in the 17th century, are a UNESCO World Heritage Site."
+   }
+  ],
+  "brasilia": [
+   {
+    "fr": "Brasília a été construite en 41 mois seulement et inaugurée en 1960.",
+    "en": "Brasília was built in just 41 months and inaugurated in 1960."
+   },
+   {
+    "fr": "Vu du ciel, le plan de Brasília dessiné par Lúcio Costa ressemble à un avion ou à un oiseau.",
+    "en": "Seen from above, Lúcio Costa's plan for Brasília looks like an aeroplane or a bird."
+   },
+   {
+    "fr": "Le Brésil est le plus grand pays d'Amérique du Sud et le seul lusophone du continent.",
+    "en": "Brazil is the largest country in South America and the only Portuguese-speaking one on the continent."
+   }
+  ],
+  "sydney": [
+   {
+    "fr": "La capitale de l'Australie est Canberra, créée comme compromis entre Sydney et Melbourne.",
+    "en": "Australia's capital is Canberra, created as a compromise between Sydney and Melbourne."
+   },
+   {
+    "fr": "Le toit de l'Opéra de Sydney est recouvert de plus d'un million de tuiles.",
+    "en": "The Sydney Opera House roof is covered with more than one million tiles."
+   },
+   {
+    "fr": "Le Harbour Bridge de Sydney est surnommé « le cintre » en raison de sa forme d'arche.",
+    "en": "Sydney Harbour Bridge is nicknamed 'the Coathanger' because of its arch shape."
+   },
+   {
+    "fr": "L'Australie est le seul pays qui occupe tout un continent.",
+    "en": "Australia is the only country that covers an entire continent."
+   },
+   {
+    "fr": "La Grande Barrière de corail australienne est la plus grande structure vivante de la planète.",
+    "en": "Australia's Great Barrier Reef is the largest living structure on Earth."
+   }
+  ],
+  "beijing": [
+   {
+    "fr": "La Cité interdite de Pékin est le plus grand complexe palatial ancien du monde.",
+    "en": "Beijing's Forbidden City is the largest ancient palace complex in the world."
+   },
+   {
+    "fr": "Pékin est la première ville à avoir accueilli des Jeux olympiques d'été (2008) et d'hiver (2022).",
+    "en": "Beijing is the first city to have hosted both the Summer (2008) and Winter (2022) Olympic Games."
+   },
+   {
+    "fr": "Le nom Beijing signifie « capitale du Nord ».",
+    "en": "The name Beijing means 'Northern Capital'."
+   },
+   {
+    "fr": "Malgré sa taille, toute la Chine vit sur un seul fuseau horaire, celui de Pékin.",
+    "en": "Despite its size, all of China runs on a single time zone: Beijing time."
+   },
+   {
+    "fr": "Le canard laqué de Pékin est servi depuis l'époque impériale.",
+    "en": "Peking duck has been served since imperial times."
+   }
+  ],
+  "moscow": [
+   {
+    "fr": "Plusieurs stations du métro de Moscou sont décorées de lustres, de mosaïques et de marbre : on les appelle les « palais du peuple ».",
+    "en": "Several Moscow metro stations are decorated with chandeliers, mosaics and marble, earning the name 'people's palaces'."
+   },
+   {
+    "fr": "Le nom de la place Rouge vient du vieux russe « krasnaya », qui signifiait aussi « belle ».",
+    "en": "Red Square's name comes from the old Russian 'krasnaya', which also meant 'beautiful'."
+   },
+   {
+    "fr": "La Russie est le plus grand pays du monde et s'étend sur 11 fuseaux horaires.",
+    "en": "Russia is the largest country in the world and spans 11 time zones."
+   },
+   {
+    "fr": "Le Transsibérien relie Moscou à Vladivostok sur plus de 9 000 km.",
+    "en": "The Trans-Siberian Railway links Moscow to Vladivostok over more than 9,000 km."
+   },
+   {
+    "fr": "Le Kremlin de Moscou est la plus grande forteresse médiévale encore utilisée d'Europe.",
+    "en": "The Moscow Kremlin is the largest medieval fortress still in use in Europe."
+   }
+  ],
+  "berlin": [
+   {
+    "fr": "Berlin compte plus de ponts que Venise.",
+    "en": "Berlin has more bridges than Venice."
+   },
+   {
+    "fr": "Le mur de Berlin a divisé la ville de 1961 à 1989.",
+    "en": "The Berlin Wall divided the city from 1961 to 1989."
+   },
+   {
+    "fr": "La Fernsehturm de Berlin, haute de 368 m, est la plus haute structure d'Allemagne.",
+    "en": "Berlin's Fernsehturm, 368 m tall, is the tallest structure in Germany."
+   },
+   {
+    "fr": "Le currywurst a été inventé à Berlin en 1949 par Herta Heuwer.",
+    "en": "Currywurst was invented in Berlin in 1949 by Herta Heuwer."
+   },
+   {
+    "fr": "L'Allemagne compte plus de 1 500 sortes de saucisses et des milliers de variétés de pain.",
+    "en": "Germany has more than 1,500 types of sausage and thousands of varieties of bread."
+   }
+  ],
+  "madrid": [
+   {
+    "fr": "Madrid est la capitale la plus haute de l'Union européenne, à environ 650 m d'altitude.",
+    "en": "Madrid is the highest capital in the European Union, at about 650 m above sea level."
+   },
+   {
+    "fr": "Le restaurant Sobrino de Botín, à Madrid, est reconnu comme le plus ancien restaurant du monde encore en activité (1725).",
+    "en": "Madrid's Sobrino de Botín is recognised as the oldest restaurant in the world still operating (1725)."
+   },
+   {
+    "fr": "Le Palais royal de Madrid est le plus grand palais royal d'Europe occidentale par sa surface.",
+    "en": "Madrid's Royal Palace is the largest royal palace in Western Europe by floor area."
+   },
+   {
+    "fr": "Le kilomètre zéro des routes espagnoles se trouve à la Puerta del Sol, à Madrid.",
+    "en": "Kilometre zero of Spain's roads is at Puerta del Sol, in Madrid."
+   },
+   {
+    "fr": "En Espagne, on dîne souvent tard : vers 21 h ou 22 h.",
+    "en": "In Spain people often have dinner late, around 9 or 10 pm."
+   }
+  ],
+  "tirana": [
+   {
+    "fr": "Les immeubles de Tirana ont été repeints de couleurs vives dans les années 2000 à l'initiative du maire Edi Rama.",
+    "en": "Tirana's buildings were repainted in bright colours in the 2000s on the initiative of mayor Edi Rama."
+   },
+   {
+    "fr": "L'Albanie compte des centaines de milliers de bunkers construits sous Enver Hoxha.",
+    "en": "Albania has hundreds of thousands of bunkers built under Enver Hoxha."
+   },
+   {
+    "fr": "En Albanie, hocher la tête de haut en bas peut signifier « non ».",
+    "en": "In Albania, nodding the head up and down can mean 'no'."
+   }
+  ],
+  "andorra_la_vella": [
+   {
+    "fr": "Andorre-la-Vieille est la capitale la plus haute d'Europe, à environ 1 000 m d'altitude.",
+    "en": "Andorra la Vella is the highest capital in Europe, at about 1,000 m."
+   },
+   {
+    "fr": "L'Andorre a deux coprinces : le président de la République française et l'évêque d'Urgell.",
+    "en": "Andorra has two co-princes: the President of France and the Bishop of Urgell."
+   },
+   {
+    "fr": "La langue officielle de l'Andorre est le catalan.",
+    "en": "Andorra's official language is Catalan."
+   }
+  ],
+  "yerevan": [
+   {
+    "fr": "Erevan a été fondée en 782 av. J.-C., ce qui en fait l'une des plus anciennes villes habitées en continu.",
+    "en": "Yerevan was founded in 782 BC, making it one of the oldest continuously inhabited cities."
+   },
+   {
+    "fr": "Erevan est surnommée la « ville rose » pour la couleur de la pierre de tuf de ses bâtiments.",
+    "en": "Yerevan is nicknamed the 'Pink City' for the colour of the tuff stone of its buildings."
+   },
+   {
+    "fr": "L'Arménie a été le premier pays à adopter le christianisme comme religion d'État, en 301.",
+    "en": "Armenia was the first country to adopt Christianity as a state religion, in 301."
+   }
+  ],
+  "vienna": [
+   {
+    "fr": "Vienne a été la ville de Mozart, Beethoven, Haydn et Schubert.",
+    "en": "Vienna was home to Mozart, Beethoven, Haydn and Schubert."
+   },
+   {
+    "fr": "Le zoo de Schönbrunn, ouvert en 1752, est le plus ancien zoo encore en activité au monde.",
+    "en": "Schönbrunn Zoo, opened in 1752, is the oldest zoo still operating in the world."
+   },
+   {
+    "fr": "La culture des cafés viennois est inscrite au patrimoine culturel immatériel de l'UNESCO (liste nationale autrichienne).",
+    "en": "Viennese coffee house culture is listed as intangible cultural heritage in Austria's UNESCO inventory."
+   }
+  ],
+  "baku": [
+   {
+    "fr": "Bakou se trouve à environ 28 m sous le niveau de la mer : c'est la capitale la plus basse du monde.",
+    "en": "Baku lies about 28 m below sea level, the lowest capital in the world."
+   },
+   {
+    "fr": "L'Azerbaïdjan est surnommé le « pays du feu » à cause de ses feux naturels de gaz, comme le Yanar Dag.",
+    "en": "Azerbaijan is nicknamed the 'Land of Fire' because of natural gas fires such as Yanar Dag."
+   },
+   {
+    "fr": "Les Flame Towers de Bakou s'illuminent la nuit comme des flammes géantes.",
+    "en": "Baku's Flame Towers light up at night like giant flames."
+   }
+  ],
+  "minsk": [
+   {
+    "fr": "Minsk a été presque entièrement reconstruite après la Seconde Guerre mondiale.",
+    "en": "Minsk was almost entirely rebuilt after the Second World War."
+   },
+   {
+    "fr": "La forêt de Białowieża, partagée entre la Biélorussie et la Pologne, abrite des bisons d'Europe.",
+    "en": "The Białowieża Forest, shared by Belarus and Poland, is home to European bison."
+   },
+   {
+    "fr": "La Bibliothèque nationale de Minsk a la forme d'un rhombicuboctaèdre géant.",
+    "en": "Minsk's National Library is shaped like a giant rhombicuboctahedron."
+   }
+  ],
+  "brussels": [
+   {
+    "fr": "Bruxelles accueille les principales institutions de l'Union européenne et le siège de l'OTAN.",
+    "en": "Brussels hosts the main European Union institutions and NATO headquarters."
+   },
+   {
+    "fr": "Le Manneken-Pis possède une garde-robe de plus de 1 000 costumes.",
+    "en": "The Manneken Pis has a wardrobe of more than 1,000 costumes."
+   },
+   {
+    "fr": "Les frites sont revendiquées comme une invention belge.",
+    "en": "Belgium claims French fries as its own invention."
+   }
+  ],
+  "sarajevo": [
+   {
+    "fr": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo en 1914 a déclenché la Première Guerre mondiale.",
+    "en": "The assassination of Archduke Franz Ferdinand in Sarajevo in 1914 triggered the First World War."
+   },
+   {
+    "fr": "Sarajevo a accueilli les Jeux olympiques d'hiver de 1984.",
+    "en": "Sarajevo hosted the 1984 Winter Olympics."
+   },
+   {
+    "fr": "Mosquées, églises et synagogue se côtoient dans le centre de Sarajevo, surnommée la « Jérusalem de l'Europe ».",
+    "en": "Mosques, churches and a synagogue stand side by side in Sarajevo, nicknamed the 'Jerusalem of Europe'."
+   }
+  ],
+  "sofia": [
+   {
+    "fr": "La devise de Sofia est « Elle grandit mais ne vieillit pas ».",
+    "en": "Sofia's motto is 'It grows but does not age'."
+   },
+   {
+    "fr": "La Bulgarie est l'un des premiers producteurs d'huile de rose au monde.",
+    "en": "Bulgaria is one of the world's leading producers of rose oil."
+   },
+   {
+    "fr": "L'alphabet cyrillique a été développé dans le premier Empire bulgare.",
+    "en": "The Cyrillic alphabet was developed in the First Bulgarian Empire."
+   }
+  ],
+  "zagreb": [
+   {
+    "fr": "La cravate est née de l'écharpe des soldats croates ; son nom vient de « croate ».",
+    "en": "The necktie grew out of Croatian soldiers' scarves; its French name 'cravate' comes from 'Croat'."
+   },
+   {
+    "fr": "Zagreb abrite le musée des Relations rompues, consacré aux objets de couples séparés.",
+    "en": "Zagreb is home to the Museum of Broken Relationships, devoted to objects from separated couples."
+   },
+   {
+    "fr": "Le funiculaire de Zagreb est l'un des plus courts du monde, avec environ 66 m de voie.",
+    "en": "Zagreb's funicular is one of the shortest in the world, with about 66 m of track."
+   }
+  ],
+  "nicosia": [
+   {
+    "fr": "Nicosie est la dernière capitale divisée d'Europe.",
+    "en": "Nicosia is the last divided capital in Europe."
+   },
+   {
+    "fr": "Les remparts vénitiens de Nicosie dessinent une étoile à onze bastions.",
+    "en": "Nicosia's Venetian walls form a star with eleven bastions."
+   },
+   {
+    "fr": "Chypre serait l'île de naissance d'Aphrodite selon la mythologie grecque.",
+    "en": "In Greek mythology, Cyprus is the birthplace of Aphrodite."
+   }
+  ],
+  "prague": [
+   {
+    "fr": "L'horloge astronomique de Prague, installée en 1410, est la plus ancienne encore en fonctionnement.",
+    "en": "Prague's astronomical clock, installed in 1410, is the oldest still in operation."
+   },
+   {
+    "fr": "Le château de Prague est l'un des plus grands complexes castraux anciens du monde.",
+    "en": "Prague Castle is one of the largest ancient castle complexes in the world."
+   },
+   {
+    "fr": "Les Tchèques sont parmi les plus grands consommateurs de bière par habitant au monde.",
+    "en": "Czechs are among the biggest beer drinkers per person in the world."
+   }
+  ],
+  "copenhagen": [
+   {
+    "fr": "La Petite Sirène de Copenhague rend hommage au conte de Hans Christian Andersen.",
+    "en": "Copenhagen's Little Mermaid statue pays tribute to Hans Christian Andersen's tale."
+   },
+   {
+    "fr": "Les jardins de Tivoli, ouverts en 1843, sont l'un des plus anciens parcs d'attractions du monde.",
+    "en": "Tivoli Gardens, opened in 1843, is one of the oldest amusement parks in the world."
+   },
+   {
+    "fr": "Le drapeau danois est considéré comme le plus ancien drapeau national encore utilisé.",
+    "en": "The Danish flag is considered the oldest national flag still in use."
+   }
+  ],
+  "tallinn": [
+   {
+    "fr": "La vieille ville médiévale de Tallinn est inscrite au patrimoine mondial de l'UNESCO.",
+    "en": "Tallinn's medieval Old Town is a UNESCO World Heritage Site."
+   },
+   {
+    "fr": "Skype a été développé par des ingénieurs estoniens.",
+    "en": "Skype was developed by Estonian engineers."
+   },
+   {
+    "fr": "L'Estonie a été le premier pays à permettre le vote en ligne lors d'élections nationales, en 2005.",
+    "en": "Estonia was the first country to allow online voting in national elections, in 2005."
+   }
+  ],
+  "helsinki": [
+   {
+    "fr": "La Finlande compte environ 3 millions de saunas pour 5,5 millions d'habitants.",
+    "en": "Finland has about 3 million saunas for 5.5 million people."
+   },
+   {
+    "fr": "La forteresse de Suomenlinna, à Helsinki, est bâtie sur six îles.",
+    "en": "Helsinki's Suomenlinna fortress is built across six islands."
+   },
+   {
+    "fr": "La Finlande compte environ 188 000 lacs.",
+    "en": "Finland has about 188,000 lakes."
+   }
+  ],
+  "tbilisi": [
+   {
+    "fr": "Le nom Tbilissi vient du géorgien « tbili », « chaud », en référence à ses sources d'eau chaude.",
+    "en": "The name Tbilisi comes from the Georgian 'tbili', meaning 'warm', after its hot springs."
+   },
+   {
+    "fr": "La Géorgie produit du vin depuis environ 8 000 ans, l'une des plus anciennes traditions au monde.",
+    "en": "Georgia has made wine for about 8,000 years, one of the oldest traditions in the world."
+   },
+   {
+    "fr": "La Géorgie possède son propre alphabet ; ses trois systèmes d'écriture sont inscrits au patrimoine immatériel de l'UNESCO.",
+    "en": "Georgia has its own alphabet; its three writing systems are on UNESCO's intangible heritage list."
+   }
+  ],
+  "athens": [
+   {
+    "fr": "Athènes est l'une des plus anciennes villes du monde, habitée depuis plus de 3 400 ans.",
+    "en": "Athens is one of the oldest cities in the world, inhabited for more than 3,400 years."
+   },
+   {
+    "fr": "Les premiers Jeux olympiques modernes ont eu lieu à Athènes en 1896.",
+    "en": "The first modern Olympic Games were held in Athens in 1896."
+   },
+   {
+    "fr": "La Grèce compte environ 6 000 îles, dont environ 200 sont habitées.",
+    "en": "Greece has around 6,000 islands, about 200 of which are inhabited."
+   }
+  ],
+  "budapest": [
+   {
+    "fr": "Budapest est née en 1873 de la fusion de Buda, Óbuda et Pest.",
+    "en": "Budapest was created in 1873 by merging Buda, Óbuda and Pest."
+   },
+   {
+    "fr": "Budapest possède l'un des plus anciens métros du continent européen, ouvert en 1896.",
+    "en": "Budapest has one of the oldest metro lines in continental Europe, opened in 1896."
+   },
+   {
+    "fr": "Le Rubik's Cube a été inventé à Budapest par Ernő Rubik en 1974.",
+    "en": "The Rubik's Cube was invented in Budapest by Ernő Rubik in 1974."
+   }
+  ],
+  "reykjavik": [
+   {
+    "fr": "Reykjavik est la capitale la plus septentrionale d'un État souverain.",
+    "en": "Reykjavík is the northernmost capital of a sovereign state."
+   },
+   {
+    "fr": "Reykjavik signifie « baie des fumées », à cause des vapeurs géothermiques.",
+    "en": "Reykjavík means 'smoky bay', after its geothermal steam."
+   },
+   {
+    "fr": "L'Althing islandais, fondé en 930, est l'un des plus anciens parlements du monde.",
+    "en": "Iceland's Althing, founded in 930, is one of the oldest parliaments in the world."
+   }
+  ],
+  "dublin": [
+   {
+    "fr": "La Guinness est brassée à St. James's Gate, à Dublin, depuis 1759.",
+    "en": "Guinness has been brewed at St. James's Gate in Dublin since 1759."
+   },
+   {
+    "fr": "Le Livre de Kells, manuscrit du IXe siècle, est conservé au Trinity College de Dublin.",
+    "en": "The Book of Kells, a 9th-century manuscript, is kept at Trinity College Dublin."
+   },
+   {
+    "fr": "La harpe est le symbole national de l'Irlande.",
+    "en": "The harp is the national symbol of Ireland."
+   }
+  ],
+  "riga": [
+   {
+    "fr": "Riga possède l'une des plus belles collections d'architecture Art nouveau d'Europe.",
+    "en": "Riga has one of the finest collections of Art Nouveau architecture in Europe."
+   },
+   {
+    "fr": "La tradition du sapin de Noël décoré est revendiquée par Riga dès 1510.",
+    "en": "Riga claims the tradition of the decorated Christmas tree as early as 1510."
+   },
+   {
+    "fr": "Les forêts couvrent environ la moitié de la Lettonie.",
+    "en": "Forests cover about half of Latvia."
+   }
+  ],
+  "vaduz": [
+   {
+    "fr": "Le Liechtenstein est l'un des deux seuls pays doublement enclavés au monde.",
+    "en": "Liechtenstein is one of only two doubly landlocked countries in the world."
+   },
+   {
+    "fr": "Le Liechtenstein est l'un des premiers fabricants mondiaux de dents artificielles.",
+    "en": "Liechtenstein is one of the world's leading makers of false teeth."
+   },
+   {
+    "fr": "Le château de Vaduz est toujours la résidence du prince.",
+    "en": "Vaduz Castle is still the prince's residence."
+   }
+  ],
+  "vilnius": [
+   {
+    "fr": "Le quartier d'Užupis à Vilnius s'est déclaré « république » humoristique avec sa propre constitution.",
+    "en": "Vilnius's Užupis district declared itself a humorous 'republic' with its own constitution."
+   },
+   {
+    "fr": "La vieille ville baroque de Vilnius est l'une des plus grandes d'Europe de l'Est.",
+    "en": "Vilnius's baroque Old Town is one of the largest in Eastern Europe."
+   },
+   {
+    "fr": "Le basket-ball est quasiment le sport national en Lituanie.",
+    "en": "Basketball is almost a national religion in Lithuania."
+   }
+  ],
+  "luxembourg": [
+   {
+    "fr": "Le Luxembourg est le dernier grand-duché du monde.",
+    "en": "Luxembourg is the last grand duchy in the world."
+   },
+   {
+    "fr": "Depuis 2020, les transports publics sont gratuits dans tout le Luxembourg.",
+    "en": "Since 2020 public transport has been free throughout Luxembourg."
+   },
+   {
+    "fr": "Les casemates du Bock forment un réseau de 17 km de galeries creusées dans la roche.",
+    "en": "The Bock Casemates form a 17 km network of tunnels carved into the rock."
+   }
+  ],
+  "valletta": [
+   {
+    "fr": "La Valette est l'une des plus petites capitales de l'Union européenne.",
+    "en": "Valletta is one of the smallest capitals in the European Union."
+   },
+   {
+    "fr": "La Valette a été construite par les chevaliers de l'ordre de Saint-Jean après le Grand Siège de 1565.",
+    "en": "Valletta was built by the Knights of St John after the Great Siege of 1565."
+   },
+   {
+    "fr": "Malte a reçu collectivement la George Cross pour son courage durant la Seconde Guerre mondiale.",
+    "en": "Malta was collectively awarded the George Cross for its bravery during the Second World War."
+   }
+  ],
+  "chisinau": [
+   {
+    "fr": "Chișinău est l'une des capitales les plus vertes d'Europe, avec de nombreux parcs.",
+    "en": "Chișinău is one of Europe's greenest capitals, with many parks."
+   },
+   {
+    "fr": "La cave de Mileștii Mici, en Moldavie, possède la plus grande collection de vins du monde.",
+    "en": "The Mileștii Mici cellar in Moldova holds the largest wine collection in the world."
+   },
+   {
+    "fr": "Les galeries de Cricova, près de Chișinău, s'étendent sur plus de 100 km.",
+    "en": "The Cricova wine galleries near Chișinău stretch over more than 100 km."
+   }
+  ],
+  "monaco": [
+   {
+    "fr": "Monaco est le deuxième plus petit pays du monde, après le Vatican.",
+    "en": "Monaco is the second-smallest country in the world, after the Vatican."
+   },
+   {
+    "fr": "Le Grand Prix de Formule 1 de Monaco se court dans les rues de la ville depuis 1929.",
+    "en": "The Monaco Formula One Grand Prix has been run through the city's streets since 1929."
+   },
+   {
+    "fr": "Monaco est l'un des pays les plus densément peuplés de la planète.",
+    "en": "Monaco is one of the most densely populated countries on the planet."
+   }
+  ],
+  "podgorica": [
+   {
+    "fr": "Podgorica s'est appelée Titograd de 1946 à 1992.",
+    "en": "Podgorica was called Titograd from 1946 to 1992."
+   },
+   {
+    "fr": "Le Monténégro utilise l'euro sans faire partie de la zone euro.",
+    "en": "Montenegro uses the euro without being part of the eurozone."
+   },
+   {
+    "fr": "Le nom Monténégro signifie « montagne noire ».",
+    "en": "The name Montenegro means 'black mountain'."
+   }
+  ],
+  "skopje": [
+   {
+    "fr": "Mère Teresa est née à Skopje en 1910.",
+    "en": "Mother Teresa was born in Skopje in 1910."
+   },
+   {
+    "fr": "Skopje a été largement détruite par un séisme en 1963.",
+    "en": "Skopje was largely destroyed by an earthquake in 1963."
+   },
+   {
+    "fr": "Le lac d'Ohrid, en Macédoine du Nord, est l'un des plus anciens lacs d'Europe.",
+    "en": "Lake Ohrid, in North Macedonia, is one of the oldest lakes in Europe."
+   }
+  ],
+  "oslo": [
+   {
+    "fr": "Le prix Nobel de la paix est remis chaque année à Oslo.",
+    "en": "The Nobel Peace Prize is awarded every year in Oslo."
+   },
+   {
+    "fr": "On peut marcher sur le toit en pente de l'Opéra d'Oslo.",
+    "en": "You can walk on the sloping roof of the Oslo Opera House."
+   },
+   {
+    "fr": "La Norvège a offert au Royaume-Uni le sapin de Noël de Trafalgar Square chaque année depuis 1947.",
+    "en": "Norway has given Britain the Trafalgar Square Christmas tree every year since 1947."
+   }
+  ],
+  "warsaw": [
+   {
+    "fr": "La vieille ville de Varsovie, détruite en 1944, a été reconstruite à l'identique et inscrite à l'UNESCO.",
+    "en": "Warsaw's Old Town, destroyed in 1944, was rebuilt faithfully and listed by UNESCO."
+   },
+   {
+    "fr": "Marie Curie est née à Varsovie en 1867.",
+    "en": "Marie Curie was born in Warsaw in 1867."
+   },
+   {
+    "fr": "Le cœur de Chopin est conservé dans une église de Varsovie.",
+    "en": "Chopin's heart is kept in a church in Warsaw."
+   }
+  ],
+  "lisbon": [
+   {
+    "fr": "Lisbonne est plus ancienne que Rome ; c'est l'une des plus vieilles capitales d'Europe occidentale.",
+    "en": "Lisbon is older than Rome, one of the oldest capitals in Western Europe."
+   },
+   {
+    "fr": "Le tramway 28 est devenu l'un des symboles de Lisbonne.",
+    "en": "Tram 28 has become one of Lisbon's symbols."
+   },
+   {
+    "fr": "Le pont Vasco-de-Gama de Lisbonne est l'un des plus longs d'Europe, avec plus de 12 km.",
+    "en": "Lisbon's Vasco da Gama Bridge is one of the longest in Europe, at over 12 km."
+   }
+  ],
+  "bucharest": [
+   {
+    "fr": "Le Palais du Parlement de Bucarest est l'un des plus grands bâtiments administratifs du monde.",
+    "en": "Bucharest's Palace of the Parliament is one of the largest administrative buildings in the world."
+   },
+   {
+    "fr": "Bucarest a été surnommée le « petit Paris » dans l'entre-deux-guerres.",
+    "en": "Bucharest was nicknamed 'Little Paris' between the two world wars."
+   },
+   {
+    "fr": "Les Carpates abritent l'une des plus grandes populations d'ours bruns d'Europe, en Roumanie.",
+    "en": "Romania's Carpathians are home to one of Europe's largest brown bear populations."
+   }
+  ],
+  "san_marino": [
+   {
+    "fr": "Saint-Marin revendique le titre de plus ancienne république du monde, fondée en 301.",
+    "en": "San Marino claims to be the world's oldest republic, founded in 301."
+   },
+   {
+    "fr": "Saint-Marin est dirigé par deux capitaines-régents élus pour six mois.",
+    "en": "San Marino is led by two Captains Regent elected for six months."
+   },
+   {
+    "fr": "Les trois tours de Saint-Marin figurent sur son drapeau.",
+    "en": "San Marino's three towers appear on its flag."
+   }
+  ],
+  "belgrade": [
+   {
+    "fr": "Belgrade se trouve au confluent de la Save et du Danube.",
+    "en": "Belgrade sits at the confluence of the Sava and Danube rivers."
+   },
+   {
+    "fr": "Belgrade est l'une des plus anciennes villes d'Europe, habitée depuis des millénaires.",
+    "en": "Belgrade is one of the oldest cities in Europe, inhabited for millennia."
+   },
+   {
+    "fr": "Nikola Tesla, d'origine serbe, a son musée à Belgrade.",
+    "en": "Nikola Tesla, of Serbian origin, has his museum in Belgrade."
+   }
+  ],
+  "bratislava": [
+   {
+    "fr": "Bratislava est la seule capitale frontalière de deux pays : l'Autriche et la Hongrie.",
+    "en": "Bratislava is the only capital bordering two countries: Austria and Hungary."
+   },
+   {
+    "fr": "Bratislava et Vienne sont les deux capitales les plus proches d'Europe, à environ 55 km.",
+    "en": "Bratislava and Vienna are the two closest capitals in Europe, about 55 km apart."
+   },
+   {
+    "fr": "La Slovaquie compte plus de châteaux par habitant que presque tout autre pays.",
+    "en": "Slovakia has more castles per capita than almost any other country."
+   }
+  ],
+  "ljubljana": [
+   {
+    "fr": "Le nom de Ljubljana rappelle le mot slovène « ljubljena », « la bien-aimée ».",
+    "en": "Ljubljana's name echoes the Slovene word 'ljubljena', 'the beloved'."
+   },
+   {
+    "fr": "Le centre-ville de Ljubljana est piéton depuis 2008.",
+    "en": "Ljubljana's city centre has been car-free since 2008."
+   },
+   {
+    "fr": "Le dragon est le symbole de Ljubljana.",
+    "en": "The dragon is the symbol of Ljubljana."
+   }
+  ],
+  "stockholm": [
+   {
+    "fr": "Stockholm est construite sur 14 îles reliées par 57 ponts.",
+    "en": "Stockholm is built on 14 islands connected by 57 bridges."
+   },
+   {
+    "fr": "Le métro de Stockholm est surnommé la plus longue galerie d'art du monde.",
+    "en": "Stockholm's metro is nicknamed the world's longest art gallery."
+   },
+   {
+    "fr": "La Suède compte environ 267 000 îles, plus que tout autre pays.",
+    "en": "Sweden has about 267,000 islands, more than any other country."
+   }
+  ],
+  "bern": [
+   {
+    "fr": "Albert Einstein a développé la théorie de la relativité restreinte en vivant à Berne.",
+    "en": "Albert Einstein developed his special theory of relativity while living in Bern."
+   },
+   {
+    "fr": "La Suisse a quatre langues nationales : l'allemand, le français, l'italien et le romanche.",
+    "en": "Switzerland has four national languages: German, French, Italian and Romansh."
+   },
+   {
+    "fr": "L'ours est le symbole de Berne, dont le nom serait lié au mot « Bär ».",
+    "en": "The bear is Bern's symbol; the city's name is said to be linked to 'Bär'."
+   }
+  ],
+  "kyiv": [
+   {
+    "fr": "La station de métro Arsenalna de Kyiv est l'une des plus profondes du monde, à environ 105 m.",
+    "en": "Kyiv's Arsenalna metro station is one of the deepest in the world, at about 105 m."
+   },
+   {
+    "fr": "La cathédrale Sainte-Sophie de Kyiv date du XIe siècle.",
+    "en": "Kyiv's St Sophia's Cathedral dates from the 11th century."
+   },
+   {
+    "fr": "L'Ukraine est l'un des plus grands producteurs mondiaux d'huile de tournesol.",
+    "en": "Ukraine is one of the world's largest producers of sunflower oil."
+   }
+  ],
+  "vatican_city": [
+   {
+    "fr": "Le Vatican est le plus petit État du monde, avec environ 0,44 km².",
+    "en": "Vatican City is the smallest country in the world, at about 0.44 km²."
+   },
+   {
+    "fr": "La garde suisse protège le pape depuis 1506.",
+    "en": "The Swiss Guard has protected the Pope since 1506."
+   },
+   {
+    "fr": "Michel-Ange a peint le plafond de la chapelle Sixtine entre 1508 et 1512.",
+    "en": "Michelangelo painted the Sistine Chapel ceiling between 1508 and 1512."
+   }
+  ],
+  "pristina": [
+   {
+    "fr": "Le monument « Newborn » de Pristina est repeint chaque année pour l'anniversaire de l'indépendance.",
+    "en": "Pristina's 'Newborn' monument is repainted every year for the independence anniversary."
+   },
+   {
+    "fr": "Le Kosovo a l'une des populations les plus jeunes d'Europe.",
+    "en": "Kosovo has one of the youngest populations in Europe."
+   },
+   {
+    "fr": "La Bibliothèque nationale de Pristina est coiffée de 99 dômes.",
+    "en": "Pristina's National Library is topped with 99 domes."
+   }
+  ],
+  "algiers": [
+   {
+    "fr": "Alger est surnommée « Alger la Blanche » pour ses façades blanches face à la mer.",
+    "en": "Algiers is nicknamed 'Algiers the White' for its white façades facing the sea."
+   },
+   {
+    "fr": "La Casbah d'Alger est inscrite au patrimoine mondial de l'UNESCO.",
+    "en": "The Casbah of Algiers is a UNESCO World Heritage Site."
+   },
+   {
+    "fr": "L'Algérie est le plus grand pays d'Afrique par sa superficie.",
+    "en": "Algeria is the largest country in Africa by area."
+   }
+  ],
+  "luanda": [
+   {
+    "fr": "Luanda a été fondée par les Portugais en 1576.",
+    "en": "Luanda was founded by the Portuguese in 1576."
+   },
+   {
+    "fr": "L'Angola est l'un des principaux producteurs de pétrole d'Afrique.",
+    "en": "Angola is one of Africa's leading oil producers."
+   },
+   {
+    "fr": "La kizomba, danse aujourd'hui populaire dans le monde entier, est née en Angola.",
+    "en": "Kizomba, a dance now popular worldwide, was born in Angola."
+   }
+  ],
+  "gaborone": [
+   {
+    "fr": "Gaborone a été construite à partir de 1964, peu avant l'indépendance du Botswana.",
+    "en": "Gaborone was built from 1964, shortly before Botswana's independence."
+   },
+   {
+    "fr": "Le delta de l'Okavango, au Botswana, est l'un des rares grands deltas intérieurs du monde.",
+    "en": "Botswana's Okavango Delta is one of the few large inland deltas in the world."
+   },
+   {
+    "fr": "Le Botswana abrite la plus grande population d'éléphants d'Afrique.",
+    "en": "Botswana has the largest elephant population in Africa."
+   }
+  ],
+  "ouagadougou": [
+   {
+    "fr": "Ouagadougou accueille le FESPACO, le plus grand festival de cinéma africain.",
+    "en": "Ouagadougou hosts FESPACO, the largest African film festival."
+   },
+   {
+    "fr": "Burkina Faso signifie « pays des hommes intègres ».",
+    "en": "Burkina Faso means 'land of upright people'."
+   },
+   {
+    "fr": "Les habitants de Ouagadougou l'appellent familièrement « Ouaga ».",
+    "en": "Locals affectionately call Ouagadougou 'Ouaga'."
+   }
+  ],
+  "bujumbura": [
+   {
+    "fr": "La capitale politique du Burundi est Gitega depuis 2019 ; Bujumbura reste la capitale économique.",
+    "en": "Burundi's political capital has been Gitega since 2019; Bujumbura remains the economic capital."
+   },
+   {
+    "fr": "Bujumbura borde le lac Tanganyika, l'un des lacs les plus profonds du monde.",
+    "en": "Bujumbura lies on Lake Tanganyika, one of the deepest lakes in the world."
+   },
+   {
+    "fr": "Les tambours royaux du Burundi sont inscrits au patrimoine immatériel de l'UNESCO.",
+    "en": "The royal drums of Burundi are on UNESCO's intangible heritage list."
+   }
+  ],
+  "praia": [
+   {
+    "fr": "Le Cap-Vert est un archipel de dix îles volcaniques au large de l'Afrique de l'Ouest.",
+    "en": "Cape Verde is an archipelago of ten volcanic islands off West Africa."
+   },
+   {
+    "fr": "La morna, musique cap-verdienne popularisée par Cesária Évora, est inscrite à l'UNESCO.",
+    "en": "Morna, the Cape Verdean music popularised by Cesária Évora, is UNESCO-listed."
+   },
+   {
+    "fr": "Cidade Velha, près de Praia, fut la première ville coloniale européenne sous les tropiques.",
+    "en": "Cidade Velha, near Praia, was the first European colonial town in the tropics."
+   }
+  ],
+  "yaounde": [
+   {
+    "fr": "Yaoundé est surnommée la « ville aux sept collines ».",
+    "en": "Yaoundé is nicknamed the 'city of seven hills'."
+   },
+   {
+    "fr": "Le Cameroun est souvent appelé « l'Afrique en miniature » pour la diversité de ses paysages.",
+    "en": "Cameroon is often called 'Africa in miniature' for the diversity of its landscapes."
+   },
+   {
+    "fr": "Le Cameroun compte plus de 200 langues locales, en plus du français et de l'anglais.",
+    "en": "Cameroon has more than 200 local languages, alongside French and English."
+   }
+  ],
+  "bangui": [
+   {
+    "fr": "Bangui se trouve sur la rive de l'Oubangui, face à la République démocratique du Congo.",
+    "en": "Bangui sits on the Ubangi River, facing the Democratic Republic of the Congo."
+   },
+   {
+    "fr": "La République centrafricaine se trouve presque au centre géographique de l'Afrique.",
+    "en": "The Central African Republic lies near the geographical centre of Africa."
+   },
+   {
+    "fr": "Le parc de Dzanga-Sangha abrite des éléphants de forêt et des gorilles des plaines.",
+    "en": "Dzanga-Sangha park is home to forest elephants and lowland gorillas."
+   }
+  ],
+  "n_djamena": [
+   {
+    "fr": "N'Djaména s'appelait Fort-Lamy jusqu'en 1973.",
+    "en": "N'Djamena was called Fort-Lamy until 1973."
+   },
+   {
+    "fr": "Le lac Tchad a perdu une très grande partie de sa surface depuis les années 1960.",
+    "en": "Lake Chad has lost a very large share of its surface since the 1960s."
+   },
+   {
+    "fr": "Le massif du Tibesti, au Tchad, culmine à plus de 3 400 m au cœur du Sahara.",
+    "en": "Chad's Tibesti mountains rise above 3,400 m in the heart of the Sahara."
+   }
+  ],
+  "moroni": [
+   {
+    "fr": "Les Comores sont surnommées les « îles aux parfums » pour l'ylang-ylang.",
+    "en": "The Comoros are nicknamed the 'Perfume Islands' for ylang-ylang."
+   },
+   {
+    "fr": "Le Karthala, volcan de la Grande Comore, est l'un des plus actifs du monde.",
+    "en": "Mount Karthala, on Grande Comore, is one of the most active volcanoes in the world."
+   },
+   {
+    "fr": "Le cœlacanthe, poisson qu'on croyait disparu depuis des millions d'années, vit dans les eaux comoriennes.",
+    "en": "The coelacanth, a fish once thought extinct for millions of years, lives in Comorian waters."
+   }
+  ],
+  "brazzaville": [
+   {
+    "fr": "Brazzaville et Kinshasa sont les deux capitales les plus proches du monde, de part et d'autre du fleuve Congo.",
+    "en": "Brazzaville and Kinshasa are the two closest capitals in the world, on opposite banks of the Congo River."
+   },
+   {
+    "fr": "Brazzaville fut la capitale de la France libre de 1940 à 1943.",
+    "en": "Brazzaville was the capital of Free France from 1940 to 1943."
+   },
+   {
+    "fr": "Le nom de la ville rend hommage à l'explorateur Pierre Savorgnan de Brazza.",
+    "en": "The city's name honours the explorer Pierre Savorgnan de Brazza."
+   }
+  ],
+  "kinshasa": [
+   {
+    "fr": "Kinshasa est la plus grande ville francophone du monde par sa population.",
+    "en": "Kinshasa is the largest French-speaking city in the world by population."
+   },
+   {
+    "fr": "Le fleuve Congo est le plus profond du monde, avec plus de 220 m par endroits.",
+    "en": "The Congo River is the deepest in the world, over 220 m in places."
+   },
+   {
+    "fr": "La rumba congolaise est inscrite au patrimoine immatériel de l'UNESCO.",
+    "en": "Congolese rumba is on UNESCO's intangible heritage list."
+   }
+  ],
+  "djibouti": [
+   {
+    "fr": "Le lac Assal, à Djibouti, est le point le plus bas d'Afrique, à environ 155 m sous le niveau de la mer.",
+    "en": "Djibouti's Lake Assal is the lowest point in Africa, about 155 m below sea level."
+   },
+   {
+    "fr": "Djibouti accueille des bases militaires de plusieurs grandes puissances.",
+    "en": "Djibouti hosts military bases of several major powers."
+   },
+   {
+    "fr": "Le port de Djibouti contrôle l'accès au détroit de Bab-el-Mandeb.",
+    "en": "Djibouti's port overlooks the Bab-el-Mandeb strait."
+   }
+  ],
+  "malabo": [
+   {
+    "fr": "Malabo se trouve sur l'île de Bioko, et non sur le continent.",
+    "en": "Malabo is on Bioko Island, not on the mainland."
+   },
+   {
+    "fr": "La Guinée équatoriale est le seul pays d'Afrique dont l'espagnol est langue officielle.",
+    "en": "Equatorial Guinea is the only African country with Spanish as an official language."
+   },
+   {
+    "fr": "Une nouvelle capitale, Ciudad de la Paz, est en construction sur le continent.",
+    "en": "A new capital, Ciudad de la Paz, is being built on the mainland."
+   }
+  ],
+  "asmara": [
+   {
+    "fr": "Asmara est classée à l'UNESCO pour son architecture moderniste italienne des années 1930.",
+    "en": "Asmara is UNESCO-listed for its 1930s Italian modernist architecture."
+   },
+   {
+    "fr": "La station-service Fiat Tagliero d'Asmara a la forme d'un avion.",
+    "en": "Asmara's Fiat Tagliero service station is shaped like an aeroplane."
+   },
+   {
+    "fr": "Asmara se trouve à plus de 2 300 m d'altitude.",
+    "en": "Asmara sits at more than 2,300 m above sea level."
+   }
+  ],
+  "mbabane": [
+   {
+    "fr": "L'Eswatini est l'une des dernières monarchies absolues du monde.",
+    "en": "Eswatini is one of the last absolute monarchies in the world."
+   },
+   {
+    "fr": "Le pays s'appelait Swaziland jusqu'en 2018.",
+    "en": "The country was called Swaziland until 2018."
+   },
+   {
+    "fr": "Le royaume a deux capitales : Mbabane (administrative) et Lobamba (royale et législative).",
+    "en": "The kingdom has two capitals: Mbabane (administrative) and Lobamba (royal and legislative)."
+   }
+  ],
+  "addis_ababa": [
+   {
+    "fr": "Addis-Abeba signifie « nouvelle fleur » en amharique.",
+    "en": "Addis Ababa means 'new flower' in Amharic."
+   },
+   {
+    "fr": "Addis-Abeba accueille le siège de l'Union africaine.",
+    "en": "Addis Ababa is home to the African Union headquarters."
+   },
+   {
+    "fr": "L'Éthiopie a son propre calendrier, avec 13 mois.",
+    "en": "Ethiopia has its own calendar, with 13 months."
+   }
+  ],
+  "libreville": [
+   {
+    "fr": "Libreville a été fondée en 1849 par des esclaves libérés, d'où son nom.",
+    "en": "Libreville was founded in 1849 by freed slaves, hence its name."
+   },
+   {
+    "fr": "Les forêts couvrent près de 90 % du Gabon.",
+    "en": "Forests cover nearly 90% of Gabon."
+   },
+   {
+    "fr": "Au Gabon, on peut voir des éléphants se promener sur les plages de l'Atlantique.",
+    "en": "In Gabon, elephants can be seen walking on Atlantic beaches."
+   }
+  ],
+  "banjul": [
+   {
+    "fr": "La Gambie est le plus petit pays d'Afrique continentale.",
+    "en": "The Gambia is the smallest country in mainland Africa."
+   },
+   {
+    "fr": "La Gambie est presque entièrement entourée par le Sénégal.",
+    "en": "The Gambia is almost entirely surrounded by Senegal."
+   },
+   {
+    "fr": "Banjul est construite sur l'île Sainte-Marie, à l'embouchure du fleuve Gambie.",
+    "en": "Banjul is built on St Mary's Island, at the mouth of the Gambia River."
+   }
+  ],
+  "accra": [
+   {
+    "fr": "Accra se trouve à seulement quelques centaines de kilomètres du point 0° de latitude et de longitude.",
+    "en": "Accra lies only a few hundred kilometres from the point of 0° latitude and longitude."
+   },
+   {
+    "fr": "Le Ghana a été le premier pays d'Afrique subsaharienne à obtenir son indépendance, en 1957.",
+    "en": "Ghana was the first sub-Saharan African country to gain independence, in 1957."
+   },
+   {
+    "fr": "Les cercueils fantaisie d'Accra prennent la forme de poissons, de voitures ou d'avions.",
+    "en": "Accra's fantasy coffins are shaped like fish, cars or aeroplanes."
+   }
+  ],
+  "conakry": [
+   {
+    "fr": "Conakry est bâtie en partie sur la presqu'île de Kaloum.",
+    "en": "Conakry is partly built on the Kaloum peninsula."
+   },
+   {
+    "fr": "La Guinée détient parmi les plus grandes réserves de bauxite du monde.",
+    "en": "Guinea holds some of the world's largest bauxite reserves."
+   },
+   {
+    "fr": "Le Fouta-Djalon, en Guinée, est surnommé le « château d'eau de l'Afrique de l'Ouest ».",
+    "en": "Guinea's Fouta Djallon is nicknamed the 'water tower of West Africa'."
+   }
+  ],
+  "bissau": [
+   {
+    "fr": "L'archipel des Bijagos, en Guinée-Bissau, compte quelque 88 îles.",
+    "en": "The Bijagós archipelago in Guinea-Bissau has about 88 islands."
+   },
+   {
+    "fr": "La Guinée-Bissau est un grand producteur de noix de cajou.",
+    "en": "Guinea-Bissau is a major producer of cashew nuts."
+   },
+   {
+    "fr": "Le portugais est la langue officielle, mais le créole est le plus parlé.",
+    "en": "Portuguese is the official language, but Creole is the most widely spoken."
+   }
+  ],
+  "maseru": [
+   {
+    "fr": "Le Lesotho est entièrement enclavé dans l'Afrique du Sud.",
+    "en": "Lesotho is completely surrounded by South Africa."
+   },
+   {
+    "fr": "Tout le territoire du Lesotho est situé au-dessus de 1 000 m d'altitude.",
+    "en": "All of Lesotho lies above 1,000 m in altitude."
+   },
+   {
+    "fr": "La couverture basotho, portée comme un manteau, est un symbole national.",
+    "en": "The Basotho blanket, worn like a cloak, is a national symbol."
+   }
+  ],
+  "monrovia": [
+   {
+    "fr": "Monrovia porte le nom du président américain James Monroe.",
+    "en": "Monrovia is named after US President James Monroe."
+   },
+   {
+    "fr": "Le Liberia a été fondé par d'anciens esclaves venus des États-Unis.",
+    "en": "Liberia was founded by former slaves from the United States."
+   },
+   {
+    "fr": "Ellen Johnson Sirleaf, présidente du Liberia, fut la première femme élue cheffe d'État en Afrique.",
+    "en": "Ellen Johnson Sirleaf of Liberia was Africa's first elected female head of state."
+   }
+  ],
+  "tripoli": [
+   {
+    "fr": "La médina de Tripoli abrite l'arc de Marc Aurèle, datant du IIe siècle.",
+    "en": "Tripoli's medina contains the Arch of Marcus Aurelius from the 2nd century."
+   },
+   {
+    "fr": "Plus de 90 % du territoire libyen est désertique.",
+    "en": "More than 90% of Libya is desert."
+   },
+   {
+    "fr": "Leptis Magna, près de Tripoli, est l'une des cités romaines les mieux conservées.",
+    "en": "Leptis Magna, near Tripoli, is one of the best-preserved Roman cities."
+   }
+  ],
+  "antananarivo": [
+   {
+    "fr": "Antananarivo signifie « la ville des mille », en référence aux soldats qui la gardaient.",
+    "en": "Antananarivo means 'city of the thousand', after the soldiers who guarded it."
+   },
+   {
+    "fr": "Environ 90 % des espèces de Madagascar n'existent nulle part ailleurs.",
+    "en": "About 90% of Madagascar's species exist nowhere else."
+   },
+   {
+    "fr": "Les lémuriens vivent à l'état sauvage uniquement à Madagascar.",
+    "en": "Lemurs live in the wild only on Madagascar."
+   }
+  ],
+  "lilongwe": [
+   {
+    "fr": "Lilongwe est devenue capitale du Malawi en 1975, à la place de Zomba.",
+    "en": "Lilongwe became Malawi's capital in 1975, replacing Zomba."
+   },
+   {
+    "fr": "Le lac Malawi abrite plus d'espèces de poissons que tout autre lac au monde.",
+    "en": "Lake Malawi has more fish species than any other lake in the world."
+   },
+   {
+    "fr": "Le Malawi est surnommé « le cœur chaleureux de l'Afrique ».",
+    "en": "Malawi is nicknamed 'the warm heart of Africa'."
+   }
+  ],
+  "bamako": [
+   {
+    "fr": "Bamako signifie « la rivière du crocodile » en bambara.",
+    "en": "Bamako means 'crocodile river' in Bambara."
+   },
+   {
+    "fr": "La Grande Mosquée de Djenné, au Mali, est le plus grand édifice en terre crue du monde.",
+    "en": "Mali's Great Mosque of Djenné is the largest mud-brick building in the world."
+   },
+   {
+    "fr": "Les manuscrits de Tombouctou témoignent d'un grand centre savant médiéval.",
+    "en": "The Timbuktu manuscripts bear witness to a great medieval centre of learning."
+   }
+  ],
+  "nouakchott": [
+   {
+    "fr": "Nouakchott n'était qu'un village avant d'être choisie comme capitale en 1958.",
+    "en": "Nouakchott was only a village before being chosen as capital in 1958."
+   },
+   {
+    "fr": "Le train du fer de Mauritanie est l'un des plus longs du monde, jusqu'à 3 km.",
+    "en": "Mauritania's iron ore train is one of the longest in the world, up to 3 km."
+   },
+   {
+    "fr": "La structure de Richat, l'« œil du Sahara », est visible depuis l'espace.",
+    "en": "The Richat Structure, the 'Eye of the Sahara', is visible from space."
+   }
+  ],
+  "port_louis": [
+   {
+    "fr": "Le dodo, oiseau disparu au XVIIe siècle, vivait uniquement à l'île Maurice.",
+    "en": "The dodo, which died out in the 17th century, lived only on Mauritius."
+   },
+   {
+    "fr": "Le timbre « Blue Mauritius » est l'un des plus rares et chers du monde.",
+    "en": "The 'Blue Mauritius' stamp is one of the rarest and most valuable in the world."
+   },
+   {
+    "fr": "L'Aapravasi Ghat de Port-Louis, lieu d'arrivée des travailleurs engagés, est classé à l'UNESCO.",
+    "en": "Port Louis's Aapravasi Ghat, where indentured labourers arrived, is UNESCO-listed."
+   }
+  ],
+  "maputo": [
+   {
+    "fr": "Maputo s'appelait Lourenço Marques jusqu'en 1976.",
+    "en": "Maputo was called Lourenço Marques until 1976."
+   },
+   {
+    "fr": "La gare de Maputo est souvent citée parmi les plus belles du monde.",
+    "en": "Maputo's railway station is often listed among the most beautiful in the world."
+   },
+   {
+    "fr": "Le drapeau du Mozambique est le seul à arborer un fusil d'assaut.",
+    "en": "Mozambique's flag is the only one to feature an assault rifle."
+   }
+  ],
+  "windhoek": [
+   {
+    "fr": "Le désert du Namib est considéré comme le plus ancien désert du monde.",
+    "en": "The Namib is considered the oldest desert in the world."
+   },
+   {
+    "fr": "La Namibie a été l'un des premiers pays à inscrire la protection de l'environnement dans sa Constitution.",
+    "en": "Namibia was one of the first countries to write environmental protection into its constitution."
+   },
+   {
+    "fr": "Les dunes de Sossusvlei comptent parmi les plus hautes du monde.",
+    "en": "The Sossusvlei dunes are among the highest in the world."
+   }
+  ],
+  "niamey": [
+   {
+    "fr": "Niamey s'étend sur les rives du fleuve Niger.",
+    "en": "Niamey lies on the banks of the Niger River."
+   },
+   {
+    "fr": "Le désert du Ténéré, au Niger, abritait autrefois « l'arbre le plus isolé du monde ».",
+    "en": "Niger's Ténéré desert was once home to 'the world's most isolated tree'."
+   },
+   {
+    "fr": "Le Niger abrite les dernières girafes d'Afrique de l'Ouest.",
+    "en": "Niger is home to West Africa's last giraffes."
+   }
+  ],
+  "kigali": [
+   {
+    "fr": "Kigali est réputée pour être l'une des villes les plus propres d'Afrique.",
+    "en": "Kigali is known as one of the cleanest cities in Africa."
+   },
+   {
+    "fr": "Les sacs plastiques sont interdits au Rwanda depuis 2008.",
+    "en": "Plastic bags have been banned in Rwanda since 2008."
+   },
+   {
+    "fr": "Le Parlement rwandais compte l'une des plus fortes proportions de femmes au monde.",
+    "en": "Rwanda's parliament has one of the highest proportions of women in the world."
+   }
+  ],
+  "sao_tome": [
+   {
+    "fr": "Sao Tomé-et-Principe est le deuxième plus petit pays d'Afrique.",
+    "en": "São Tomé and Príncipe is the second-smallest country in Africa."
+   },
+   {
+    "fr": "L'équateur passe sur l'îlot das Rolas, au sud de Sao Tomé.",
+    "en": "The equator crosses Rolas Islet, south of São Tomé."
+   },
+   {
+    "fr": "L'archipel fut au début du XXe siècle l'un des premiers producteurs de cacao du monde.",
+    "en": "In the early 20th century the archipelago was one of the world's top cocoa producers."
+   }
+  ],
+  "dakar": [
+   {
+    "fr": "Dakar est la ville la plus à l'ouest de l'Afrique continentale.",
+    "en": "Dakar is the westernmost city in mainland Africa."
+   },
+   {
+    "fr": "Le Rallye Dakar a longtemps eu son arrivée au lac Rose, près de Dakar.",
+    "en": "The Dakar Rally long finished at the Pink Lake, near Dakar."
+   },
+   {
+    "fr": "Le monument de la Renaissance africaine, à Dakar, mesure 49 m de haut.",
+    "en": "Dakar's African Renaissance Monument stands 49 m tall."
+   }
+  ],
+  "victoria": [
+   {
+    "fr": "Victoria est l'une des plus petites capitales du monde.",
+    "en": "Victoria is one of the smallest capitals in the world."
+   },
+   {
+    "fr": "Le coco de mer des Seychelles produit la plus grosse graine du règne végétal.",
+    "en": "The Seychelles' coco de mer produces the largest seed in the plant kingdom."
+   },
+   {
+    "fr": "Les Seychelles abritent des tortues géantes d'Aldabra.",
+    "en": "The Seychelles are home to Aldabra giant tortoises."
+   }
+  ],
+  "freetown": [
+   {
+    "fr": "Freetown a été fondée en 1792 pour accueillir des esclaves affranchis.",
+    "en": "Freetown was founded in 1792 as a home for freed slaves."
+   },
+   {
+    "fr": "Le « Cotton Tree » de Freetown était un symbole de la ville jusqu'à sa chute en 2023.",
+    "en": "Freetown's Cotton Tree was a symbol of the city until it fell in 2023."
+   },
+   {
+    "fr": "La Sierra Leone possède l'un des plus grands ports naturels du monde.",
+    "en": "Sierra Leone has one of the largest natural harbours in the world."
+   }
+  ],
+  "mogadishu": [
+   {
+    "fr": "Mogadiscio est l'un des plus anciens comptoirs commerciaux de la côte est-africaine.",
+    "en": "Mogadishu is one of the oldest trading ports on the East African coast."
+   },
+   {
+    "fr": "La Somalie possède la plus longue côte d'Afrique continentale.",
+    "en": "Somalia has the longest coastline in mainland Africa."
+   },
+   {
+    "fr": "La Somalie compte l'une des plus grandes populations de chameaux du monde.",
+    "en": "Somalia has one of the largest camel populations in the world."
+   }
+  ],
+  "juba": [
+   {
+    "fr": "Le Soudan du Sud est le plus jeune pays du monde, indépendant depuis 2011.",
+    "en": "South Sudan is the world's youngest country, independent since 2011."
+   },
+   {
+    "fr": "Juba est traversée par le Nil Blanc.",
+    "en": "Juba lies on the White Nile."
+   },
+   {
+    "fr": "Le Sudd, au Soudan du Sud, est l'une des plus grandes zones humides du monde.",
+    "en": "The Sudd, in South Sudan, is one of the largest wetlands in the world."
+   }
+  ],
+  "khartoum": [
+   {
+    "fr": "Khartoum se trouve au confluent du Nil Blanc et du Nil Bleu.",
+    "en": "Khartoum lies at the confluence of the White Nile and the Blue Nile."
+   },
+   {
+    "fr": "Le Soudan compte plus de pyramides que l'Égypte, notamment à Méroé.",
+    "en": "Sudan has more pyramids than Egypt, notably at Meroë."
+   },
+   {
+    "fr": "Le nom Khartoum viendrait de « trompe d'éléphant », pour la forme du confluent.",
+    "en": "The name Khartoum is said to mean 'elephant's trunk', after the shape of the confluence."
+   }
+  ],
+  "lome": [
+   {
+    "fr": "Lomé est collée à la frontière du Ghana : depuis le centre, on rejoint l'autre pays à pied.",
+    "en": "Lomé sits right on the border with Ghana: you can walk to the other country from the city centre."
+   },
+   {
+    "fr": "Le marché des fétiches d'Akodessewa, à Lomé, est l'un des plus grands d'Afrique.",
+    "en": "Lomé's Akodessewa fetish market is one of the largest in Africa."
+   },
+   {
+    "fr": "Les « Nana Benz » de Lomé, commerçantes de tissus, ont bâti de véritables fortunes.",
+    "en": "Lomé's 'Nana Benz', cloth traders, built real fortunes."
+   }
+  ],
+  "tunis": [
+   {
+    "fr": "Les ruines de Carthage se trouvent dans la banlieue de Tunis.",
+    "en": "The ruins of Carthage are in the suburbs of Tunis."
+   },
+   {
+    "fr": "Le musée du Bardo, à Tunis, possède l'une des plus grandes collections de mosaïques romaines.",
+    "en": "Tunis's Bardo Museum has one of the largest collections of Roman mosaics."
+   },
+   {
+    "fr": "Sidi Bou Saïd, près de Tunis, est célèbre pour ses maisons blanches aux portes bleues.",
+    "en": "Sidi Bou Said, near Tunis, is famous for its white houses with blue doors."
+   }
+  ],
+  "kampala": [
+   {
+    "fr": "Kampala a été construite à l'origine sur sept collines.",
+    "en": "Kampala was originally built on seven hills."
+   },
+   {
+    "fr": "Le lac Victoria, près de Kampala, est le plus grand lac d'Afrique.",
+    "en": "Lake Victoria, near Kampala, is the largest lake in Africa."
+   },
+   {
+    "fr": "L'Ouganda abrite environ la moitié des gorilles des montagnes du monde.",
+    "en": "Uganda is home to about half of the world's mountain gorillas."
+   }
+  ],
+  "lusaka": [
+   {
+    "fr": "Les chutes Victoria, entre la Zambie et le Zimbabwe, sont appelées « la fumée qui gronde ».",
+    "en": "Victoria Falls, between Zambia and Zimbabwe, are called 'the smoke that thunders'."
+   },
+   {
+    "fr": "La Zambie est l'un des grands producteurs de cuivre du monde.",
+    "en": "Zambia is one of the world's major copper producers."
+   },
+   {
+    "fr": "Lusaka est devenue capitale de la Rhodésie du Nord en 1935.",
+    "en": "Lusaka became the capital of Northern Rhodesia in 1935."
+   }
+  ],
+  "harare": [
+   {
+    "fr": "Harare s'appelait Salisbury jusqu'en 1982.",
+    "en": "Harare was called Salisbury until 1982."
+   },
+   {
+    "fr": "Le Grand Zimbabwe, cité de pierre médiévale, a donné son nom au pays.",
+    "en": "Great Zimbabwe, a medieval stone city, gave the country its name."
+   },
+   {
+    "fr": "Le Zimbabwe compte 16 langues officielles.",
+    "en": "Zimbabwe has 16 official languages."
+   }
+  ],
+  "kabul": [
+   {
+    "fr": "Kaboul se trouve à environ 1 800 m d'altitude, entourée de montagnes.",
+    "en": "Kabul sits at about 1,800 m, surrounded by mountains."
+   },
+   {
+    "fr": "Les jardins de Babur, à Kaboul, abritent le tombeau du fondateur de l'Empire moghol.",
+    "en": "Kabul's Babur Gardens hold the tomb of the founder of the Mughal Empire."
+   },
+   {
+    "fr": "Le lapis-lazuli afghan est extrait depuis plus de 6 000 ans.",
+    "en": "Afghan lapis lazuli has been mined for more than 6,000 years."
+   }
+  ],
+  "manama": [
+   {
+    "fr": "Bahreïn est un archipel de plus de 30 îles dans le golfe Persique.",
+    "en": "Bahrain is an archipelago of more than 30 islands in the Persian Gulf."
+   },
+   {
+    "fr": "Le pont du roi Fahd relie Bahreïn à l'Arabie saoudite.",
+    "en": "The King Fahd Causeway links Bahrain to Saudi Arabia."
+   },
+   {
+    "fr": "Bahreïn était célèbre pour ses perles naturelles ; le parcours de la perle est classé à l'UNESCO.",
+    "en": "Bahrain was famed for natural pearls; its Pearling Path is UNESCO-listed."
+   }
+  ],
+  "tehran": [
+   {
+    "fr": "Le Grand Bazar de Téhéran est un immense réseau de passages couverts.",
+    "en": "Tehran's Grand Bazaar is a huge network of covered passages."
+   },
+   {
+    "fr": "Le Damavand, visible depuis Téhéran, est le plus haut volcan d'Asie (environ 5 600 m).",
+    "en": "Mount Damavand, visible from Tehran, is the highest volcano in Asia (about 5,600 m)."
+   },
+   {
+    "fr": "Le Nouvel An persan, Norouz, se fête à l'équinoxe de printemps.",
+    "en": "The Persian New Year, Nowruz, is celebrated at the spring equinox."
+   }
+  ],
+  "baghdad": [
+   {
+    "fr": "Bagdad a été fondée en 762 sous la forme d'une ville parfaitement ronde.",
+    "en": "Baghdad was founded in 762 as a perfectly round city."
+   },
+   {
+    "fr": "La Maison de la sagesse de Bagdad fut un grand centre savant du monde médiéval.",
+    "en": "Baghdad's House of Wisdom was a great centre of learning in the medieval world."
+   },
+   {
+    "fr": "La Mésopotamie, entre le Tigre et l'Euphrate, est l'un des berceaux de l'écriture.",
+    "en": "Mesopotamia, between the Tigris and Euphrates, is one of the cradles of writing."
+   }
+  ],
+  "jerusalem": [
+   {
+    "fr": "Jérusalem est une ville sainte pour le judaïsme, le christianisme et l'islam.",
+    "en": "Jerusalem is a holy city for Judaism, Christianity and Islam."
+   },
+   {
+    "fr": "La vieille ville de Jérusalem est divisée en quatre quartiers et fait moins de 1 km².",
+    "en": "Jerusalem's Old City is divided into four quarters and covers less than 1 km²."
+   },
+   {
+    "fr": "La mer Morte, à moins de 30 km de Jérusalem, est le point le plus bas de la surface terrestre.",
+    "en": "The Dead Sea, less than 30 km from Jerusalem, is the lowest point on Earth's land surface."
+   }
+  ],
+  "amman": [
+   {
+    "fr": "Amman était autrefois appelée Philadelphie, à l'époque gréco-romaine.",
+    "en": "Amman was once called Philadelphia in Greco-Roman times."
+   },
+   {
+    "fr": "Le théâtre romain d'Amman pouvait accueillir environ 6 000 spectateurs.",
+    "en": "Amman's Roman theatre could seat about 6,000 spectators."
+   },
+   {
+    "fr": "Pétra, en Jordanie, est l'une des sept nouvelles merveilles du monde.",
+    "en": "Petra, in Jordan, is one of the New Seven Wonders of the World."
+   }
+  ],
+  "kuwait_city": [
+   {
+    "fr": "Le dinar koweïtien est l'une des monnaies les plus fortes du monde.",
+    "en": "The Kuwaiti dinar is one of the strongest currencies in the world."
+   },
+   {
+    "fr": "Les Kuwait Towers sont l'emblème de la ville depuis 1979.",
+    "en": "The Kuwait Towers have been the city's emblem since 1979."
+   },
+   {
+    "fr": "Le Koweït ne possède aucune rivière permanente.",
+    "en": "Kuwait has no permanent rivers."
+   }
+  ],
+  "beirut": [
+   {
+    "fr": "Beyrouth a été détruite et reconstruite à de nombreuses reprises, d'où le surnom de « ville phénix ».",
+    "en": "Beirut has been destroyed and rebuilt many times, earning it the nickname 'phoenix city'."
+   },
+   {
+    "fr": "Le cèdre du Liban figure au centre du drapeau libanais.",
+    "en": "The cedar of Lebanon is at the centre of the Lebanese flag."
+   },
+   {
+    "fr": "L'alphabet phénicien, né sur la côte libanaise, est l'ancêtre de nombreux alphabets.",
+    "en": "The Phoenician alphabet, born on the Lebanese coast, is the ancestor of many alphabets."
+   }
+  ],
+  "muscat": [
+   {
+    "fr": "La Grande Mosquée Sultan Qaboos de Mascate abrite l'un des plus grands tapis faits main du monde.",
+    "en": "Muscat's Sultan Qaboos Grand Mosque houses one of the largest hand-made carpets in the world."
+   },
+   {
+    "fr": "Oman est réputé pour l'encens, récolté depuis l'Antiquité.",
+    "en": "Oman is famous for frankincense, harvested since antiquity."
+   },
+   {
+    "fr": "À Mascate, les nouvelles constructions doivent respecter un style architectural traditionnel.",
+    "en": "In Muscat, new buildings must follow a traditional architectural style."
+   }
+  ],
+  "doha": [
+   {
+    "fr": "Doha a accueilli la Coupe du monde de football en 2022.",
+    "en": "Doha hosted the 2022 FIFA World Cup."
+   },
+   {
+    "fr": "Le musée d'Art islamique de Doha a été conçu par l'architecte I. M. Pei.",
+    "en": "Doha's Museum of Islamic Art was designed by architect I. M. Pei."
+   },
+   {
+    "fr": "Le Qatar figure parmi les pays les plus riches du monde par habitant.",
+    "en": "Qatar is among the richest countries in the world per person."
+   }
+  ],
+  "riyadh": [
+   {
+    "fr": "Riyad signifie « les jardins » en arabe.",
+    "en": "Riyadh means 'the gardens' in Arabic."
+   },
+   {
+    "fr": "L'Arabie saoudite ne possède aucun fleuve permanent.",
+    "en": "Saudi Arabia has no permanent rivers."
+   },
+   {
+    "fr": "Le Rub al-Khali, en Arabie saoudite, est le plus grand désert de sable continu du monde.",
+    "en": "The Rub' al Khali in Saudi Arabia is the largest continuous sand desert in the world."
+   }
+  ],
+  "damascus": [
+   {
+    "fr": "Damas est l'une des plus anciennes villes habitées en continu au monde.",
+    "en": "Damascus is one of the oldest continuously inhabited cities in the world."
+   },
+   {
+    "fr": "La mosquée des Omeyyades de Damas est l'une des plus anciennes grandes mosquées.",
+    "en": "Damascus's Umayyad Mosque is one of the oldest great mosques."
+   },
+   {
+    "fr": "L'acier de Damas, réputé pour ses motifs ondulés, tire son nom de la ville.",
+    "en": "Damascus steel, famous for its wavy patterns, takes its name from the city."
+   }
+  ],
+  "abu_dhabi": [
+   {
+    "fr": "La Grande Mosquée Cheikh Zayed d'Abou Dabi possède l'un des plus grands lustres du monde.",
+    "en": "Abu Dhabi's Sheikh Zayed Grand Mosque has one of the largest chandeliers in the world."
+   },
+   {
+    "fr": "Le Louvre Abou Dabi, sous son dôme de 180 m, est le premier musée universel du monde arabe.",
+    "en": "Louvre Abu Dhabi, under its 180 m dome, is the first universal museum in the Arab world."
+   },
+   {
+    "fr": "Les Émirats arabes unis sont une fédération de sept émirats.",
+    "en": "The United Arab Emirates is a federation of seven emirates."
+   }
+  ],
+  "sanaa": [
+   {
+    "fr": "La vieille ville de Sanaa est célèbre pour ses maisons-tours décorées de motifs blancs.",
+    "en": "Sanaa's Old City is famous for its tower houses decorated with white patterns."
+   },
+   {
+    "fr": "Sanaa se trouve à plus de 2 200 m d'altitude.",
+    "en": "Sanaa sits at more than 2,200 m above sea level."
+   },
+   {
+    "fr": "Le café moka tire son nom du port yéménite de Mokha.",
+    "en": "Mocha coffee takes its name from the Yemeni port of Mocha."
+   }
+  ],
+  "ramallah": [
+   {
+    "fr": "Ramallah est le siège de l'Autorité palestinienne.",
+    "en": "Ramallah is the seat of the Palestinian Authority."
+   },
+   {
+    "fr": "Ramallah se trouve à environ 880 m d'altitude, dans les collines de Cisjordanie.",
+    "en": "Ramallah sits at about 880 m in the hills of the West Bank."
+   },
+   {
+    "fr": "La broderie palestinienne est inscrite au patrimoine immatériel de l'UNESCO.",
+    "en": "Palestinian embroidery is on UNESCO's intangible heritage list."
+   }
+  ],
+  "dhaka": [
+   {
+    "fr": "Dacca est surnommée la « capitale mondiale du rickshaw ».",
+    "en": "Dhaka is nicknamed the 'rickshaw capital of the world'."
+   },
+   {
+    "fr": "Le Bangladesh abrite une grande partie des Sundarbans, la plus vaste mangrove du monde.",
+    "en": "Bangladesh is home to much of the Sundarbans, the largest mangrove forest in the world."
+   },
+   {
+    "fr": "Le Parlement de Dacca a été conçu par l'architecte américain Louis Kahn.",
+    "en": "Dhaka's Parliament building was designed by American architect Louis Kahn."
+   }
+  ],
+  "thimphu": [
+   {
+    "fr": "Thimphou est l'une des rares capitales sans aucun feu de circulation.",
+    "en": "Thimphu is one of the few capitals with no traffic lights at all."
+   },
+   {
+    "fr": "Le Bhoutan mesure son développement par le « Bonheur national brut ».",
+    "en": "Bhutan measures its development by 'Gross National Happiness'."
+   },
+   {
+    "fr": "Le Bhoutan est l'un des rares pays au bilan carbone négatif.",
+    "en": "Bhutan is one of the few carbon-negative countries."
+   }
+  ],
+  "bandar_seri_begawan": [
+   {
+    "fr": "Kampong Ayer, à Bandar Seri Begawan, est l'un des plus grands villages sur pilotis du monde.",
+    "en": "Kampong Ayer, in Bandar Seri Begawan, is one of the largest stilt villages in the world."
+   },
+   {
+    "fr": "Le palais Istana Nurul Iman est l'un des plus grands palais résidentiels du monde.",
+    "en": "The Istana Nurul Iman is one of the largest residential palaces in the world."
+   },
+   {
+    "fr": "Le Brunei est une monarchie absolue riche en pétrole sur l'île de Bornéo.",
+    "en": "Brunei is an oil-rich absolute monarchy on the island of Borneo."
+   }
+  ],
+  "phnom_penh": [
+   {
+    "fr": "Phnom Penh se trouve au confluent du Mékong et du Tonlé Sap.",
+    "en": "Phnom Penh lies at the confluence of the Mekong and Tonlé Sap rivers."
+   },
+   {
+    "fr": "Angkor Vat, au Cambodge, est le plus grand monument religieux du monde.",
+    "en": "Angkor Wat, in Cambodia, is the largest religious monument in the world."
+   },
+   {
+    "fr": "Le Cambodge est le seul pays dont le drapeau représente un bâtiment, Angkor Vat.",
+    "en": "Cambodia's flag is the only one to depict a building: Angkor Wat."
+   }
+  ],
+  "new_delhi": [
+   {
+    "fr": "New Delhi a été conçue par les architectes Edwin Lutyens et Herbert Baker et inaugurée en 1931.",
+    "en": "New Delhi was designed by architects Edwin Lutyens and Herbert Baker and inaugurated in 1931."
+   },
+   {
+    "fr": "Le Qutub Minar de Delhi est le plus haut minaret en briques du monde (73 m).",
+    "en": "Delhi's Qutub Minar is the tallest brick minaret in the world (73 m)."
+   },
+   {
+    "fr": "L'Inde est le pays le plus peuplé du monde depuis 2023.",
+    "en": "India has been the most populous country in the world since 2023."
+   }
+  ],
+  "jakarta": [
+   {
+    "fr": "L'Indonésie construit une nouvelle capitale, Nusantara, sur l'île de Bornéo.",
+    "en": "Indonesia is building a new capital, Nusantara, on the island of Borneo."
+   },
+   {
+    "fr": "Certaines parties de Jakarta s'enfoncent de plusieurs centimètres par an.",
+    "en": "Parts of Jakarta are sinking by several centimetres a year."
+   },
+   {
+    "fr": "L'Indonésie compte plus de 17 000 îles.",
+    "en": "Indonesia has more than 17,000 islands."
+   }
+  ],
+  "astana": [
+   {
+    "fr": "Astana a changé plusieurs fois de nom : Akmola, Astana, Nour-Soultan, puis de nouveau Astana en 2022.",
+    "en": "Astana has changed names several times: Akmola, Astana, Nur-Sultan, then Astana again in 2022."
+   },
+   {
+    "fr": "Astana est l'une des capitales les plus froides du monde, avec des hivers à −40 °C.",
+    "en": "Astana is one of the coldest capitals in the world, with winters reaching −40 °C."
+   },
+   {
+    "fr": "Le Kazakhstan est le plus grand pays enclavé du monde.",
+    "en": "Kazakhstan is the largest landlocked country in the world."
+   }
+  ],
+  "bishkek": [
+   {
+    "fr": "Bichkek est entourée par les sommets enneigés de la chaîne du Tian Shan.",
+    "en": "Bishkek is surrounded by the snowy peaks of the Tian Shan range."
+   },
+   {
+    "fr": "L'épopée de Manas, au Kirghizistan, est l'un des plus longs poèmes épiques du monde.",
+    "en": "Kyrgyzstan's Epic of Manas is one of the longest epic poems in the world."
+   },
+   {
+    "fr": "La yourte figure au centre du drapeau kirghize.",
+    "en": "A yurt crown appears at the centre of the Kyrgyz flag."
+   }
+  ],
+  "vientiane": [
+   {
+    "fr": "Vientiane est l'une des capitales les plus calmes d'Asie du Sud-Est.",
+    "en": "Vientiane is one of the most laid-back capitals in Southeast Asia."
+   },
+   {
+    "fr": "Le Patuxai de Vientiane a été construit avec du béton destiné à un aéroport.",
+    "en": "Vientiane's Patuxai was built with concrete intended for an airport."
+   },
+   {
+    "fr": "Le Laos est considéré comme le pays le plus bombardé de l'histoire par habitant.",
+    "en": "Laos is considered the most heavily bombed country per person in history."
+   }
+  ],
+  "kuala_lumpur": [
+   {
+    "fr": "Les tours Petronas ont été les plus hautes du monde de 1998 à 2004.",
+    "en": "The Petronas Towers were the tallest buildings in the world from 1998 to 2004."
+   },
+   {
+    "fr": "Kuala Lumpur signifie « confluent boueux » en malais.",
+    "en": "Kuala Lumpur means 'muddy confluence' in Malay."
+   },
+   {
+    "fr": "Les grottes de Batu, près de Kuala Lumpur, sont gardées par une statue dorée de 42 m.",
+    "en": "The Batu Caves near Kuala Lumpur are guarded by a 42 m golden statue."
+   }
+  ],
+  "male": [
+   {
+    "fr": "Malé est l'une des villes les plus densément peuplées du monde.",
+    "en": "Malé is one of the most densely populated cities in the world."
+   },
+   {
+    "fr": "Les Maldives sont le pays le plus plat du monde, avec une altitude moyenne d'environ 1,5 m.",
+    "en": "The Maldives is the flattest country in the world, with an average elevation of about 1.5 m."
+   },
+   {
+    "fr": "En 2009, le gouvernement maldivien a tenu un conseil des ministres sous l'eau.",
+    "en": "In 2009 the Maldivian government held an underwater cabinet meeting."
+   }
+  ],
+  "ulaanbaatar": [
+   {
+    "fr": "Oulan-Bator est la capitale la plus froide du monde.",
+    "en": "Ulaanbaatar is the coldest capital in the world."
+   },
+   {
+    "fr": "Une grande partie de la population d'Oulan-Bator vit encore en yourtes, appelées « ger ».",
+    "en": "A large part of Ulaanbaatar's population still lives in yurts, called 'gers'."
+   },
+   {
+    "fr": "La Mongolie est le pays le moins densément peuplé du monde.",
+    "en": "Mongolia is the least densely populated country in the world."
+   }
+  ],
+  "kathmandu": [
+   {
+    "fr": "La vallée de Katmandou compte sept ensembles classés à l'UNESCO.",
+    "en": "The Kathmandu Valley has seven UNESCO-listed monument zones."
+   },
+   {
+    "fr": "Le drapeau du Népal est le seul drapeau national non rectangulaire.",
+    "en": "Nepal's flag is the only non-rectangular national flag."
+   },
+   {
+    "fr": "Le Népal abrite huit des dix plus hauts sommets du monde, dont l'Everest.",
+    "en": "Nepal is home to eight of the world's ten highest peaks, including Everest."
+   }
+  ],
+  "pyongyang": [
+   {
+    "fr": "L'hôtel Ryugyong de Pyongyang, en forme de pyramide, est resté inachevé pendant des décennies.",
+    "en": "Pyongyang's pyramid-shaped Ryugyong Hotel remained unfinished for decades."
+   },
+   {
+    "fr": "Le métro de Pyongyang est l'un des plus profonds du monde.",
+    "en": "Pyongyang's metro is one of the deepest in the world."
+   },
+   {
+    "fr": "L'Arc de Triomphe de Pyongyang est plus haut que celui de Paris.",
+    "en": "Pyongyang's Arch of Triumph is taller than the one in Paris."
+   }
+  ],
+  "islamabad": [
+   {
+    "fr": "Islamabad a été construite dans les années 1960 pour remplacer Karachi comme capitale.",
+    "en": "Islamabad was built in the 1960s to replace Karachi as capital."
+   },
+   {
+    "fr": "La mosquée Faisal d'Islamabad a la forme d'une tente bédouine.",
+    "en": "Islamabad's Faisal Mosque is shaped like a Bedouin tent."
+   },
+   {
+    "fr": "Le K2, deuxième plus haut sommet du monde, se trouve au Pakistan.",
+    "en": "K2, the world's second-highest mountain, is in Pakistan."
+   }
+  ],
+  "manila": [
+   {
+    "fr": "Manille est l'une des villes les plus densément peuplées de la planète.",
+    "en": "Manila is one of the most densely populated cities on the planet."
+   },
+   {
+    "fr": "Les jeepneys, bus colorés nés de jeeps militaires, sont emblématiques de Manille.",
+    "en": "Jeepneys, colourful buses born from military jeeps, are iconic in Manila."
+   },
+   {
+    "fr": "Les Philippines comptent plus de 7 600 îles.",
+    "en": "The Philippines has more than 7,600 islands."
+   }
+  ],
+  "singapore": [
+   {
+    "fr": "Singapour est l'une des trois cités-États souveraines du monde, avec Monaco et le Vatican.",
+    "en": "Singapore is one of the world's three sovereign city-states, along with Monaco and the Vatican."
+   },
+   {
+    "fr": "Singapour a gagné environ 25 % de territoire sur la mer depuis l'indépendance.",
+    "en": "Singapore has reclaimed about 25% more land from the sea since independence."
+   },
+   {
+    "fr": "La vente de chewing-gum est très restreinte à Singapour depuis 1992.",
+    "en": "The sale of chewing gum has been heavily restricted in Singapore since 1992."
+   }
+  ],
+  "dushanbe": [
+   {
+    "fr": "Douchanbé signifie « lundi » en tadjik, en référence à son ancien marché du lundi.",
+    "en": "Dushanbe means 'Monday' in Tajik, after its old Monday market."
+   },
+   {
+    "fr": "Plus de 90 % du Tadjikistan est montagneux.",
+    "en": "More than 90% of Tajikistan is mountainous."
+   },
+   {
+    "fr": "Le Tadjikistan possède l'un des plus hauts mâts de drapeau du monde, à Douchanbé.",
+    "en": "Tajikistan has one of the world's tallest flagpoles, in Dushanbe."
+   }
+  ],
+  "dili": [
+   {
+    "fr": "Le Timor oriental est devenu indépendant en 2002, l'un des pays les plus jeunes d'Asie.",
+    "en": "East Timor became independent in 2002, one of Asia's youngest countries."
+   },
+   {
+    "fr": "Le Cristo Rei de Dili domine la baie du haut de ses 27 m.",
+    "en": "Dili's Cristo Rei statue overlooks the bay from 27 m high."
+   },
+   {
+    "fr": "Le tétoum et le portugais sont les langues officielles du Timor oriental.",
+    "en": "Tetum and Portuguese are East Timor's official languages."
+   }
+  ],
+  "ashgabat": [
+   {
+    "fr": "Achgabat détient le record du monde de la plus forte densité de bâtiments en marbre blanc.",
+    "en": "Ashgabat holds the world record for the highest density of white marble buildings."
+   },
+   {
+    "fr": "Le cratère de gaz de Darvaza, au Turkménistan, brûle depuis 1971 : la « porte de l'enfer ».",
+    "en": "Turkmenistan's Darvaza gas crater has been burning since 1971: the 'Door to Hell'."
+   },
+   {
+    "fr": "Le cheval akhal-teke, à la robe métallique, est l'emblème du Turkménistan.",
+    "en": "The Akhal-Teke horse, with its metallic coat, is Turkmenistan's emblem."
+   }
+  ],
+  "tashkent": [
+   {
+    "fr": "Le métro de Tachkent est célèbre pour ses stations richement décorées.",
+    "en": "Tashkent's metro is famous for its richly decorated stations."
+   },
+   {
+    "fr": "L'Ouzbékistan est l'un des deux seuls pays doublement enclavés au monde.",
+    "en": "Uzbekistan is one of only two doubly landlocked countries in the world."
+   },
+   {
+    "fr": "Samarcande, en Ouzbékistan, était une étape majeure de la route de la soie.",
+    "en": "Samarkand, in Uzbekistan, was a major stop on the Silk Road."
+   }
+  ],
+  "hanoi": [
+   {
+    "fr": "Hanoï a fêté son millénaire en 2010 : elle a été fondée en 1010.",
+    "en": "Hanoi celebrated its millennium in 2010: it was founded in 1010."
+   },
+   {
+    "fr": "La rue du train à Hanoï voit passer des trains à quelques centimètres des maisons.",
+    "en": "On Hanoi's Train Street, trains pass just centimetres from the houses."
+   },
+   {
+    "fr": "Le Vietnam est l'un des premiers exportateurs mondiaux de café.",
+    "en": "Vietnam is one of the world's top coffee exporters."
+   }
+  ],
+  "ottawa": [
+   {
+    "fr": "Le canal Rideau d'Ottawa devient en hiver l'une des plus longues patinoires du monde.",
+    "en": "Ottawa's Rideau Canal becomes one of the world's longest skating rinks in winter."
+   },
+   {
+    "fr": "Ottawa a été choisie comme capitale par la reine Victoria en 1857.",
+    "en": "Ottawa was chosen as the capital by Queen Victoria in 1857."
+   },
+   {
+    "fr": "Le Canada possède le plus long littoral du monde.",
+    "en": "Canada has the longest coastline in the world."
+   }
+  ],
+  "saint_john_s": [
+   {
+    "fr": "Antigua compterait 365 plages, « une pour chaque jour de l'année ».",
+    "en": "Antigua is said to have 365 beaches, 'one for every day of the year'."
+   },
+   {
+    "fr": "La cathédrale Saint-Jean domine la capitale d'Antigua-et-Barbuda.",
+    "en": "St John's Cathedral towers over the capital of Antigua and Barbuda."
+   },
+   {
+    "fr": "Le Nelson's Dockyard d'Antigua est classé au patrimoine mondial de l'UNESCO.",
+    "en": "Antigua's Nelson's Dockyard is a UNESCO World Heritage Site."
+   }
+  ],
+  "nassau": [
+   {
+    "fr": "Les Bahamas comptent environ 700 îles.",
+    "en": "The Bahamas has about 700 islands."
+   },
+   {
+    "fr": "Nassau fut un repaire de pirates au début du XVIIIe siècle.",
+    "en": "Nassau was a pirate haven in the early 18th century."
+   },
+   {
+    "fr": "Les cochons nageurs d'Exuma sont une attraction célèbre des Bahamas.",
+    "en": "The swimming pigs of Exuma are a famous Bahamas attraction."
+   }
+  ],
+  "bridgetown": [
+   {
+    "fr": "La Barbade est le berceau du rhum, produit dès le XVIIe siècle.",
+    "en": "Barbados is considered the birthplace of rum, produced as early as the 17th century."
+   },
+   {
+    "fr": "La chanteuse Rihanna est originaire de la Barbade.",
+    "en": "Singer Rihanna is from Barbados."
+   },
+   {
+    "fr": "La Barbade est devenue une république en 2021.",
+    "en": "Barbados became a republic in 2021."
+   }
+  ],
+  "belmopan": [
+   {
+    "fr": "Belmopan a été construite après la destruction de Belize City par un ouragan en 1961.",
+    "en": "Belmopan was built after Belize City was devastated by a hurricane in 1961."
+   },
+   {
+    "fr": "Le Grand Trou bleu du Belize est un gouffre marin de plus de 300 m de diamètre.",
+    "en": "Belize's Great Blue Hole is a marine sinkhole more than 300 m wide."
+   },
+   {
+    "fr": "Le Belize est le seul pays d'Amérique centrale dont l'anglais est langue officielle.",
+    "en": "Belize is the only Central American country with English as its official language."
+   }
+  ],
+  "santiago": [
+   {
+    "fr": "Santiago est adossée à la cordillère des Andes, visible depuis toute la ville.",
+    "en": "Santiago backs onto the Andes, visible from all over the city."
+   },
+   {
+    "fr": "Le désert d'Atacama, au Chili, est l'un des endroits les plus secs du monde.",
+    "en": "Chile's Atacama Desert is one of the driest places on Earth."
+   },
+   {
+    "fr": "Le Chili s'étend sur plus de 4 000 km du nord au sud.",
+    "en": "Chile stretches more than 4,000 km from north to south."
+   }
+  ],
+  "bogota": [
+   {
+    "fr": "Bogota se trouve à environ 2 640 m d'altitude.",
+    "en": "Bogotá sits at about 2,640 m above sea level."
+   },
+   {
+    "fr": "Chaque dimanche, la Ciclovía ferme plus de 100 km de rues de Bogota aux voitures.",
+    "en": "Every Sunday, Bogotá's Ciclovía closes more than 100 km of streets to cars."
+   },
+   {
+    "fr": "Le musée de l'Or de Bogota possède la plus grande collection d'orfèvrerie précolombienne.",
+    "en": "Bogotá's Gold Museum has the largest collection of pre-Columbian gold work."
+   }
+  ],
+  "san_jose": [
+   {
+    "fr": "Le Costa Rica a aboli son armée en 1948.",
+    "en": "Costa Rica abolished its army in 1948."
+   },
+   {
+    "fr": "Le Costa Rica abrite environ 5 % de la biodiversité mondiale.",
+    "en": "Costa Rica is home to about 5% of the world's biodiversity."
+   },
+   {
+    "fr": "« Pura vida » est la devise informelle du Costa Rica.",
+    "en": "'Pura vida' is Costa Rica's informal motto."
+   }
+  ],
+  "havana": [
+   {
+    "fr": "Les voitures américaines des années 1950 sillonnent encore les rues de La Havane.",
+    "en": "American cars from the 1950s still roam the streets of Havana."
+   },
+   {
+    "fr": "La vieille Havane est classée au patrimoine mondial de l'UNESCO.",
+    "en": "Old Havana is a UNESCO World Heritage Site."
+   },
+   {
+    "fr": "Le Malecón de La Havane est une promenade de 8 km le long de la mer.",
+    "en": "Havana's Malecón is an 8 km seafront promenade."
+   }
+  ],
+  "roseau": [
+   {
+    "fr": "La Dominique abrite le Boiling Lake, l'un des plus grands lacs bouillonnants du monde.",
+    "en": "Dominica is home to the Boiling Lake, one of the largest boiling lakes in the world."
+   },
+   {
+    "fr": "La Dominique est surnommée « l'île nature » des Caraïbes.",
+    "en": "Dominica is nicknamed the 'Nature Island' of the Caribbean."
+   },
+   {
+    "fr": "Le perroquet sisserou, emblème national, figure sur le drapeau de la Dominique.",
+    "en": "The Sisserou parrot, the national bird, appears on Dominica's flag."
+   }
+  ],
+  "santo_domingo": [
+   {
+    "fr": "Saint-Domingue est la plus ancienne ville européenne des Amériques, fondée en 1496.",
+    "en": "Santo Domingo is the oldest European city in the Americas, founded in 1496."
+   },
+   {
+    "fr": "La cathédrale de Saint-Domingue est la plus ancienne des Amériques.",
+    "en": "Santo Domingo's cathedral is the oldest in the Americas."
+   },
+   {
+    "fr": "Le merengue et la bachata sont nés en République dominicaine.",
+    "en": "Merengue and bachata were born in the Dominican Republic."
+   }
+  ],
+  "quito": [
+   {
+    "fr": "Quito, à environ 2 850 m, est l'une des capitales les plus hautes du monde.",
+    "en": "Quito, at about 2,850 m, is one of the highest capitals in the world."
+   },
+   {
+    "fr": "Le centre historique de Quito fut l'un des premiers sites inscrits à l'UNESCO, en 1978.",
+    "en": "Quito's historic centre was one of the first UNESCO sites, listed in 1978."
+   },
+   {
+    "fr": "Les îles Galápagos appartiennent à l'Équateur.",
+    "en": "The Galápagos Islands belong to Ecuador."
+   }
+  ],
+  "san_salvador": [
+   {
+    "fr": "Le Salvador est le plus petit pays d'Amérique centrale.",
+    "en": "El Salvador is the smallest country in Central America."
+   },
+   {
+    "fr": "Le Salvador a été le premier pays à adopter le bitcoin comme monnaie légale, en 2021.",
+    "en": "El Salvador was the first country to adopt bitcoin as legal tender, in 2021."
+   },
+   {
+    "fr": "La pupusa, galette farcie, est le plat national du Salvador.",
+    "en": "The pupusa, a stuffed corn cake, is El Salvador's national dish."
+   }
+  ],
+  "st_george_s": [
+   {
+    "fr": "La Grenade est surnommée l'« île aux épices » pour sa noix de muscade.",
+    "en": "Grenada is nicknamed the 'Spice Isle' for its nutmeg."
+   },
+   {
+    "fr": "La noix de muscade figure sur le drapeau de la Grenade.",
+    "en": "A nutmeg appears on Grenada's flag."
+   },
+   {
+    "fr": "La Grenade possède l'un des premiers parcs de sculptures sous-marines du monde.",
+    "en": "Grenada has one of the world's first underwater sculpture parks."
+   }
+  ],
+  "guatemala_city": [
+   {
+    "fr": "Le Guatemala est le cœur de l'ancienne civilisation maya.",
+    "en": "Guatemala is the heart of the ancient Maya civilisation."
+   },
+   {
+    "fr": "Tikal, au Guatemala, est l'une des plus grandes cités mayas.",
+    "en": "Tikal, in Guatemala, is one of the largest Maya cities."
+   },
+   {
+    "fr": "Le quetzal est à la fois l'oiseau national et la monnaie du Guatemala.",
+    "en": "The quetzal is both the national bird and the currency of Guatemala."
+   }
+  ],
+  "georgetown": [
+   {
+    "fr": "Le Guyana est le seul pays anglophone d'Amérique du Sud.",
+    "en": "Guyana is the only English-speaking country in South America."
+   },
+   {
+    "fr": "La cathédrale Saint-Georges de Georgetown est l'une des plus hautes églises en bois du monde.",
+    "en": "St George's Cathedral in Georgetown is one of the tallest wooden churches in the world."
+   },
+   {
+    "fr": "Les chutes de Kaieteur, au Guyana, sont l'une des plus puissantes chutes à simple saut du monde.",
+    "en": "Guyana's Kaieteur Falls are among the most powerful single-drop waterfalls in the world."
+   }
+  ],
+  "port_au_prince": [
+   {
+    "fr": "Haïti est devenue en 1804 la première république noire indépendante du monde.",
+    "en": "In 1804 Haiti became the world's first independent Black republic."
+   },
+   {
+    "fr": "La citadelle Laferrière, en Haïti, est la plus grande forteresse des Amériques.",
+    "en": "Haiti's Citadelle Laferrière is the largest fortress in the Americas."
+   },
+   {
+    "fr": "La soupe joumou, servie le 1er janvier, est inscrite au patrimoine immatériel de l'UNESCO.",
+    "en": "Soup joumou, served on 1 January, is on UNESCO's intangible heritage list."
+   }
+  ],
+  "tegucigalpa": [
+   {
+    "fr": "Tegucigalpa forme avec Comayagüela le district central du Honduras.",
+    "en": "Tegucigalpa and Comayagüela together form Honduras's Central District."
+   },
+   {
+    "fr": "Les ruines mayas de Copán, au Honduras, sont célèbres pour leurs stèles sculptées.",
+    "en": "The Maya ruins of Copán in Honduras are famous for their carved stelae."
+   },
+   {
+    "fr": "Le Honduras possède une partie du deuxième plus grand récif corallien du monde.",
+    "en": "Honduras shares part of the world's second-largest coral reef."
+   }
+  ],
+  "kingston": [
+   {
+    "fr": "Bob Marley vivait à Kingston ; sa maison est aujourd'hui un musée.",
+    "en": "Bob Marley lived in Kingston; his house is now a museum."
+   },
+   {
+    "fr": "Le reggae, né en Jamaïque, est inscrit au patrimoine immatériel de l'UNESCO.",
+    "en": "Reggae, born in Jamaica, is on UNESCO's intangible heritage list."
+   },
+   {
+    "fr": "Le café Blue Mountain de Jamaïque est l'un des plus chers du monde.",
+    "en": "Jamaica's Blue Mountain coffee is one of the most expensive in the world."
+   }
+  ],
+  "managua": [
+   {
+    "fr": "Managua a été en grande partie détruite par un séisme en 1972.",
+    "en": "Managua was largely destroyed by an earthquake in 1972."
+   },
+   {
+    "fr": "Le lac Nicaragua est le plus grand lac d'Amérique centrale.",
+    "en": "Lake Nicaragua is the largest lake in Central America."
+   },
+   {
+    "fr": "Le Nicaragua est surnommé le « pays des lacs et des volcans ».",
+    "en": "Nicaragua is nicknamed the 'land of lakes and volcanoes'."
+   }
+  ],
+  "panama_city": [
+   {
+    "fr": "Le canal de Panama permet aux navires de passer de l'Atlantique au Pacifique sans contourner l'Amérique du Sud.",
+    "en": "The Panama Canal lets ships cross from the Atlantic to the Pacific without sailing around South America."
+   },
+   {
+    "fr": "À Panama, on peut voir le soleil se lever sur le Pacifique.",
+    "en": "In Panama you can watch the sun rise over the Pacific."
+   },
+   {
+    "fr": "Le célèbre « chapeau Panama » est en réalité fabriqué en Équateur.",
+    "en": "The famous 'Panama hat' is actually made in Ecuador."
+   }
+  ],
+  "asuncion": [
+   {
+    "fr": "Asunción est l'une des plus anciennes villes d'Amérique du Sud, fondée en 1537.",
+    "en": "Asunción is one of the oldest cities in South America, founded in 1537."
+   },
+   {
+    "fr": "Le guarani est langue officielle du Paraguay aux côtés de l'espagnol.",
+    "en": "Guarani is an official language of Paraguay alongside Spanish."
+   },
+   {
+    "fr": "Le drapeau du Paraguay a un recto et un verso différents.",
+    "en": "Paraguay's flag has a different front and back."
+   }
+  ],
+  "lima": [
+   {
+    "fr": "Lima fut fondée en 1535 par Francisco Pizarro sous le nom de « Ciudad de los Reyes ».",
+    "en": "Lima was founded in 1535 by Francisco Pizarro as the 'City of Kings'."
+   },
+   {
+    "fr": "Lima est l'une des capitales les plus sèches du monde : il n'y pleut presque jamais.",
+    "en": "Lima is one of the driest capitals in the world: it almost never rains."
+   },
+   {
+    "fr": "Le ceviche, plat national péruvien, est inscrit au patrimoine immatériel de l'UNESCO.",
+    "en": "Ceviche, Peru's national dish, is on UNESCO's intangible heritage list."
+   }
+  ],
+  "basseterre": [
+   {
+    "fr": "Saint-Christophe-et-Niévès est le plus petit pays des Amériques.",
+    "en": "Saint Kitts and Nevis is the smallest country in the Americas."
+   },
+   {
+    "fr": "La forteresse de Brimstone Hill est classée au patrimoine mondial.",
+    "en": "Brimstone Hill Fortress is a World Heritage Site."
+   },
+   {
+    "fr": "Alexander Hamilton, père fondateur américain, est né sur l'île de Niévès.",
+    "en": "Alexander Hamilton, a US Founding Father, was born on Nevis."
+   }
+  ],
+  "castries": [
+   {
+    "fr": "Les Pitons de Sainte-Lucie, deux pics volcaniques, sont classés à l'UNESCO.",
+    "en": "Saint Lucia's Pitons, two volcanic peaks, are UNESCO-listed."
+   },
+   {
+    "fr": "Sainte-Lucie est le seul pays nommé d'après une femme.",
+    "en": "Saint Lucia is the only country named after a woman."
+   },
+   {
+    "fr": "Sainte-Lucie compte deux prix Nobel, un record par habitant.",
+    "en": "Saint Lucia has two Nobel laureates, a record per person."
+   }
+  ],
+  "kingstown": [
+   {
+    "fr": "Saint-Vincent-et-les-Grenadines compte 32 îles et îlots.",
+    "en": "Saint Vincent and the Grenadines has 32 islands and cays."
+   },
+   {
+    "fr": "Des scènes de « Pirates des Caraïbes » ont été tournées à Saint-Vincent.",
+    "en": "Scenes from 'Pirates of the Caribbean' were filmed on Saint Vincent."
+   },
+   {
+    "fr": "Le jardin botanique de Kingstown est l'un des plus anciens de l'hémisphère occidental.",
+    "en": "Kingstown's botanical garden is one of the oldest in the Western Hemisphere."
+   }
+  ],
+  "paramaribo": [
+   {
+    "fr": "Le Suriname est le seul pays néerlandophone d'Amérique du Sud.",
+    "en": "Suriname is the only Dutch-speaking country in South America."
+   },
+   {
+    "fr": "Le centre historique de Paramaribo, aux maisons en bois, est classé à l'UNESCO.",
+    "en": "Paramaribo's historic centre, with its wooden houses, is UNESCO-listed."
+   },
+   {
+    "fr": "La forêt couvre plus de 90 % du Suriname.",
+    "en": "Forest covers more than 90% of Suriname."
+   }
+  ],
+  "port_of_spain": [
+   {
+    "fr": "Le steelpan, instrument fait de bidons de pétrole, a été inventé à Trinité-et-Tobago.",
+    "en": "The steelpan, made from oil drums, was invented in Trinidad and Tobago."
+   },
+   {
+    "fr": "Le Carnaval de Port-d'Espagne est l'un des plus grands des Caraïbes.",
+    "en": "Port of Spain's Carnival is one of the largest in the Caribbean."
+   },
+   {
+    "fr": "Le lac de Pitch, à Trinité, est le plus grand gisement naturel d'asphalte du monde.",
+    "en": "Trinidad's Pitch Lake is the largest natural asphalt deposit in the world."
+   }
+  ],
+  "montevideo": [
+   {
+    "fr": "L'Uruguay a remporté la première Coupe du monde de football, en 1930, à Montevideo.",
+    "en": "Uruguay won the first FIFA World Cup, in 1930, in Montevideo."
+   },
+   {
+    "fr": "La Rambla de Montevideo longe le Río de la Plata sur environ 22 km.",
+    "en": "Montevideo's Rambla runs along the Río de la Plata for about 22 km."
+   },
+   {
+    "fr": "L'Uruguay compte plus de vaches que d'habitants.",
+    "en": "Uruguay has more cows than people."
+   }
+  ],
+  "caracas": [
+   {
+    "fr": "Le Salto Ángel, au Venezuela, est la plus haute chute d'eau du monde (979 m).",
+    "en": "Angel Falls, in Venezuela, is the highest waterfall in the world (979 m)."
+   },
+   {
+    "fr": "Caracas est la ville natale de Simón Bolívar.",
+    "en": "Caracas is the birthplace of Simón Bolívar."
+   },
+   {
+    "fr": "Le Venezuela possède les plus grandes réserves prouvées de pétrole du monde.",
+    "en": "Venezuela has the largest proven oil reserves in the world."
+   }
+  ],
+  "south_tarawa": [
+   {
+    "fr": "Kiribati est le seul pays situé dans les quatre hémisphères.",
+    "en": "Kiribati is the only country located in all four hemispheres."
+   },
+   {
+    "fr": "Kiribati est l'un des premiers pays à voir le Nouvel An chaque année.",
+    "en": "Kiribati is one of the first countries to see the New Year each year."
+   },
+   {
+    "fr": "La plupart des terres de Kiribati ne dépassent pas quelques mètres d'altitude.",
+    "en": "Most of Kiribati's land is only a few metres above sea level."
+   }
+  ],
+  "majuro": [
+   {
+    "fr": "Les îles Marshall comptent 29 atolls et 5 îles.",
+    "en": "The Marshall Islands consist of 29 atolls and 5 islands."
+   },
+   {
+    "fr": "Le maillot de bain « bikini » doit son nom à l'atoll de Bikini, dans les îles Marshall.",
+    "en": "The bikini swimsuit is named after Bikini Atoll in the Marshall Islands."
+   },
+   {
+    "fr": "Les Marshallais naviguaient grâce à des cartes en bâtons représentant la houle.",
+    "en": "Marshallese navigators used stick charts that mapped ocean swells."
+   }
+  ],
+  "palikir": [
+   {
+    "fr": "Les monnaies de pierre de Yap, en Micronésie, peuvent mesurer plusieurs mètres.",
+    "en": "Yap's stone money, in Micronesia, can measure several metres across."
+   },
+   {
+    "fr": "Les ruines de Nan Madol, cité de basalte sur l'eau, sont classées à l'UNESCO.",
+    "en": "The ruins of Nan Madol, a basalt city on the water, are UNESCO-listed."
+   },
+   {
+    "fr": "Les États fédérés de Micronésie comptent plus de 600 îles.",
+    "en": "The Federated States of Micronesia has more than 600 islands."
+   }
+  ],
+  "yaren": [
+   {
+    "fr": "Nauru est le plus petit pays insulaire du monde et la plus petite république.",
+    "en": "Nauru is the world's smallest island nation and smallest republic."
+   },
+   {
+    "fr": "Nauru n'a pas de capitale officielle ; les bâtiments gouvernementaux sont à Yaren.",
+    "en": "Nauru has no official capital; government buildings are in Yaren."
+   },
+   {
+    "fr": "On peut faire le tour de Nauru en voiture en une vingtaine de minutes.",
+    "en": "You can drive around Nauru in about twenty minutes."
+   }
+  ],
+  "wellington": [
+   {
+    "fr": "Wellington est la capitale la plus australe d'un État souverain.",
+    "en": "Wellington is the southernmost capital of a sovereign state."
+   },
+   {
+    "fr": "Wellington est surnommée « Windy Welly » à cause de ses vents violents.",
+    "en": "Wellington is nicknamed 'Windy Welly' because of its strong winds."
+   },
+   {
+    "fr": "La Nouvelle-Zélande a été le premier pays à accorder le droit de vote aux femmes, en 1893.",
+    "en": "New Zealand was the first country to give women the vote, in 1893."
+   }
+  ],
+  "ngerulmud": [
+   {
+    "fr": "Ngerulmud est l'une des capitales les moins peuplées du monde.",
+    "en": "Ngerulmud is one of the least populated capitals in the world."
+   },
+   {
+    "fr": "Les Palaos ont créé l'un des premiers sanctuaires de requins au monde, en 2009.",
+    "en": "Palau created one of the world's first shark sanctuaries, in 2009."
+   },
+   {
+    "fr": "Le lac aux Méduses des Palaos abrite des millions de méduses inoffensives.",
+    "en": "Palau's Jellyfish Lake is home to millions of harmless jellyfish."
+   }
+  ],
+  "port_moresby": [
+   {
+    "fr": "La Papouasie-Nouvelle-Guinée compte plus de 800 langues, un record mondial.",
+    "en": "Papua New Guinea has more than 800 languages, a world record."
+   },
+   {
+    "fr": "Les oiseaux de paradis de Papouasie figurent sur le drapeau national.",
+    "en": "A bird of paradise appears on Papua New Guinea's flag."
+   },
+   {
+    "fr": "Le Parlement de Port Moresby s'inspire d'une maison des esprits traditionnelle.",
+    "en": "Port Moresby's Parliament is inspired by a traditional spirit house."
+   }
+  ],
+  "apia": [
+   {
+    "fr": "En 2011, les Samoa ont sauté un jour pour changer de côté de la ligne de changement de date.",
+    "en": "In 2011 Samoa skipped a day to move to the other side of the International Date Line."
+   },
+   {
+    "fr": "L'écrivain Robert Louis Stevenson a vécu et est enterré à Apia.",
+    "en": "Writer Robert Louis Stevenson lived in and is buried at Apia."
+   },
+   {
+    "fr": "Le tatouage traditionnel samoan, le « tatau », a donné le mot « tatouage ».",
+    "en": "The traditional Samoan 'tatau' gave us the word 'tattoo'."
+   }
+  ],
+  "honiara": [
+   {
+    "fr": "Honiara se trouve sur l'île de Guadalcanal, théâtre d'une bataille majeure en 1942-1943.",
+    "en": "Honiara is on Guadalcanal, scene of a major battle in 1942–43."
+   },
+   {
+    "fr": "Les îles Salomon comptent près d'un millier d'îles.",
+    "en": "The Solomon Islands comprise nearly a thousand islands."
+   },
+   {
+    "fr": "La monnaie de coquillages est encore utilisée lors de cérémonies aux îles Salomon.",
+    "en": "Shell money is still used in ceremonies in the Solomon Islands."
+   }
+  ],
+  "nuku_alofa": [
+   {
+    "fr": "Les Tonga sont le seul royaume du Pacifique jamais colonisé.",
+    "en": "Tonga is the only Pacific kingdom never colonised."
+   },
+   {
+    "fr": "Les Tonga sont l'un des premiers pays à voir le soleil se lever chaque jour.",
+    "en": "Tonga is one of the first countries to see the sunrise each day."
+   },
+   {
+    "fr": "Le palais royal de Nuku'alofa est construit en bois.",
+    "en": "The royal palace in Nuku'alofa is built of wood."
+   }
+  ],
+  "funafuti": [
+   {
+    "fr": "Tuvalu est l'un des plus petits pays du monde, avec environ 11 000 habitants.",
+    "en": "Tuvalu is one of the smallest countries in the world, with about 11,000 people."
+   },
+   {
+    "fr": "Tuvalu gagne beaucoup d'argent grâce à son nom de domaine Internet « .tv ».",
+    "en": "Tuvalu earns a lot of money from its '.tv' internet domain."
+   },
+   {
+    "fr": "L'altitude maximale de Tuvalu est d'environ 4,6 m.",
+    "en": "Tuvalu's highest point is about 4.6 m above sea level."
+   }
+  ],
+  "port_vila": [
+   {
+    "fr": "Le Vanuatu compte plus de 100 langues, l'une des plus fortes densités linguistiques au monde.",
+    "en": "Vanuatu has more than 100 languages, one of the highest language densities in the world."
+   },
+   {
+    "fr": "Le saut du Gol, ancêtre du saut à l'élastique, est pratiqué au Vanuatu.",
+    "en": "The Naghol land-diving ritual, an ancestor of bungee jumping, is practised in Vanuatu."
+   },
+   {
+    "fr": "Le Vanuatu possède un bureau de poste sous-marin.",
+    "en": "Vanuatu has an underwater post office."
+   }
+  ],
+  "suva": [
+   {
+    "fr": "Suva est la plus grande ville du Pacifique Sud insulaire hors Australie et Nouvelle-Zélande.",
+    "en": "Suva is the largest city in the island South Pacific outside Australia and New Zealand."
+   },
+   {
+    "fr": "Les Fidji comptent plus de 300 îles.",
+    "en": "Fiji has more than 300 islands."
+   },
+   {
+    "fr": "L'équipe de rugby à 7 des Fidji a remporté l'or olympique en 2016 et 2020.",
+    "en": "Fiji's rugby sevens team won Olympic gold in 2016 and 2020."
+   }
+  ]
+ }
+}
