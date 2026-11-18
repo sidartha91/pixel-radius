@@ -181,7 +181,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                               children: <Widget>[
                                 Expanded(
                                   child: _ModeCard(
-                                    emoji: '📍',
+                                    icon: Icons.place_rounded,
                                     title: l.modeClassic,
                                     subtitle: l.modeClassicDesc,
                                     selected: settings.gameMode == GameMode.classic,
@@ -191,7 +191,7 @@ class _MainMenuScreenState extends State<MainMenuScreen> {
                                 const SizedBox(width: 12),
                                 Expanded(
                                   child: _ModeCard(
-                                    emoji: '👁️',
+                                    icon: Icons.visibility_rounded,
                                     title: l.modeShadow,
                                     subtitle: l.modeShadowDesc,
                                     selected: settings.gameMode == GameMode.shadow,
@@ -395,14 +395,14 @@ class _Title extends StatelessWidget {
 
 class _ModeCard extends StatelessWidget {
   const _ModeCard({
-    required this.emoji,
+    required this.icon,
     required this.title,
     required this.subtitle,
     required this.selected,
     required this.onTap,
   });
 
-  final String emoji;
+  final IconData icon;
   final String title;
   final String subtitle;
   final bool selected;
@@ -431,7 +431,7 @@ class _ModeCard extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(emoji, style: const TextStyle(fontSize: 34)),
+            Icon(icon, size: 36, color: selected ? p.accent : p.onSurface),
             const SizedBox(height: 10),
             FittedBox(
               fit: BoxFit.scaleDown,

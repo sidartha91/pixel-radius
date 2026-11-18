@@ -123,7 +123,7 @@ pixel_radius/
 |---|---|
 | `lib/core/` | Thèmes (Cyber-Soul / Vinyle Vintage), i18n 6 langues, audio (boucle + SFX + mute persistant), IAP, modèles, catalogue, réglages persistés, widget de focus TV |
 | `lib/screens/` | Écran d'accueil |
-| `lib/classic_mode/` | Carte `flutter_map` (tuiles CARTO `*_nolabels`), carte figée après validation, ligne Rose Néon, score distance + temps |
+| `lib/classic_mode/` | Carte `flutter_map` vectorielle intégrée (Natural Earth, sans labels ni clé API), carte figée après validation, ligne Rose Néon, score distance + temps |
 | `lib/shadow_quiz/` | **Module autonome** (n'importe rien de `lib/core`) : `ShadowQuizGame(isDarkMode, durationSeconds, languageCode)` |
 
 ### Shadow Quiz : principes

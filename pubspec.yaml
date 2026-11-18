@@ -39,6 +39,7 @@ flutter:
 
   assets:
     - assets/data/capitals_catalog.json
+    - assets/data/world_countries.json
     - assets/silhouettes/common/
     - assets/silhouettes/unique/
     - assets/audio/theme_loop.m4a

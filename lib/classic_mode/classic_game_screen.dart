@@ -13,6 +13,7 @@ import '../core/models/capital_model.dart';
 import '../core/settings/app_settings.dart';
 import '../core/theme/app_theme.dart';
 import '../core/widgets/focusable_tap.dart';
+import 'world_map_layer.dart';
 
 /// Barème du mode Classique : distance (km) + temps restant.
 class ClassicScoring {
@@ -197,7 +198,7 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
         key == LogicalKeyboardKey.add ||
         key == LogicalKeyboardKey.numpadAdd ||
         key == LogicalKeyboardKey.channelUp) {
-      _mapController.move(camera.center, math.min(camera.zoom + 1, 12));
+      _mapController.move(camera.center, math.min(camera.zoom + 1, 8));
       return KeyEventResult.handled;
     } else if (key == LogicalKeyboardKey.minus ||
         key == LogicalKeyboardKey.numpadSubtract ||
@@ -241,10 +242,6 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
       return Scaffold(body: Center(child: Text(l.t('catalogError'))));
     }
 
-    final tileUrl = dark
-        ? 'https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png'
-        : 'https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png';
-
     final markers = <Marker>[
       if (_guess != null)
         Marker(
@@ -280,20 +277,20 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                     initialCenter: _worldCenter,
                     initialZoom: 1.8,
                     minZoom: 1.5,
-                    maxZoom: 12,
-                    backgroundColor: p.background,
+                    maxZoom: 8,
+                    backgroundColor: dark ? const Color(0xFF0D0D0F) : PixelColors.lightBackground,
                     interactionOptions: InteractionOptions(
                       flags: _isGuessing ? InteractiveFlag.all : InteractiveFlag.none,
                     ),
                     onTap: _onMapTap,
                   ),
                   children: <Widget>[
-                    TileLayer(
-                      urlTemplate: tileUrl,
-                      subdomains: const <String>['a', 'b', 'c', 'd'],
-                      retinaMode: RetinaMode.isHighDensity(context),
-                      userAgentPackageName: 'com.aaistudio.pixel_radius',
-                      maxZoom: 19,
+                    PolylineLayer(
+                      polylines: WorldMapLayer.graticule(p.accent.withValues(alpha: dark ? 0.10 : 0.12)),
+                    ),
+                    WorldMapLayer(
+                      landColor: dark ? const Color(0xFF262626) : const Color(0xFFE2DACA),
+                      borderColor: p.accent.withValues(alpha: dark ? 0.35 : 0.45),
                     ),
                     if (!_isGuessing && _guess != null)
                       PolylineLayer(
@@ -307,10 +304,6 @@ class _ClassicGameScreenState extends State<ClassicGameScreen> {
                         ],
                       ),
                     MarkerLayer(markers: markers),
-                    SimpleAttributionWidget(
-                      source: const Text('OpenStreetMap · CARTO'),
-                      alignment: Alignment.bottomLeft,
-                    ),
                   ],
                 ),
               ),

@@ -423,7 +423,7 @@ class _ShadowQuizGameState extends State<ShadowQuizGame> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  r.total > 0 ? '$label  ${_s.points(r.total)}' : label,
+                  r.total > 0 && !r.isPartial ? '$label  ${_s.points(r.total)}' : label,
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   style: TextStyle(color: color, fontWeight: FontWeight.w800, fontSize: 15),
